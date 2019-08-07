@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv = "X-UA-Compatible" content ="IE=edge,chrome=1" />
+  <meta name="renderer" content="webkit" />
+  <title>信息分类</title>
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+
+  <link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css">
+  <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+  <script type="text/javascript" src="js/swiper-3.3.1.min.js"></script>
+</head>
+<body>
+
+<!-- 头部 -->
+<div class="yjs-head defaults_dataid" data-id="2-0-30-0-0-0-1-深圳研修项目">
+  <div class="wrap">
+
+    <div class="head-l">
+      <div class="logo">
+        <img src="images/logo.png" alt="诺达">
+      </div>
+      <h1>在职研究生</h1>
+    </div>
+
+    <div class="head-r">
+      <div class="r-search">
+        <form id="search_one" class="clearfix" name="search_one" method="post" onsubmit="CheckForm(); return false;" target="_blank">
+          <input name="text_one" type="text" id="text_one" class="search_text text" value="" placeholder="请输入关键词">
+          <input type="submit" id="submit_one" name="submit_one" class="search_submit btn" value="搜索">
+        </form>
+      </div>
+      <div class="r-tel">
+        <div class="tel">13727629617</div>
+        <span>全国咨询热线  8:00-22:00</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 导航 -->
+<div class="yjs-nav">
+  <div class="wrap">
+    <ul class="nav-menu clearfix">
+      <li><a href="index.html" target="_blank">首页</a></li>
+      <li><a href="ss.html" target="_blank">在职硕士</a></li>
+      <li><a href="bs.html" target="_blank">在职博士</a></li>
+      <li><a href="yxb.html" target="_blank">研修班</a></li>
+      <li><a href="yxk.html" target="_blank">院校库</a></li>
+      <li class="cur">
+        <a href="xxfl.html" target="_blank">信息分类</a>
+        <div class="submenu">
+          <a href="zsjz.html" target="_blank">招生简章</a>
+          <a href="xywd.html" target="_blank">学员问答</a>
+          <a href="xgzx.html" target="_blank">相关资讯</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- banner -->
+<div class="yjs-banner">
+  <!-- 轮播图 -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="images/yjs-banner.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/yjs-banner.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/yjs-banner.png">
+      </div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+<!-- 面包屑 -->
+<div class="page-path">
+  <p>您当前的位置：
+    <a href="">首页</a> &gt; 院校库
+  </p>
+</div>
+
+<!-- 院校-问答 -->
+<div class="yx-wd wrap">
+  <ul class="clearfix">
+    <li>
+      <a href="#">
+        <span><img src="images/tx1-img1.png" alt=""></span>
+        <p>亚洲城市大学DBA学习</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span><img src="images/tx1-img2.png" alt=""></span>
+        <p>亚洲城市大学DBA学习</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span><img src="images/tx1-img3.png" alt=""></span>
+        <p>亚洲城市大学DBA学习</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span><img src="images/tx1-img4.png" alt=""></span>
+        <p>亚洲城市大学DBA学习</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span><img src="images/tx1-img5.png" alt=""></span>
+        <p>亚洲城市大学DBA学习</p>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- 中间内容 -->
+<div class="wrap clearfix">
+  <div class="yxzd-l">
+    <!-- 信息分类 -->
+    <div class="msg-classify">
+      <div class="msg-types">
+        <div class="item">
+          <div class="types-l">就读类型：</div>
+          <div class="types-r" id="type">
+            <a href="javascript:void (0);">不限</a>
+            <a href="javascript:void (0);" class="active">在职硕士</a>
+            <a href="javascript:void (0);">在职博士</a>
+            <a href="javascript:void (0);">研修班</a>
+            <a href="javascript:void (0);">国际研究生</a>
+            <a href="javascript:void (0);">双证在职研究生</a>
+            <a href="javascript:void (0);">国内研究生</a>
+            <div class="more">
+              <a href="" target="_blank">更多>></a>
+            </div>
+
+          </div>
+        </div>
+        <div class="item">
+          <div class="types-l">学校地区：</div>
+          <div class="types-r" id="area">
+            <a href="javascript:void (0);" class="active">国内</a>
+            <a href="javascript:void (0);">全国</a>
+            <a href="javascript:void (0);">北京</a>
+            <a href="javascript:void (0);">上海</a>
+            <a href="javascript:void (0);">天津</a>
+            <a href="javascript:void (0);">重庆</a>
+            <a href="javascript:void (0);">河北</a>
+            <a href="javascript:void (0);">山西</a>
+            <a href="javascript:void (0);">北京</a>
+            <a href="javascript:void (0);">内蒙古</a>
+            <a href="javascript:void (0);">辽宁</a>
+            <a href="javascript:void (0);">吉林</a>
+            <a href="javascript:void (0);">黑龙江</a>
+            <a href="javascript:void (0);">江苏</a>
+            <a href="javascript:void (0);">浙江</a>
+            <a href="javascript:void (0);">北京</a>
+            <a href="javascript:void (0);">上海</a>
+            <a href="javascript:void (0);">天津</a>
+            <a href="javascript:void (0);">重庆</a>
+            <a href="javascript:void (0);">河北</a>
+            <a href="javascript:void (0);">山西</a>
+            <a href="javascript:void (0);">北京</a>
+            <a href="javascript:void (0);">内蒙古</a>
+            <a href="javascript:void (0);">辽宁</a>
+            <a href="javascript:void (0);">吉林</a>
+            <div class="more">
+              <a href="" target="_blank">更多>></a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="types-l">院校名称：</div>
+          <div class="types-r" id="school">
+            <a href="javascript:void (0);">不限</a>
+            <a href="javascript:void (0);" class="active">北京大学</a>
+            <a href="javascript:void (0);">北京航空航天大学</a>
+            <a href="javascript:void (0);">北京大学</a>
+            <a href="javascript:void (0);">北京航空航天大学</a>
+            <a href="javascript:void (0);">北京大学</a>
+            <a href="javascript:void (0);">北京航空航天大学</a>
+            <a href="javascript:void (0);">北京大学</a>
+            <a href="javascript:void (0);">北京航空航天大学</a>
+            <a href="javascript:void (0);">北京大学</a>
+            <div class="more">
+              <a href="" target="_blank">更多>></a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="types-l">您已选类别：</div>
+          <div class="types-r" id="selected">
+            <span>在职硕士</span>
+            <span>国内</span>
+            <span>北京大学</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 信息分类 问答 -->
+    <div class="msg-wd">
+      <div class="wd-item">
+        <div class="title-module">
+          <h4>
+            <a href="" target="_blank">同等学力申硕在职研修班是否需要经常上课?</a>
+          </h4>
+          <span class="time">07-15</span>
+        </div>
+        <p>
+          同等学力申硕考生需要考生先报名参加研修班的学习，经过全部课程考试并修满学分，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发.....
+        </p>
+      </div>
+      <div class="wd-item">
+        <div class="title-module">
+          <h4>
+            <a href="" target="_blank">同等学力申硕在职研修班是否需要经常上课?</a>
+          </h4>
+          <span class="time">07-15</span>
+        </div>
+        <p>
+          同等学力申硕考生需要考生先报名参加研修班的学习，经过全部课程考试并修满学分，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发.....
+        </p>
+      </div>
+      <div class="wd-item">
+        <div class="title-module">
+          <h4>
+            <a href="" target="_blank">同等学力申硕在职研修班是否需要经常上课?</a>
+          </h4>
+          <span class="time">07-15</span>
+        </div>
+        <p>
+          同等学力申硕考生需要考生先报名参加研修班的学习，经过全部课程考试并修满学分，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发.....
+        </p>
+      </div>
+      <div class="wd-item">
+        <div class="title-module">
+          <h4>
+            <a href="" target="_blank">同等学力申硕在职研修班是否需要经常上课?</a>
+          </h4>
+          <span class="time">07-15</span>
+        </div>
+        <p>
+          同等学力申硕考生需要考生先报名参加研修班的学习，经过全部课程考试并修满学分，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发.....
+        </p>
+      </div>
+      <div class="wd-item">
+        <div class="title-module">
+          <h4>
+            <a href="" target="_blank">同等学力申硕在职研修班是否需要经常上课?</a>
+          </h4>
+          <span class="time">07-15</span>
+        </div>
+        <p>
+          同等学力申硕考生需要考生先报名参加研修班的学习，经过全部课程考试并修满学分，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发.....
+        </p>
+      </div>
+      <div class="wd-item">
+        <div class="title-module">
+          <h4>
+            <a href="" target="_blank">同等学力申硕在职研修班是否需要经常上课?</a>
+          </h4>
+          <span class="time">07-15</span>
+        </div>
+        <p>
+          同等学力申硕考生需要考生先报名参加研修班的学习，经过全部课程考试并修满学分，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发.....
+        </p>
+      </div>
+      <div class="wd-item">
+        <div class="title-module">
+          <h4>
+            <a href="" target="_blank">同等学力申硕在职研修班是否需要经常上课?</a>
+          </h4>
+          <span class="time">07-15</span>
+        </div>
+        <p>
+          同等学力申硕考生需要考生先报名参加研修班的学习，经过全部课程考试并修满学分，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发.....
+        </p>
+      </div>
+      <div class="wd-item">
+        <div class="title-module">
+          <h4>
+            <a href="" target="_blank">同等学力申硕在职研修班是否需要经常上课?</a>
+          </h4>
+          <span class="time">07-15</span>
+        </div>
+        <p>
+          同等学力申硕考生需要考生先报名参加研修班的学习，经过全部课程考试并修满学分，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发.....
+        </p>
+      </div>
+      <div class="wd-item">
+        <div class="title-module">
+          <h4>
+            <a href="" target="_blank">同等学力申硕在职研修班是否需要经常上课?</a>
+          </h4>
+          <span class="time">07-15</span>
+        </div>
+        <p>
+          同等学力申硕考生需要考生先报名参加研修班的学习，经过全部课程考试并修满学分，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发.....
+        </p>
+      </div>
+      <div class="wd-item">
+        <div class="title-module">
+          <h4>
+            <a href="" target="_blank">同等学力申硕在职研修班是否需要经常上课?</a>
+          </h4>
+          <span class="time">07-15</span>
+        </div>
+        <p>
+          同等学力申硕考生需要考生先报名参加研修班的学习，经过全部课程考试并修满学分，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发的在职研究生课程班结业证，可以获得报考颁发.....
+        </p>
+      </div>
+
+      <!-- 分页 -->
+      <div class="page-wrap">
+        <div class="page clearfix">
+          <a class="prev"  href="">上一页</a>
+          <a class="cur"   href="">1</a>
+          <a class="num"   href="">2</a>
+          <a class="num"   href="">3</a>
+          <a class="num"   href="">4</a>
+          <a class="num"   href="">5</a>
+          <a class="next"  href="">下一页</a>
+          <a class="end"   href="">尾页</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="yxzd-r">
+    <!-- 17.预约一对一（院校终端-首页） -->
+    <div class="q-5">
+      <div class="c">
+        <h4>在职研究生一对一咨询服务</h4>
+        <p class="txt">为您360°横扫在职考研难题</p>
+        <form class="sign-in">
+          <input class="user-con" type="text" placeholder="北京大学在职研究生" />
+          <input class="user-name" type="text" placeholder="您的姓名" />
+          <input class="user-tel" type="text" placeholder="您的联系方式" />
+          <input class="btn" type="submit" value="预约一对一" />
+        </form>
+        <p class="zx">咨询热线:13727629617<i> (8:00-22:00)</i></p>
+      </div>
+    </div>
+    <!-- 18.热门院校（院校终端-首页） -->
+    <div class="q-6">
+      <div class="c">
+        <h3>热门院校</h3>
+        <div class="txt">
+          <h4 class="active">国外</h4>
+          <h4>国内</h4>
+        </div>
+        <ul class="list active">
+          <li>
+            <a href="#">
+              <p>中国大学中国大学1</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+        </ul>
+        <ul class="list ">
+          <li>
+            <a href="#">
+              <p>中国大学中国大学2</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>中国大学中国大学</p>
+              <i>中国</i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 19.简章排行（院校终端-首页） -->
+    <div class="q-7">
+      <div class="title-module">
+        <h3>简章排行</h3>
+        <a href="#" class="bd">more></a>
+      </div>
+
+      <ul class="list">
+        <li>
+          <a href="#">
+            <i class="i1">1</i>
+            湖北科技学院2019年药学硕士专业学位研究生招生简章
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="i2">2</i>
+            湖北科技学院2019年药学硕士专业学位研究生招生简章
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="i3">3</i>
+            湖北科技学院2019年药学硕士专业学位研究生招生简章
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i>4</i>
+            湖北科技学院2019年药学硕士专业学位研究生招生简章
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i>5</i>
+            湖北科技学院2019年药学硕士专业学位研究生招生简章
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i>6</i>
+            湖北科技学院2019年药学硕士专业学位研究生招生简章
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i>7</i>
+            湖北科技学院2019年药学硕士专业学位研究生招生简章
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i>8</i>
+            湖北科技学院2019年药学硕士专业学位研究生招生简章
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i>9</i>
+            湖北科技学院2019年药学硕士专业学位研究生招生简章
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i>10</i>
+            湖北科技学院2019年药学硕士专业学位研究生招生简章
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="hot-search">
+      <div class="title-module">
+        <div class="title-l">
+          <span>热门搜索</span>
+        </div>
+      </div>
+      <ul>
+        <li>
+          <a href="" target="_blank">安徽省招生单位</a>
+        </li>
+        <li>
+          <a href="" target="_blank">安徽省招生单位</a>
+        </li>
+        <li>
+          <a href="" target="_blank">安徽省招生单位</a>
+        </li>
+        <li>
+          <a href="" target="_blank">安徽省招生单位</a>
+        </li>
+        <li>
+          <a href="" target="_blank">安徽省招生单位</a>
+        </li>
+        <li>
+          <a href="" target="_blank">安徽省招生单位</a>
+        </li>
+        <li>
+          <a href="" target="_blank">安徽省招生单位</a>
+        </li>
+        <li>
+          <a href="" target="_blank">安徽省招生单位</a>
+        </li>
+        <li>
+          <a href="" target="_blank">安徽省招生单位</a>
+        </li>
+        <li>
+          <a href="" target="_blank">安徽省招生单位</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- 友情链接 -->
+<div class="yjs-link wrap">
+  <div class="tab-head">
+    <span class="active">友情链接</span>
+    <span>国内分站</span>
+  </div>
+  <div class="tab-body">
+    <div class="tab-item active">
+      <a href="" target="_blank">教育联展网</a>
+      <a href="" target="_blank">中华网考试</a>
+      <a href="" target="_blank">培训码头</a>
+      <a href="" target="_blank">中华网考试</a>
+      <a href="" target="_blank">培训码头</a>
+      <a href="" target="_blank">教育联展网</a>
+      <a href="" target="_blank">教育联展网</a>
+      <a href="" target="_blank">中华网考试</a>
+      <a href="" target="_blank">培训码头</a>
+      <a href="" target="_blank">中华网考试</a>
+      <a href="" target="_blank">培训码头</a>
+      <a href="" target="_blank">教育联展网</a>
+      <a href="" target="_blank">教育联展网</a>
+      <a href="" target="_blank">教育联展网</a>
+      <a href="" target="_blank">中华网考试</a>
+      <a href="" target="_blank">培训码头</a>
+      <a href="" target="_blank">中华网考试</a>
+      <a href="" target="_blank">培训码头</a>
+      <a href="" target="_blank">教育联展网</a>
+      <a href="" target="_blank">教育联展网</a>
+    </div>
+    <div class="tab-item">
+      <a href="" target="_blank">培训码头</a>
+      <a href="" target="_blank">中华网考试</a>
+      <a href="" target="_blank">培训码头</a>
+      <a href="" target="_blank">中华网考试</a>
+      <a href="" target="_blank">培训码头</a>
+      <a href="" target="_blank">教育联展网</a>
+      <a href="" target="_blank">教育联展网</a>
+      <a href="" target="_blank">中华网考试</a>
+      <a href="" target="_blank">培训码头</a>
+      <a href="" target="_blank">中华网考试</a>
+      <a href="" target="_blank">培训码头</a>
+      <a href="" target="_blank">教育联展网</a>
+      <a href="" target="_blank">教育联展网</a>
+      <a href="" target="_blank">教育联展网</a>
+      <a href="" target="_blank">中华网考试</a>
+      <a href="" target="_blank">培训码头</a>
+      <a href="" target="_blank">中华网考试</a>
+      <a href="" target="_blank">培训码头</a>
+      <a href="" target="_blank">教育联展网</a>
+      <a href="" target="_blank">教育联展网</a>
+    </div>
+  </div>
+</div>
+
+<div id="footer">
+  <p class="links">
+    <a href="#" target="_blank">机构</a>|
+    <a href="#" target="_blank">班级</a>|
+    <a href="#" target="_blank">问答</a>|
+    <a href="#" target="_blank">最新</a>|
+    <a href="#" target="_blank">课程</a>|
+    <a href="#" target="_blank">网站地图</a>｜
+    <a href="#" target="_blank">熊掌号</a>
+  </p>
+  <p>版权所有 深圳市诺达教育股份有限公司 © <a href="https://www.thea.cn/" target="_blank">www.thea.cn</a> All Rights Reserved 粤ICP备10032899号辑文本</p>
+</div>
+
+<!-- 右侧悬浮 -->
+<div class="right-nav">
+  <div class="online">
+    <i></i>
+    <p>在线咨询</p>
+  </div>
+  <ul>
+    <li>
+      <a href="javascript:;">
+        <i class="tel"></i>
+        <span>电话咨询</span>
+      </a>
+
+      <div class="hide-content">
+        <div class="hide-title hot-line">
+          报名咨询热线：13727629617
+        </div>
+        <p>
+          <i></i>
+          咨询时间：08:00-22:00
+        </p>
+      </div>
+    </li>
+    <li>
+      <a href="javascript:;">
+        <i class="qq"></i>
+        <span>QQ咨询</span>
+      </a>
+
+      <div class="hide-content">
+        <div class="hide-title hide-qq">
+          QQ：1144950786
+        </div>
+      </div>
+    </li>
+    <li id="rightNavForm">
+      <a href="javascript:;">
+        <i class="server"></i>
+        <span>预约服务</span>
+      </a>
+
+      <div class="hide-content hide-form">
+        <form class="sign-in">
+          <div class="sign-in-title">
+            在职研究生一对一咨询服务
+          </div>
+          <input type="text" placeholder="意向院校" class="user-con">
+          <input type="text" placeholder="您的姓名" class="user-name">
+          <input type="text" placeholder="您的联系方式" class="user-tel">
+          <input type="submit" value="预约一对一">
+        </form>
+      </div>
+    </li>
+    <li id="toTop">
+      <a href="javascript:;">
+        <i class="to-top"></i>
+        <p>回顶部</p>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!--<script src="https://img.thea.cn/public/js/thea.ms.form.js" type="text/javascript"></script>-->
+<script type="text/javascript" src="js/index.js"></script>
+
+</body>
+</html>

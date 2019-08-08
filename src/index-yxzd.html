@@ -2,9 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv = "X-UA-Compatible" content ="IE=edge,chrome=1" />
-  <meta name="renderer" content="webkit" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta content="black" name="apple-mobile-web-app-status-bar-style">
+  <meta content="telephone=no" name="format-detection">
   <title>院校终端-首页</title>
+  <script type="text/javascript" src="js/thea.debug.js"></script>
   <link rel="stylesheet" type="text/css" href="css/base.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
 
@@ -15,7 +20,7 @@
 <body>
 
 <!-- 顶部条 -->
-<div class="yxzd-topbar defaults_dataid" data-id="2-0-30-0-0-0-1-深圳研修项目">
+<div class="yxzd-topbar yjs-head defaults_dataid" data-id="2-0-30-0-0-0-1-深圳研修项目">
   <div class="wrap">
     <h1>教育联展网·在职研究生</h1>
     <div class="topbar-nav">
@@ -93,8 +98,41 @@
         </li>
       </ul>
     </div>
+
+    <div class="head-l">
+      <div class="logo">
+        <img src="images/logo.png" alt="诺达">
+      </div>
+      <h1>在职研究生</h1>
+    </div>
+
+    <div class="head-r">
+      <div class="r-search">
+        <form id="search_one" class="clearfix" name="search_one" method="post" onsubmit="CheckForm(); return false;"
+              target="_blank">
+          <input name="text_one" type="text" id="text_one" class="search_text text" value="" placeholder="请输入关键词">
+          <input type="submit" id="submit_one" name="submit_one" class="search_submit btn" value="搜索">
+        </form>
+      </div>
+      <div class="r-tel">
+        <div class="tel">13727629617</div>
+        <span>全国咨询热线  8:00-22:00</span>
+      </div>
+      <!-- 移动端新增 -->
+      <div class="r-nav">
+        <div class="show-form"></div>
+        <div class="show-nav"></div>
+      </div>
+      <!-- 移动端结束 -->
+    </div>
   </div>
 </div>
+
+<!-- 移动端开始 banner -->
+<div class="wap-banner">
+  <img src="images/wap-beida-1.png" alt="banner">
+</div>
+<!-- 移动端结束 -->
 
 <!-- banner -->
 <div class="yxzd-banner">
@@ -126,7 +164,6 @@
     <div class="q-4">
       <div class="c clearfix">
         <div class="top">
-          <div class="img"><a href="#"><img src="images/gg.png"></a></div>
           <div class="box">
             <div class="t1">
               <h4>北京大学在职研究生</h4>
@@ -149,6 +186,7 @@
               <a href="#" class="yz">在线咨询</a>
             </div>
           </div>
+          <div class="img"><a href="#"><img src="images/gg.png"></a></div>
         </div>
         <div class="bottom">
           <div class="txt">

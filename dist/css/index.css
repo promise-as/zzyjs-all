@@ -108,21 +108,21 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   overflow: hidden;
 }
 
-.yxzd-l .yxzd-l-wd .wd-list ul li a:before, .yxzd-l .others-schools .others-l .others-l-item ul li a:before, .yjs-head .head-l .logo, .yjs-head .head-l .logo:after, .yjs-head .head-l h1, .yjs-head .head-r .r-search, .yjs-head .head-r .r-tel, .yjs-head .head-r .r-tel span, .yjs-types .type-left a, .yjs-types .type-left a:before, .yjs-types .type-detail, .yjs-types .type-detail ul .detail-title:before, .title-module .title-l span, .title-module h2, .title-module h3, .title-module h4, .title-module a, .tx-module1 .tx-recruitBox .recruitCon ul li a span, .txPulicList1 ul li a span, .tx-module2 .injobMaster .master-right .master-top .academy-box .school-speciality span, .q-4 .c .top .box .t1 h4, .q-4 .c .bottom .txt h4, .q-6 .c h3, .q-6 .c .list li a, .yjs-recommend .recommend .tab-head span, .yjs-recommend .recommend .tab-item ul li a, .yjs-recommend .recommend .tab-item ul li img, .yjs-recommend .recommend .tab-item ul li .emphasis span, .yjs-link .tab-head span, .yxzd-topbar .topbar-nav ul li a i, .yxzd-topbar .cities-nav ul li a i, .yxzd-banner .yxzd-logo, .yxzd-banner .nav-menu, .yxzd-banner .nav-menu li, .yxzd-l .yxzd-l-wd .wd-good i, .yxzd-l .yxzd-l-wd .jz-item .paging a, .yxzd-l .yxzd-l-wdzd .wd-good .icon, .yxzd-l .yxzd-l-wdzd .wd-good .icon-d, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .source i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .author i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .time i, .yxzd-l .yxzd-l-wdzd .paging a, .yxzd-l .msg-classify .msg-types .item .types-r a, .yxzd-l .msg-classify .msg-types .item .types-r a i, .yxzd-l .msg-classify .msg-types .item .types-r .more, .yxzd-l .msg-classify .msg-types .item .types-r span, .yxzd-l .brochures .jz-item .paging a, .yxzd-l .others-schools .others-r .r-enter .enter-btn, .yxzd-l .text-msg .source i, .yxzd-l .text-msg .author i, .yxzd-l .text-msg .time i, .yxzd-r .hot-search ul li a, .academy .academy-types .studying-types .types-r .more, .academy .academy-types .studying-types .types-r a, .academy .academy-types .studying-types .types-r span, .academy .academy-tab .school-speciality span, .academy .academy-tab .school-operation a, .right-nav .online i, .right-nav ul li a span, .right-nav ul li a .tel, .right-nav ul li a .qq, .right-nav ul li a .server, .right-nav ul li a .to-top, .right-nav ul li .hide-content p i {
+.yxzd-l .yxzd-l-wd .wd-list ul li a:before, .yxzd-l .others-schools .others-l .others-l-item ul li a:before, .yjs-head .head-l .logo, .yjs-head .head-l .logo:after, .yjs-head .head-l h1, .yjs-head .head-r .r-search, .yjs-head .head-r .r-tel, .yjs-head .head-r .r-tel span, .yjs-types .type-left a, .yjs-types .type-left a:before, .yjs-types .type-detail, .yjs-types .type-detail ul .detail-title:before, .title-module .title-l span, .title-module h2, .title-module h3, .title-module h4, .title-module a, .tx-module1 .tx-recruitBox .recruitCon ul li a span, .txPulicList1 ul li a span, .tx-module2 .injobMaster .master-right .master-top .academy-box .school-speciality span, .q-4 .c .top .box .t1 h4, .q-4 .c .bottom .txt h4, .q-6 .c h3, .q-6 .c .list li a, .yjs-recommend .recommend .tab-head span, .yjs-recommend .recommend .tab-item ul li a, .yjs-recommend .recommend .tab-item ul li img, .yjs-recommend .recommend .tab-item ul li .emphasis span, .yjs-link .tab-head span, .yxzd-topbar .topbar-nav ul li a i, .yxzd-topbar .cities-nav ul li a i, .yxzd-banner .yxzd-logo, .yxzd-banner .nav-menu, .yxzd-banner .nav-menu li, .yxzd-l .yxzd-l-wd .wd-good i, .yxzd-l .yxzd-l-wd .jz-item .paging a, .yxzd-l .yxzd-l-wdzd .wd-good .icon, .yxzd-l .yxzd-l-wdzd .wd-good .icon-d, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .source i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .author i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .time i, .yxzd-l .yxzd-l-wdzd .paging a, .yxzd-l .msg-classify .msg-types .item .types-r a, .yxzd-l .msg-classify .msg-types .item .types-r a i, .yxzd-l .msg-classify .msg-types .item .types-r .more, .yxzd-l .msg-classify .msg-types .item .types-r span, .yxzd-l .brochures .jz-item .paging a, .yxzd-l .others-schools .others-r .r-enter .enter-btn, .yxzd-l .text-msg .source i, .yxzd-l .text-msg .author i, .yxzd-l .text-msg .time i, .yxzd-r .hot-search ul li a, .academy .academy-types .studying-types .types-r .more, .academy .academy-types .studying-types .types-r a, .academy .academy-types .studying-types .types-r span, .academy .academy-tab .tab-head .school-speciality span, .academy .academy-tab .tab-head .school-operation a, .academy .academy-tab .body-item .school-speciality span, .academy .academy-tab .body-item .school-operation a, .right-nav .online i, .right-nav ul li a span, .right-nav ul li a .tel, .right-nav ul li a .qq, .right-nav ul li a .server, .right-nav ul li a .to-top, .right-nav ul li .hide-content p i {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
 
-.title-module, .tx-module2 .injobMaster .master-right .master-top .academy-box ul, .yjs-recommend .recommend .tab-item ul, .yjs-link .tab-item, .yxzd-topbar .topbar-nav ul, .yxzd-topbar .cities-nav ul, .yxzd-l .yxzd-l-wd .wd-good, .yxzd-l .yxzd-l-wd .wd-list, .yxzd-l .yxzd-l-wd .jz-item, .yxzd-l .yxzd-l-wdzd .wd-good, .yxzd-l .yxzd-l-wdzd .paging, .yxzd-l .msg-classify .msg-types .item, .yxzd-l .brochures .jz-item, .yxzd-l .brochures .jz-item .course .course-row, .yxzd-l .others-schools, .yxzd-l .others-schools .others-l .others-l-item, .yxzd-r .hot-search ul, .academy .academy-types .studying-types, .academy .academy-tab .tab-head, .academy .academy-tab .tab-item {
+.yjs-head .head-r, .title-module, .tx-module2 .injobMaster .master-right .master-top .academy-box ul, .tx-module3 .txPulicRight .sixPeople .people ul, .tx-module3 .txPulicRight .injobFlow .people ul, .tx-module3 .txPulicRight .sixPeople .flow, .tx-module3 .txPulicRight .injobFlow .flow, .q-4 .c .top, .yjs-recommend .recommend .tab-item ul, .yjs-link .tab-item, .yxzd-topbar .topbar-nav ul, .yxzd-topbar .cities-nav ul, .yxzd-l .yxzd-l-wd .wd-good, .yxzd-l .yxzd-l-wd .wd-list, .yxzd-l .yxzd-l-wd .jz-item, .yxzd-l .yxzd-l-wdzd .wd-good, .yxzd-l .yxzd-l-wdzd .paging, .yxzd-l .msg-classify .msg-types .item, .yxzd-l .brochures .jz-item, .yxzd-l .brochures .jz-item .course .course-row, .yxzd-l .others-schools, .yxzd-l .others-schools .others-l .others-l-item, .yxzd-r .hot-search ul, .academy .academy-types, .academy .academy-types .studying-types, .academy .academy-tab .tab-head, .academy .academy-tab .body-item {
   zoom: 1;
 }
 
-.title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .yjs-recommend .recommend .tab-item ul:after, .yjs-link .tab-item:after, .yxzd-topbar .topbar-nav ul:after, .yxzd-topbar .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wd .jz-item:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .tab-item:after {
+.yjs-head .head-r:after, .title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .tx-module3 .txPulicRight .sixPeople .people ul:after, .tx-module3 .txPulicRight .injobFlow .people ul:after, .tx-module3 .txPulicRight .sixPeople .flow:after, .tx-module3 .txPulicRight .injobFlow .flow:after, .q-4 .c .top:after, .yjs-recommend .recommend .tab-item ul:after, .yjs-link .tab-item:after, .yxzd-topbar .topbar-nav ul:after, .yxzd-topbar .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wd .jz-item:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .body-item:after {
   clear: both;
 }
 
-.title-module:before, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:before, .yjs-recommend .recommend .tab-item ul:before, .yjs-link .tab-item:before, .yxzd-topbar .topbar-nav ul:before, .yxzd-topbar .cities-nav ul:before, .yxzd-l .yxzd-l-wd .wd-good:before, .yxzd-l .yxzd-l-wd .wd-list:before, .yxzd-l .yxzd-l-wd .jz-item:before, .yxzd-l .yxzd-l-wdzd .wd-good:before, .yxzd-l .yxzd-l-wdzd .paging:before, .yxzd-l .msg-classify .msg-types .item:before, .yxzd-l .brochures .jz-item:before, .yxzd-l .brochures .jz-item .course .course-row:before, .yxzd-l .others-schools:before, .yxzd-l .others-schools .others-l .others-l-item:before, .yxzd-r .hot-search ul:before, .academy .academy-types .studying-types:before, .academy .academy-tab .tab-head:before, .academy .academy-tab .tab-item:before, .title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .yjs-recommend .recommend .tab-item ul:after, .yjs-link .tab-item:after, .yxzd-topbar .topbar-nav ul:after, .yxzd-topbar .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wd .jz-item:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .tab-item:after {
+.yjs-head .head-r:before, .title-module:before, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:before, .tx-module3 .txPulicRight .sixPeople .people ul:before, .tx-module3 .txPulicRight .injobFlow .people ul:before, .tx-module3 .txPulicRight .sixPeople .flow:before, .tx-module3 .txPulicRight .injobFlow .flow:before, .q-4 .c .top:before, .yjs-recommend .recommend .tab-item ul:before, .yjs-link .tab-item:before, .yxzd-topbar .topbar-nav ul:before, .yxzd-topbar .cities-nav ul:before, .yxzd-l .yxzd-l-wd .wd-good:before, .yxzd-l .yxzd-l-wd .wd-list:before, .yxzd-l .yxzd-l-wd .jz-item:before, .yxzd-l .yxzd-l-wdzd .wd-good:before, .yxzd-l .yxzd-l-wdzd .paging:before, .yxzd-l .msg-classify .msg-types .item:before, .yxzd-l .brochures .jz-item:before, .yxzd-l .brochures .jz-item .course .course-row:before, .yxzd-l .others-schools:before, .yxzd-l .others-schools .others-l .others-l-item:before, .yxzd-r .hot-search ul:before, .academy .academy-types:before, .academy .academy-types .studying-types:before, .academy .academy-tab .tab-head:before, .academy .academy-tab .body-item:before, .yjs-head .head-r:after, .title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .tx-module3 .txPulicRight .sixPeople .people ul:after, .tx-module3 .txPulicRight .injobFlow .people ul:after, .tx-module3 .txPulicRight .sixPeople .flow:after, .tx-module3 .txPulicRight .injobFlow .flow:after, .q-4 .c .top:after, .yjs-recommend .recommend .tab-item ul:after, .yjs-link .tab-item:after, .yxzd-topbar .topbar-nav ul:after, .yxzd-topbar .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wd .jz-item:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .body-item:after {
   content: "";
   display: table;
 }
@@ -1811,7 +1811,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 }
 
 .q-4 .c .top .box {
-  padding-left: 400px;
+  float: right;
 }
 
 .q-4 .c .top .box .t1 {
@@ -2543,6 +2543,10 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   position: absolute;
   top: -10px;
   right: 24px;
+}
+
+.yxzd-topbar .head-l, .yxzd-topbar .head-r {
+  display: none;
 }
 
 .yxzd-banner {
@@ -3431,6 +3435,12 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   margin-right: 20px;
 }
 
+.academy .academy-types .studying-types .types-l:after {
+  content: ':';
+  color: #333333;
+  margin-left: 4px;
+}
+
 .academy .academy-types .studying-types .types-r {
   float: left;
   max-width: 970px;
@@ -3480,19 +3490,29 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   background-color: #ffffff;
 }
 
-.academy .academy-tab .school-logo {
+.academy .academy-tab .tab-head {
+  background-color: #1782e6;
+}
+
+.academy .academy-tab .tab-head .school-logo {
   width: 200px;
+  height: 60px;
+  line-height: 60px;
 }
 
-.academy .academy-tab .school-name {
+.academy .academy-tab .tab-head .school-name {
   width: 170px;
+  height: 60px;
+  line-height: 60px;
 }
 
-.academy .academy-tab .school-speciality {
+.academy .academy-tab .tab-head .school-speciality {
   width: 150px;
+  height: 60px;
+  line-height: 60px;
 }
 
-.academy .academy-tab .school-speciality span {
+.academy .academy-tab .tab-head .school-speciality span {
   color: #ffffff;
   text-align: center;
   padding: 0 8px;
@@ -3500,7 +3520,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   line-height: 22px;
 }
 
-.academy .academy-tab .school-speciality .first {
+.academy .academy-tab .tab-head .school-speciality .first {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#1782e6), to(#1ca7ff)), -webkit-gradient(linear, left top, left bottom, from(#1782e6), to(#1782e6));
   background-image: linear-gradient(0deg, #1782e6 0%, #1ca7ff 100%), linear-gradient(#1782e6, #1782e6);
   background-blend-mode: normal, normal;
@@ -3509,7 +3529,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   border-radius: 11px 11px 11px 0px;
 }
 
-.academy .academy-tab .school-speciality .second {
+.academy .academy-tab .tab-head .school-speciality .second {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#17b3e6), to(#24c6fc)), -webkit-gradient(linear, left top, left bottom, from(#17b3e6), to(#17b3e6));
   background-image: linear-gradient(0deg, #17b3e6 0%, #24c6fc 100%), linear-gradient(#17b3e6, #17b3e6);
   background-blend-mode: normal, normal;
@@ -3518,15 +3538,19 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   border-radius: 11px 11px 11px 0px;
 }
 
-.academy .academy-tab .school-major {
+.academy .academy-tab .tab-head .school-major {
   width: 280px;
+  height: 60px;
+  line-height: 60px;
 }
 
-.academy .academy-tab .school-operation {
+.academy .academy-tab .tab-head .school-operation {
   width: 300px;
+  height: 60px;
+  line-height: 60px;
 }
 
-.academy .academy-tab .school-operation a {
+.academy .academy-tab .tab-head .school-operation a {
   border: 1px solid #1782e6;
   color: #1782e6;
   padding: 0 5px;
@@ -3535,13 +3559,9 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   border-radius: 2px;
 }
 
-.academy .academy-tab .school-operation a:hover {
+.academy .academy-tab .tab-head .school-operation a:hover {
   background-color: #1782e6;
   color: #ffffff;
-}
-
-.academy .academy-tab .tab-head {
-  background-color: #1782e6;
 }
 
 .academy .academy-tab .tab-head > div {
@@ -3552,41 +3572,109 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   font-size: 16px;
 }
 
-.academy .academy-tab .tab-item {
+.academy .academy-tab .body-item {
   padding: 20px 0;
   margin-left: 20px;
   border-bottom: 1px solid #eeeeee;
 }
 
-.academy .academy-tab .tab-item > div {
-  float: left;
-  text-align: center;
-  font-size: 16px;
+.academy .academy-tab .body-item .school-logo {
+  width: 200px;
   height: 60px;
   line-height: 60px;
 }
 
-.academy .academy-tab .tab-item .school-logo {
+.academy .academy-tab .body-item .school-name {
+  width: 170px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.academy .academy-tab .body-item .school-speciality {
+  width: 150px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.academy .academy-tab .body-item .school-speciality span {
+  color: #ffffff;
+  text-align: center;
+  padding: 0 8px;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.academy .academy-tab .body-item .school-speciality .first {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#1782e6), to(#1ca7ff)), -webkit-gradient(linear, left top, left bottom, from(#1782e6), to(#1782e6));
+  background-image: linear-gradient(0deg, #1782e6 0%, #1ca7ff 100%), linear-gradient(#1782e6, #1782e6);
+  background-blend-mode: normal, normal;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(18, 90, 157, 0.15);
+          box-shadow: 0px 5px 10px 0px rgba(18, 90, 157, 0.15);
+  border-radius: 11px 11px 11px 0px;
+}
+
+.academy .academy-tab .body-item .school-speciality .second {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#17b3e6), to(#24c6fc)), -webkit-gradient(linear, left top, left bottom, from(#17b3e6), to(#17b3e6));
+  background-image: linear-gradient(0deg, #17b3e6 0%, #24c6fc 100%), linear-gradient(#17b3e6, #17b3e6);
+  background-blend-mode: normal, normal;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(26, 169, 216, 0.15);
+          box-shadow: 0px 5px 10px 0px rgba(26, 169, 216, 0.15);
+  border-radius: 11px 11px 11px 0px;
+}
+
+.academy .academy-tab .body-item .school-major {
+  width: 280px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.academy .academy-tab .body-item .school-operation {
+  width: 300px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.academy .academy-tab .body-item .school-operation a {
+  border: 1px solid #1782e6;
+  color: #1782e6;
+  padding: 0 5px;
+  line-height: 26px;
+  margin: 0 8px;
+  border-radius: 2px;
+}
+
+.academy .academy-tab .body-item .school-operation a:hover {
+  background-color: #1782e6;
+  color: #ffffff;
+}
+
+.academy .academy-tab .body-item > div {
+  float: left;
+  text-align: center;
+  font-size: 16px;
+}
+
+.academy .academy-tab .body-item .school-logo {
   width: 164px;
 }
 
-.academy .academy-tab .tab-item .school-logo img {
+.academy .academy-tab .body-item .school-logo img {
   vertical-align: middle;
 }
 
-.academy .academy-tab .tab-item .school-name {
+.academy .academy-tab .body-item .school-name {
   width: 200px;
 }
 
-.academy .academy-tab .tab-item .school-speciality {
+.academy .academy-tab .body-item .school-speciality {
   width: 120px;
 }
 
-.academy .academy-tab .tab-item .school-major {
+.academy .academy-tab .body-item .school-major {
   width: 310px;
 }
 
-.academy .academy-tab .tab-item .school-major span {
+.academy .academy-tab .body-item .school-major span {
   color: #333333;
   border-right: 1px solid #dddddd;
   font-size: 14px;
@@ -3594,11 +3682,11 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   padding: 0 10px;
 }
 
-.academy .academy-tab .tab-item .school-major span:last-child {
+.academy .academy-tab .body-item .school-major span:last-child {
   border-right: 0;
 }
 
-.academy .academy-tab .tab-item .school-operation {
+.academy .academy-tab .body-item .school-operation {
   width: 280px;
 }
 
@@ -3838,7 +3926,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   form, input, textarea, p, th, td, a {
     font-size: 0.34667rem;
   }
-  .space-between, .yjs-head .wrap {
+  .space-between {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3863,6 +3951,9 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+  .tx-module4 .selectTitle h2 span:before, .academy .academy-tab .body-item:before, .tx-module4 .selectTitle h2 span:after, .academy .academy-tab .body-item:after {
+    display: none;
+  }
   /* 右侧悬浮 */
   .right-nav {
     display: none;
@@ -3884,17 +3975,23 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
   /* 头部 */
   .yjs-head {
-    height: 1.18667rem;
+    height: 1.17333rem;
+    position: fixed;
+    top: 0;
+    z-index: 300;
+    padding-top: 0.2rem;
   }
   .yjs-head .wrap {
     height: 100%;
   }
   .yjs-head .head-l {
-    float: none;
     padding-top: 0;
     margin-left: 0.32rem;
     width: auto;
     display: block;
+  }
+  .yjs-head .head-l.hide {
+    display: none;
   }
   .yjs-head .head-l .logo {
     height: 0.70667rem;
@@ -3914,22 +4011,54 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .yjs-head .head-r {
     float: none;
     padding-top: 0;
+    width: 100%;
   }
-  .yjs-head .head-r .r-search, .yjs-head .head-r .r-tel {
+  .yjs-head .head-r .r-search {
+    width: 6.82667rem;
+    height: 0.77333rem;
+    float: left;
+    margin-right: 0;
+    margin-left: 0.32rem;
+    display: none;
+  }
+  .yjs-head .head-r .r-search.show {
+    display: block;
+  }
+  .yjs-head .head-r .r-search form:before {
+    width: 0.4rem;
+    height: 0.4rem;
+    left: 0.18667rem;
+    top: 0.18667rem;
+  }
+  .yjs-head .head-r .r-search input[type='text'] {
+    width: 100%;
+    height: 0.77333rem;
+    line-height: 0.77333rem;
+    background-color: #f5f6f7;
+    border-radius: 0.4rem;
+    border: solid 1px #dddddd;
+    padding-left: 0.66667rem;
+  }
+  .yjs-head .head-r .r-search input[type='submit'] {
+    display: none;
+  }
+  .yjs-head .head-r .r-tel {
     display: none;
   }
   .yjs-head .head-r .r-nav {
     display: block;
+    float: right;
     margin-right: 0.32rem;
+    padding-top: 0.08rem;
   }
   .yjs-head .head-r .r-nav .show-form {
     display: inline-block;
+    width: 0.4rem;
     height: 0.4rem;
     margin-right: 0.24rem;
     vertical-align: middle;
-  }
-  .yjs-head .head-r .r-nav .show-form img {
-    height: 100%;
+    background: url("../images/wap-search.png") no-repeat;
+    background-size: 100% 100%;
   }
   .yjs-head .head-r .r-nav .show-form:after {
     display: inline-block;
@@ -3937,28 +4066,88 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     width: 1px;
     height: 100%;
     background-color: #dddddd;
-    margin-left: 0.13333rem;
+    margin-left: 0.64rem;
+  }
+  .yjs-head .head-r .r-nav .show-form.show {
+    background: url("../images/wap-nav_sel.png") no-repeat;
+    background-size: 100% 100%;
   }
   .yjs-head .head-r .r-nav .show-nav {
     display: inline-block;
     width: 0.4rem;
     height: 0.34667rem;
     vertical-align: middle;
+    background: url("../images/wap-nav_nor.png") no-repeat;
+    background-size: 100% 100%;
+    margin-left: 0.24rem;
+  }
+  .yjs-head .head-r .r-nav .show-nav.show {
+    background: url("../images/wap-nav_sel.png") no-repeat;
+    background-size: 100% 100%;
   }
   .yjs-nav, .yjs-banner, .yjs-types {
     display: none;
   }
-  .wap-head-nav {
-    display: block;
+  .mark {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 11.56rem;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+  }
+  .mark.show {
+    display: block;
+  }
+  .wap-head-nav {
+    display: none;
+    width: 100%;
     background-color: #ffffff;
-    position: absolute;
+    position: fixed;
     top: 1.17333rem;
-    border: 1px solid red;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    z-index: 200;
+    padding: 0.26667rem 0.4rem;
+  }
+  .wap-head-nav .nav-item {
+    padding-top: 0.26667rem;
+  }
+  .wap-head-nav .nav-item h3 {
+    font-size: 0.42667rem;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 0.24rem;
+    margin-bottom: 0.24rem;
+    font-weight: bold;
+  }
+  .wap-head-nav .nav-item .item-cont {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 0.22667rem;
+    grid-row-gap: 0.26667rem;
+  }
+  .wap-head-nav .nav-item .item-cont a {
+    display: inline-block;
+    width: 2.13333rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background-color: #f7f8fa;
+    border-radius: 0.4rem;
+    text-align: center;
+    color: #666666;
+  }
+  .wap-head-nav .nav-item .item-cont a.active {
+    background-color: #1782e6;
+    color: #ffffff;
+  }
+  .wap-head-nav.show {
+    display: block;
   }
   .wap-banner {
     display: block;
+    margin-top: 1.17333rem;
   }
   .wap-nav {
     display: block;
@@ -4365,6 +4554,329 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   #footer .wap-copyright {
     display: block;
   }
+  /* 省份页面 */
+  .page-path {
+    display: none;
+  }
+  .tx-module3 {
+    padding: 0.4rem;
+  }
+  .tx-module3 .module3-left {
+    display: none;
+  }
+  .tx-module3 .module3-right {
+    width: 100%;
+    float: none;
+  }
+  .tx-module3 .module3-right .minTag {
+    display: none;
+  }
+  .tx-module3 .txPulicRight .newslist {
+    padding: 0;
+    border-top: 1px solid #eeeeee;
+  }
+  .tx-module3 .txPulicRight .newslist ul li {
+    width: 100%;
+    margin-right: 0;
+    padding-left: 0;
+    background-image: none;
+    border-bottom: 1px solid #eeeeee;
+  }
+  .tx-module3 .txPulicRight .newslist ul li:before {
+    display: inline-block;
+    content: '';
+    width: 0.10667rem;
+    height: 0.10667rem;
+    background-color: #1782e6;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 0.16rem;
+  }
+  .tx-module3 .txPulicRight .newslist ul li a {
+    display: inline-block;
+    width: 96%;
+    vertical-align: middle;
+  }
+  .tx-module3 .txPulicRight .sixPeople .title {
+    height: 1.06667rem;
+    line-height: 1.06667rem;
+    padding-top: 0.26667rem;
+  }
+  .tx-module3 .txPulicRight .sixPeople .title h2 {
+    font-size: 0.4rem;
+    line-height: 0.77333rem;
+    color: #1782e6;
+  }
+  .tx-module3 .txPulicRight .sixPeople .title p a {
+    color: #1782e6;
+  }
+  .tx-module3 .txPulicRight .sixPeople .people ul {
+    margin-right: -0.26667rem;
+  }
+  .tx-module3 .txPulicRight .sixPeople .people ul li {
+    width: 2.88rem;
+    height: 2.88rem;
+    border-radius: 0.08rem;
+    margin-right: 0.26667rem;
+    margin-bottom: 0.26667rem;
+  }
+  .tx-module3 .txPulicRight .injobFlow .title {
+    height: 1.06667rem;
+    line-height: 1.06667rem;
+    padding-top: 0.26667rem;
+  }
+  .tx-module3 .txPulicRight .injobFlow .title h2 {
+    font-size: 0.4rem;
+    line-height: 0.77333rem;
+    color: #1782e6;
+  }
+  .tx-module3 .txPulicRight .injobFlow .title p a {
+    color: #1782e6;
+  }
+  .tx-module3 .txPulicRight .injobFlow .flow {
+    margin-top: 0.4rem;
+  }
+  .tx-module3 .txPulicRight .injobFlow .flow ul {
+    margin-right: -0.26667rem;
+  }
+  .tx-module3 .txPulicRight .injobFlow .flow ul li {
+    width: 2.88rem;
+    height: 2.88rem;
+    border-radius: 0.08rem;
+    margin-right: 0.26667rem;
+    margin-bottom: 0.26667rem;
+  }
+  .tx-module4 {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1782e6), to(#1ca7ff));
+    background-image: linear-gradient(0deg, #1782e6 0%, #1ca7ff 100%);
+    margin-bottom: 0.26667rem;
+  }
+  .tx-module4 .selectTitle {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0.26667rem 0.4rem;
+  }
+  .tx-module4 .selectTitle h2 {
+    font-size: 0.53333rem;
+  }
+  .tx-module4 .selectTitle h2 span {
+    display: block;
+    font-size: 0.53333rem;
+  }
+  .tx-module4 .selectTitle p {
+    font-size: 0.32rem;
+    margin-top: 0.24rem;
+  }
+  .tx-module4 form.sign-in {
+    background-color: #ffffff;
+    padding: 0 0.4rem 0.26667rem;
+  }
+  .tx-module4 form.sign-in input {
+    height: 1.06667rem;
+    line-height: 1.06667rem;
+  }
+  .tx-module4 form.sign-in .inputBox input[type='text'] {
+    width: 100%;
+    background-color: #f5f6f7;
+    border-radius: 0.05333rem;
+    border: solid 1px #eeeeee;
+    font-size: 0.37333rem;
+    background-image: none;
+    margin-bottom: 0.4rem;
+    text-indent: 1em;
+  }
+  .tx-module4 form.sign-in input[type='submit'] {
+    width: 100%;
+    margin: 0;
+    font-size: 0.42667rem;
+  }
+  .tx-module4 form.sign-in p {
+    font-size: 0.29333rem;
+    margin-top: 0.24rem;
+  }
+  .q-2 {
+    background-color: #ffffff;
+    padding: 0 0.4rem;
+  }
+  .q-2 .c {
+    padding: 0;
+  }
+  .q-2 .c .l {
+    float: none;
+    width: 100%;
+  }
+  .q-2 .c .l .list li {
+    padding-bottom: 0.26667rem;
+    margin-bottom: 0.26667rem;
+  }
+  .q-2 .c .l .list li .w {
+    margin-left: 0;
+    width: 0.66667rem;
+    height: 0.66667rem;
+    line-height: 0.66667rem;
+    background: url("../images/wap-sf-icon_1.png") no-repeat;
+    background-size: 100% 100%;
+    font-size: 0.32rem;
+  }
+  .q-2 .c .l .list li .d {
+    padding-left: 0.74667rem;
+  }
+  .q-2 .c .l .list li .d .t h4 a {
+    margin-bottom: 0.13333rem;
+  }
+  .q-2 .c .l .list li .d span {
+    display: none;
+  }
+  .q-2 .c .l .list li .d p {
+    padding-right: 0;
+  }
+  .q-2 .c .l .list2 li {
+    margin: 0.13333rem 0;
+  }
+  .q-2 .c .l .list2 li:after {
+    background: #1782e6;
+  }
+  .q-2 .c .l .list2 li a p {
+    width: 86%;
+  }
+  .q-2 .c .r {
+    float: none;
+    width: 100%;
+  }
+  .q-2 .c .r .title h4 {
+    font-size: 0.4rem;
+    padding-bottom: 0.25333rem;
+    color: #1782e6;
+  }
+  .q-2 .c .r .list {
+    margin-top: 0.26667rem;
+  }
+  .q-2 .c .r .list li {
+    margin-bottom: 0.26667rem;
+  }
+  .q-2 .c .r .list li a {
+    display: block;
+    width: 100%;
+  }
+  .q-2 .c .r .list li i {
+    border-radius: 50%;
+    margin-right: 0.26667rem;
+    vertical-align: middle;
+  }
+  .q-2 .c .r .list li p {
+    width: 78%;
+    vertical-align: middle;
+  }
+  .q-2 .c .r .gg {
+    display: none;
+  }
+  .q-3 {
+    background-color: #ffffff;
+    padding: 0 0.4rem;
+  }
+  .q-3 .c {
+    padding: 0;
+  }
+  .q-3 .c .l {
+    float: none;
+    width: 100%;
+  }
+  .q-3 .c .l .tlist li {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.26667rem;
+    margin-bottom: 0.26667rem;
+  }
+  .q-3 .c .l .tlist li .top h4 a {
+    width: 86%;
+    height: 0.56rem;
+    font-size: 0.4rem;
+    padding-left: 0.74667rem;
+    margin-bottom: 0.26667rem;
+  }
+  .q-3 .c .l .tlist li .top h4 a:after {
+    content: '资';
+    width: 0.56rem;
+    height: 0.56rem;
+    line-height: 0.56rem;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1782e6), to(#1ca7ff)), -webkit-gradient(linear, left top, left bottom, from(#1782e6), to(#1782e6));
+    background-image: linear-gradient(0deg, #1782e6 0%, #1ca7ff 100%), linear-gradient(#1782e6, #1782e6);
+    background-blend-mode: normal, normal;
+    -webkit-box-shadow: 0px 0.04rem 0.18667rem 0.02667rem rgba(23, 130, 230, 0.2);
+            box-shadow: 0px 0.04rem 0.18667rem 0.02667rem rgba(23, 130, 230, 0.2);
+    top: 0;
+    font-size: 0.32rem;
+    text-align: center;
+    color: #ffffff;
+  }
+  .q-3 .c .l .list li {
+    padding-bottom: 0.26667rem;
+    margin-bottom: 0.26667rem;
+  }
+  .q-3 .c .l .list li .w {
+    margin-left: 0;
+    width: 0.66667rem;
+    height: 0.66667rem;
+    line-height: 0.66667rem;
+    background: url("../images/wap-sf-icon_1.png") no-repeat;
+    background-size: 100% 100%;
+    font-size: 0.32rem;
+  }
+  .q-3 .c .l .list li .d {
+    padding-left: 0.74667rem;
+  }
+  .q-3 .c .l .list li .d .t h4 a {
+    margin-bottom: 0.13333rem;
+  }
+  .q-3 .c .l .list li .d span {
+    display: none;
+  }
+  .q-3 .c .l .list li .d p {
+    padding-right: 0;
+  }
+  .q-3 .c .l .list2 li {
+    margin: 0.13333rem 0;
+  }
+  .q-3 .c .l .list2 li:after {
+    background: #1782e6;
+  }
+  .q-3 .c .l .list2 li a p {
+    width: 86%;
+  }
+  .q-3 .c .r {
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .q-3 .c .r .title h4 {
+    font-size: 0.4rem;
+    padding-bottom: 0.25333rem;
+    color: #1782e6;
+  }
+  .q-3 .c .r .list {
+    margin-top: 0.26667rem;
+  }
+  .q-3 .c .r .list li {
+    margin-bottom: 0.26667rem;
+  }
+  .q-3 .c .r .list li a {
+    display: block;
+    width: 100%;
+  }
+  .q-3 .c .r .list li i {
+    border-radius: 50%;
+    margin-right: 0.26667rem;
+    vertical-align: middle;
+  }
+  .q-3 .c .r .list li p {
+    width: 78%;
+    vertical-align: middle;
+  }
+  .q-3 .c .r .list2 li a p {
+    width: 86%;
+  }
+  .q-3 .c .r .gg {
+    display: none;
+  }
   .wap-footer {
     display: block;
     width: 10rem;
@@ -4412,5 +4924,366 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
   .wap-footer .consult.online {
     background-color: #1782e6;
+  }
+  .wap-form-popup {
+    display: none;
+    width: 8.4rem;
+    height: 10.06667rem;
+    position: fixed;
+    top: 3.85333rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../images/wap-form-popup.png") no-repeat;
+    background-size: 100% 100%;
+    z-index: 200;
+  }
+  .wap-form-popup .form-popup-title {
+    text-align: center;
+    color: #333333;
+    font-size: 0.58667rem;
+    line-height: 0.8rem;
+    padding-top: 0.53333rem;
+  }
+  .wap-form-popup .form-popup-title strong {
+    color: #1782e6;
+    font-size: 0.58667rem;
+  }
+  .wap-form-popup .sign-in {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0.4rem 0.4rem 0;
+  }
+  .wap-form-popup .sign-in .sign-in-title {
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+  }
+  .wap-form-popup .sign-in input {
+    width: 100%;
+    height: 1.17333rem;
+    line-height: 1.17333rem;
+    background-color: #f5f6f7;
+    border-radius: 0.08rem;
+    border: solid 1px #eeeeee;
+    margin-bottom: 0.4rem;
+  }
+  .wap-form-popup .sign-in input[type="submit"] {
+    background-color: #1782e6;
+    border: solid 1px #1782e6;
+    color: #ffffff;
+  }
+  .wap-form-popup .close {
+    display: block;
+    width: 0.74667rem;
+    height: 0.74667rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+  }
+  /* 院校库 页面 */
+  .academy {
+    margin-bottom: 0.26667rem;
+    background-color: #ffffff;
+  }
+  .academy .academy-types {
+    padding: 0 0.4rem;
+    margin-bottom: 0;
+  }
+  .academy .academy-types .studying-types {
+    padding: 0;
+    width: 50%;
+    padding: 0.32rem 0;
+    float: left;
+    text-align: center;
+    border-bottom: none;
+  }
+  .academy .academy-types .studying-types:first-child .types-l {
+    border-right: 1px solid #dddddd;
+  }
+  .academy .academy-types .studying-types .types-l {
+    float: none;
+    margin-right: 0;
+    position: relative;
+    line-height: 0.4rem;
+  }
+  .academy .academy-types .studying-types .types-l:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 0.10667rem solid transparent;
+    border-right: 0.10667rem solid transparent;
+    border-bottom: 0.16rem solid #cccccc;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0.09333rem;
+  }
+  .academy .academy-types .studying-types .types-r {
+    float: none;
+    width: 10rem;
+    padding: 0 0.4rem;
+    background-color: #ffffff;
+    padding-top: 0.26667rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0.26667rem;
+    grid-row-gap: 0.26667rem;
+    position: absolute;
+    left: 0;
+    border: 1px solid red;
+  }
+  .academy .academy-types .studying-types .types-r a {
+    padding: 0;
+    width: 2.88rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background-color: #f7f8fa;
+    border-radius: 0.4rem;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .academy .academy-types .studying-types .types-r a.active {
+    background-color: #1782e6;
+    color: #ffffff;
+  }
+  .academy .academy-types .studying-types .types-r span {
+    height: 34px;
+    line-height: 32px;
+    border: solid 1px #dddddd;
+    font-size: 16px;
+    color: #666666;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  .academy .academy-types .studying-types .types-r .more a.active {
+    background-color: transparent;
+    color: #444444;
+  }
+  .academy .academy-types .studying-types .types-r .more a:hover {
+    color: #1782e6;
+  }
+  .academy .academy-types .studying-types #type, .academy .academy-types .studying-types #area {
+    display: none;
+  }
+  .academy .academy-types .studying-types:last-child {
+    border-bottom: 0;
+  }
+  .academy .sel-types {
+    display: none;
+  }
+  .academy .academy-tab {
+    padding: 0 0.4rem;
+    background-color: #ffffff;
+  }
+  .academy .academy-tab .tab-head {
+    display: none;
+  }
+  .academy .academy-tab .tab-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0.26667rem;
+    grid-row-gap: 0.26667rem;
+    background-color: #ffffff;
+  }
+  .academy .academy-tab .body-item {
+    width: 4.46667rem;
+    height: 3.52rem;
+    padding: 0.62667rem 0 0;
+    margin-left: 0;
+    border-bottom: 1px solid #eeeeee;
+    -webkit-box-shadow: 0px 0.13333rem 0.4rem 0px rgba(51, 51, 51, 0.15);
+            box-shadow: 0px 0.13333rem 0.4rem 0px rgba(51, 51, 51, 0.15);
+    position: relative;
+  }
+  .academy .academy-tab .body-item .school-name {
+    display: none;
+  }
+  .academy .academy-tab .body-item .school-speciality {
+    height: 0.4rem;
+    line-height: 0.4rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .academy .academy-tab .body-item .school-speciality span {
+    width: 0.8rem;
+    color: #ffffff;
+    text-align: center;
+    padding: 0;
+    font-size: 0.26667rem;
+    line-height: 0.4rem;
+    float: left;
+  }
+  .academy .academy-tab .body-item .school-speciality .first {
+    border-radius: 0;
+  }
+  .academy .academy-tab .body-item .school-speciality .second {
+    border-radius: 0;
+  }
+  .academy .academy-tab .body-item .school-operation a {
+    border: 1px solid #1782e6;
+    color: #1782e6;
+    width: 1.28rem;
+    height: 0.45333rem;
+    line-height: 0.45333rem;
+    border-radius: 0.05333rem;
+    font-size: 0.26667rem;
+    margin: 0;
+    padding: 0;
+  }
+  .academy .academy-tab .body-item .school-operation a:hover {
+    background-color: #1782e6;
+    color: #ffffff;
+  }
+  .academy .academy-tab .body-item > div {
+    float: none;
+  }
+  .academy .academy-tab .body-item .school-logo {
+    width: 3.30667rem;
+    height: 0.93333rem;
+    margin: 0 auto;
+  }
+  .academy .academy-tab .body-item .school-logo img {
+    vertical-align: top;
+  }
+  .academy .academy-tab .body-item .school-speciality {
+    width: 1.6rem;
+  }
+  .academy .academy-tab .body-item .school-major {
+    width: 88%;
+    height: 0.66667rem;
+    line-height: 0.66667rem;
+    border-top: 1px solid #eeeeee;
+    margin: 0.24rem auto;
+  }
+  .academy .academy-tab .body-item .school-major span {
+    color: #333333;
+    border-right: 1px solid #dddddd;
+    font-size: 0.32rem;
+    line-height: 0.34667rem;
+    padding: 0 0.13333rem;
+  }
+  .academy .academy-tab .body-item .school-operation {
+    width: 100%;
+    height: 0.45333rem;
+    line-height: 0.45333rem;
+  }
+  /* 分页 */
+  .page-wrap {
+    background-color: #ffffff;
+  }
+  .page-wrap .page {
+    margin: 0.26667rem auto;
+    line-height: 34px;
+    *margin-top: 10px;
+  }
+  .page-wrap .page a {
+    color: #666;
+    display: block;
+    float: left;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    background: #fff;
+    font-size: 0.29333rem;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .page-wrap .page a.first, .page-wrap .page a.end {
+    width: 1.06667rem;
+    background: #eee;
+  }
+  .page-wrap .page a.end {
+    display: none;
+  }
+  .page-wrap .page a.next, .page-wrap .page a.prev {
+    width: 1.16rem;
+    background: #eee;
+  }
+  .page-wrap .page a.cur, .page-wrap .page a:hover {
+    background: #1782e6;
+    color: #fff;
+    border-color: #1782e6;
+  }
+  .page-wrap .page span {
+    display: block;
+    float: left;
+    width: 32px;
+    height: 32px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #212b4c;
+    margin-left: -10px;
+  }
+  .page-wrap .page span.total {
+    width: auto;
+    line-height: 34px;
+    margin-right: 10px;
+    color: #666;
+  }
+  /* 院校终端-首页 */
+  .yxzd-topbar .wrap > h1 {
+    display: none;
+  }
+  .yxzd-topbar .topbar-nav, .yxzd-topbar .cities-nav {
+    display: none;
+  }
+  .yxzd-topbar h1 {
+    float: none;
+    border-right: none;
+  }
+  .yxzd-topbar .head-r {
+    display: block;
+  }
+  .yxzd-banner {
+    height: 1.04rem;
+    background-color: #ffffff;
+    background-image: none;
+  }
+  .yxzd-banner .yxzd-logo {
+    display: none;
+  }
+  .yxzd-banner .nav-menu {
+    margin-left: 0;
+    width: 100%;
+    height: 1.04rem;
+    text-align: center;
+  }
+  .yxzd-banner .nav-menu li {
+    height: 0.66667rem;
+    line-height: 0.66667rem;
+  }
+  .yxzd-banner .nav-menu li a {
+    padding: 0 0.05333rem;
+    color: #333333;
+    font-size: 0.37333rem;
+  }
+  .yxzd-banner .nav-menu li.cur a {
+    color: #1782e6;
+    border-bottom: 0.02667rem solid #1782e6;
+    padding-bottom: 0.16rem;
+  }
+  .yxzd-l {
+    background-color: #ffffff;
+  }
+  .q-4 {
+    padding: 0.4rem;
+  }
+  .q-4 .c {
+    padding: 0;
+  }
+  .q-4 .c .top .img {
+    float: none;
+  }
+  .q-4 .c .top .box {
+    float: none;
   }
 }

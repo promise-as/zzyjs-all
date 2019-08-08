@@ -68,12 +68,6 @@ $(function () {
   /* 院校库 */
   clickHandle('.types-r a', 'active');
 
-  var mySwiper = new Swiper('.swiper-container', {
-    // 如果需要分页器
-    pagination: '.swiper-pagination',
-
-    // autoplay: 2000,
-  });
 
   /* 回到顶部 */
   $('#toTop').click(function () {
@@ -101,6 +95,37 @@ $(function () {
     $(this).find('.provinces').css('display', 'block');
   });
 
+  // wap
+  if ($(document).width() <= 750) {
+    /* 首页 头部右上角 */
+    $('.show-nav').click(function () {
+      $(this).toggleClass('show');
+      $('.wap-head-nav').toggleClass('show');
+      $('.mark').toggleClass('show');
+    });
+
+    /* 首页 头部右上角 搜索 */
+    $('.show-form').click(function () {
+      $(this).toggleClass('show');
+      $('.r-search').toggleClass('show');
+      $('.mark').toggleClass('show');
+      $('.head-l').toggleClass('hide');
+    });
+
+    /* 首页 头部隐藏的选择 */
+    $('.wap-head-nav a').click(function () {
+      $(this).addClass('active').siblings().removeClass('active');
+    });
+
+  }
+
+});
+
+var mySwiper = new Swiper('.swiper-container', {
+  // 如果需要分页器
+  pagination: '.swiper-pagination',
+
+  // autoplay: 2000,
 });
 
 function CheckForm() {

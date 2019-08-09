@@ -8,7 +8,7 @@ $browser-default-font-size: 75px !default;
 $padding-size:pr(30px);
 
 body {
-  //overflow-x: auto;
+  overflow-x: auto;
   min-width: 1100px;
   font-size: 14px;
   background-color: #f5f7fa;
@@ -1341,8 +1341,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   margin-bottom: 20px;
   .c {
     background: #fff;
-    padding: 20px;
-    //margin-top: 24px;
+    padding: 30px 20px 10px;
     .l {
       float: left;
       width: 510px;
@@ -1355,7 +1354,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
             width: 40px;
             height: 45px;
             line-height: 38px;
-            margin-left: 10px;
+            //margin-left: 10px;
             text-align: center;
             float: left;
             //background: url(../images/icon_15.png) no-repeat center;
@@ -1506,7 +1505,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 .q-3 {
   .c {
     background: #fff;
-    padding: 20px;
+    padding: 30px 20px 10px;
     .l {
       width: 510px;
       float: left;
@@ -1670,6 +1669,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
         float: right;
         .t1 {
           margin-bottom: 24px;
+          margin-top: -4px;
           h4 {
             @extend %in-b;
             font-size: 20px;
@@ -1714,7 +1714,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
           }
         }
         .dq {
-          margin-bottom: 14px;
+          margin-bottom: 10px;
           span {
             display: inline-block;
             color: #666666;
@@ -1837,6 +1837,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     }
   }
 }
+
 /* 17.预约一对一（院校终端-首页） */
 .q-5 {
   margin-bottom: 20px;
@@ -1986,6 +1987,8 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
       margin-bottom: 14px;
       a {
         line-height: 1.6;
+        @extend %in-b;
+        width: 100%;
         i {
           display: inline-block;
           text-align: center;
@@ -1996,6 +1999,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
           background: #c8cacc;
           color: #fff;
           font-size: 14px;
+          vertical-align: middle;
           &.i1 {
             background: #ef4848;
             color: #fff
@@ -2008,6 +2012,10 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
             background: #ffac38;
             color: #fff
           }
+        }
+        p{
+          float: right;
+          width: 86%;
         }
       }
       &:last-child {
@@ -2059,7 +2067,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 .yjs-recommend {
   margin-bottom: 20px;
   .title-module {
-    margin-top: 64px;
+    margin-top: 30px;
     //margin-bottom: 24px;
   }
   .recommend {
@@ -2133,6 +2141,9 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
               font-size: 14px;
               line-height: 14px;
               color: #666666;
+              span{
+                margin: 0 10px;
+              }
             }
           }
           .emphasis {
@@ -2488,375 +2499,44 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 .yxzd-l {
   float: left;
   width: 780px;
+}
+.pc-hide{
+  display: none;
+}
 
-  .pc-hide{
-    display: none;
-  }
-
-  /* 学员问答 */
-  .yxzd-l-wd {
-    //height: 490px;
-    background-color: #ffffff;
-    padding: 20px;
-    margin-bottom: 20px;
-    .title-module {
-      //margin-bottom: 20px;
-      .more {
-        width: 54px;
-        height: 22px;
-        line-height: 20px;
-        text-align: center;
-        border-radius: 2px;
-        border: solid 1px #dddddd;
-      }
-    }
-
-    ul{
-      img.mba{
-        margin-bottom: 36px;
-      }
-      li{
-        border-bottom: 1px solid #eeeeee;
-        padding-bottom: 20px;
-        padding-top: 20px;
-        &:first-child{
-          padding-top: 0;
-        }
-        h4{
-          a{
-            color: #333333;
-            font-size: 16px;
-            &:hover{
-              color: $bg-color;
-            }
-          }
-        }
-      }
-    }
-    .wd-good {
-      @extend %clearfix;
-      border-bottom: 1px solid #eeeeee;
-      padding-bottom: 20px;
-      i {
-        @extend %in-b;
-        width: 40px;
-        height: 45px;
-        background: url('../images/css_sprites.png') -10px -70px;
-        text-align: center;
-        color: #ffffff;
-        line-height: 36px;
-        font-size: 16px;
-        font-weight: bold;
-        float: left;
-        margin-right: 20px;
-      }
-      .good-text {
-        width: 677px;
-        float: left;
-        .title-module {
-          a{
-            color: #333333;
-            font-size: 16px;
-            &:hover{
-              color: $bg-color;
-            }
-          }
-        }
-      }
-      &.xywd {
-        margin-bottom: 20px;
-        .good-text {
-          width: 100%;
-        }
-      }
-    }
-    .wd-list {
-      font-size: 14px;
-      @extend %clearfix;
-      ul {
-        width: 348px;
-        float: left;
-        li {
-          padding-top: 14px;
-          a {
-            @extend %point-a;
-            span {
-              float: right;
-            }
-          }
-        }
-        &:nth-of-type(odd) {
-          margin-right: 42px;
-        }
-      }
-    }
-    .jz-item{
-      @extend %clearfix;
-      p{
-        text-indent: 2em;
-        line-height: 2;
-      }
-      > div{
-        line-height: 2;
-      }
-      img{
-        padding-top: 20px;
-        margin-bottom: 20px;
-      }
-      .paging {
-        width: 363px;
-        float: left;
-        padding-top: 20px;
-        a {
-          @extend %in-b;
-          @extend %one;
-          color: #8a9299;
-          &:hover {
-            color: $bg-color;
-          }
-        }
-      }
-      .paging-r {
-        float: right;
-        padding-top: 20px;
-        .paging-r-logo {
-          float: left;
-          width: 174px;
-          height: 56px;
-          border: solid 1px #eeeeee;
-          background: url("../images/renmingdaxue.png") no-repeat center #ffffff;
-          margin-right: 10px;
-        }
-        .paging-r-btn {
-          float: right;
-          width: 144px;
-          height: 56px;
-          border-radius: 2px;
-          color: #ffffff;
-          font-size: 16px;
-          background: url("../images/jz-icon_1.png") no-repeat #1782e6 16%;
-          text-align: center;
-          line-height: 56px;
-          text-indent: 1em;
-        }
-      }
-    }
-  }
-  /* 问答终端 */
-  .yxzd-l-wdzd {
-    //height: 567px;
-    background-color: #ffffff;
-    padding: 20px;
-    margin-bottom: 20px;
-    //border: 1px solid red;
-    .title-module {
-      margin-bottom: 20px;
-      .more {
-        width: 54px;
-        height: 22px;
-        line-height: 20px;
-        text-align: center;
-        border-radius: 2px;
-        border: solid 1px #dddddd;
-      }
-    }
-    .wd-good {
-      @extend %clearfix;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      border-bottom: 1px solid #eeeeee;
-      .icon {
-        @extend %in-b;
-        width: 46px;
-        height: 36px;
-        background: url('../images/css_sprites.png') -146px -10px;
-        text-align: center;
-        color: #ffffff;
-        line-height: 36px;
-        font-size: 16px;
-        font-weight: bold;
-        float: left;
-        margin-right: 10px;
-        margin-top: -2px;
-      }
-      .icon-d {
-        @extend %in-b;
-        width: 46px;
-        height: 36px;
-        background: url('../images/css_sprites.png') -146px -66px;
-        text-align: center;
-        color: #ffffff;
-        line-height: 36px;
-        font-size: 16px;
-        font-weight: bold;
-        float: left;
-        margin-right: 10px;
-        margin-top: -2px;
-      }
-      .good-text {
-        width: 682px;
-        float: left;
-        .title-module {
-          .title-l {
-            span {
-              font-size: 16px;
-            }
-          }
-        }
-        .text {
-          padding-bottom: 20px;
-          line-height: 1.6;
-        }
-        .text-msg {
-          font-size: 14px;
-          line-height: 14px;
-          color: #8a9299;
-          .source {
-            vertical-align: middle;
-            margin-right: 20px;
-            i {
-              @extend %in-b;
-              vertical-align: middle;
-              width: 14px;
-              height: 12px;
-              background: url('../images/css_sprites.png') -364px -213px;
-            }
-          }
-          .author {
-            vertical-align: middle;
-            margin-right: 20px;
-            i {
-              @extend %in-b;
-              vertical-align: middle;
-              width: 14px;
-              height: 16px;
-              background: url('../images/css_sprites.png') -191px -295px;
-            }
-          }
-          .time {
-            vertical-align: middle;
-            i {
-              @extend %in-b;
-              vertical-align: middle;
-              width: 14px;
-              height: 14px;
-              background: url('../images/css_sprites.png') -364px -10px;
-            }
-          }
-        }
-      }
-    }
-    .paging {
-      @extend %clearfix;
-      padding-top: 20px;
-      a {
-        @extend %in-b;
-        width: 331px;
-        @extend %one;
-      }
-      .prev {
-        float: left;
-      }
-      .next {
-        float: right;
-      }
+/* 学员问答 */
+.yxzd-l-wd {
+  //height: 490px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  .title-module {
+    //margin-bottom: 20px;
+    .more {
+      width: 54px;
+      height: 22px;
+      line-height: 20px;
+      text-align: center;
+      border-radius: 2px;
+      border: solid 1px #dddddd;
     }
   }
 
-  /* 信息分类 */
-  .msg-classify {
-    margin-bottom: 20px;
-    .msg-types {
-      padding: 0 20px;
-      background-color: #ffffff;
-      margin-bottom: 20px;
-      .item {
-        border-bottom: 1px solid #eeeeee;
-        padding: 20px 0;
-        @extend %clearfix;
-        .types-l {
-          float: left;
-          margin-right: 20px;
-        }
-        .types-r {
-          float: left;
-          max-width: 650px;
-          a {
-            @extend %in-b;
-            height: 24px;
-            line-height: 24px;
-            text-align: center;
-            padding: 0 6px;
-            margin-right: 20px;
-            margin-bottom: 10px;
-            i {
-              @extend %in-b;
-              width: 10px;
-              height: 7px;
-              vertical-align: middle;
-              background: url("../images/yjs-icon_1.png") no-repeat;
-              margin-left: 9px;
-            }
-            &:hover {
-              color: $bg-color;
-              i {
-                transform: rotate(180deg);
-              }
-            }
-            &.active {
-              background-color: $bg-color;
-              color: #ffffff;
-            }
-          }
-          .more{
-            @extend %in-b;
-            a{
-              color: #444444;
-              &.active{
-                background-color: transparent;
-                color: #444444;
-              }
-              &:hover{
-                color: $bg-color;
-              }
-            }
-          }
-          span {
-            @extend %in-b;
-            //width: 100px;
-            height: 34px;
-            line-height: 32px;
-            border: solid 1px #dddddd;
-            font-size: 16px;
-            color: #666666;
-            padding-left: 10px;
-            padding-right: 10px;
-            margin-right: 20px;
-            //cursor: pointer;
-            //background: url("../images/yxk-close.png") no-repeat 90%;
-            text-align: center;
-          }
-        }
-        &:last-child {
-          border-bottom: 0;
-        }
-      }
+  ul{
+    img.mba{
+      margin-bottom: 36px;
     }
-  }
-
-  /* 信息分类 问答 */
-  .msg-wd {
-    background-color: #ffffff;
-    padding: 10px 20px;
-    .wd-item {
+    li{
       border-bottom: 1px solid #eeeeee;
       padding-bottom: 20px;
       padding-top: 20px;
-      .title-module {
-        margin-bottom: 10px;
+      &:first-child{
+        padding-top: 0;
+      }
+      h4{
         a{
-          font-size: 16px;
           color: #333333;
+          font-size: 16px;
           &:hover{
             color: $bg-color;
           }
@@ -2864,296 +2544,636 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
       }
     }
   }
-
-  /* 招生简章 */
-  .brochures {
-    width: 780px;
-    background-color: #ffffff;
-    padding: 20px;
-    margin-bottom: 20px;
-    .jz-title {
+  .wd-good {
+    @extend %clearfix;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 20px;
+    i {
+      @extend %in-b;
+      width: 40px;
+      height: 45px;
+      background: url('../images/css_sprites.png') -10px -70px;
       text-align: center;
-      border-bottom: 1px solid #eeeeee;
-      padding-bottom: 20px;
-      p {
-        font-size: 26px;
-        line-height: 28px;
-        color: #333333;
-      }
+      color: #ffffff;
+      line-height: 36px;
+      font-size: 16px;
+      font-weight: bold;
+      float: left;
+      margin-right: 20px;
     }
-    .title-module {
-      margin-bottom: 20px;
-      .title-l {
-        span {
-          font-size: 18px;
-        }
-      }
-    }
-    .jz-item {
-      padding-top: 20px;
-      @extend %clearfix;
-      p {
-        text-indent: 2em;
-        line-height: 2;
-      }
-      .course {
-        border-top: 1px solid #c4d1de;
-        border-left: 1px solid #c4d1de;
-        background-color: #f3f7f8;
-        .course-row {
-          @extend %clearfix;
-          border-bottom: 1px solid #c4d1de;
-          .row-item {
-            float: left;
-            //height: 145px;
-            border-right: 1px solid #c4d1de;
-            span {
-              display: block;
-              height: 30px;
-              line-height: 30px;
-              border-bottom: 1px solid #c4d1de;
-              &:last-child {
-                border-bottom: none;
-              }
-            }
-            &:nth-of-type(2) {
-              width: 290px;
-              text-align: center;
-              background-color: #ffffff;
-            }
-            &:nth-of-type(3) {
-              width: 260px;
-              background-color: #ffffff;
-            }
-          }
-          .row-title {
-            width: 188px;
-            //line-height: 145px;
-            text-align: center;
-          }
-          &:nth-of-type(1) {
-            .row-item {
-              &:nth-of-type(1) {
-                line-height: 150px;
-              }
-              &:last-child {
-                height: 150px;
-                padding: 30px 10px;
-                line-height: 1.8;
-              }
-            }
-          }
-          &:nth-of-type(2) {
-            .row-item {
-              &:nth-of-type(1) {
-                line-height: 180px;
-              }
-              &:last-child {
-                height: 180px;
-                padding: 10px 10px;
-                line-height: 1.8;
-              }
-            }
-          }
-          &:nth-of-type(3) {
-            .row-item {
-              &:nth-of-type(1) {
-                line-height: 60px;
-              }
-              &:last-child {
-                height: 60px;
-                padding: 0px 10px;
-                line-height: 1.4;
-              }
-            }
-          }
-          &:nth-of-type(4) {
-            .row-item {
-              &:nth-of-type(1) {
-                line-height: 90px;
-              }
-              &:last-child {
-                height: 90px;
-                padding: 20px 10px;
-                line-height: 1.8;
-              }
-            }
-          }
-        }
-      }
-
-      .paging {
-        width: 363px;
-        float: left;
-        a {
-          @extend %in-b;
-          @extend %one;
-          color: #8a9299;
-          &:hover {
+    .good-text {
+      width: 677px;
+      float: left;
+      .title-module {
+        a{
+          color: #333333;
+          font-size: 16px;
+          &:hover{
             color: $bg-color;
           }
         }
       }
-      .paging-r {
-        float: right;
-        .paging-r-logo {
-          float: left;
-          width: 174px;
-          height: 56px;
-          border: solid 1px #eeeeee;
-          background: url("../images/renmingdaxue.png") no-repeat center #ffffff;
-          margin-right: 10px;
+    }
+    &.xywd {
+      margin-bottom: 20px;
+      .good-text {
+        width: 100%;
+      }
+    }
+  }
+  .wd-list {
+    font-size: 14px;
+    @extend %clearfix;
+    ul {
+      width: 348px;
+      float: left;
+      li {
+        padding-top: 14px;
+        a {
+          @extend %point-a;
+          span {
+            float: right;
+          }
         }
-        .paging-r-btn {
-          float: right;
-          width: 144px;
-          height: 56px;
-          border-radius: 2px;
-          color: #ffffff;
-          font-size: 16px;
-          background: url("../images/jz-icon_1.png") no-repeat #1782e6 16%;
-          text-align: center;
-          line-height: 56px;
-          text-indent: 1em;
+      }
+      &:nth-of-type(odd) {
+        margin-right: 42px;
+      }
+    }
+  }
+  .jz-item{
+    @extend %clearfix;
+    p{
+      text-indent: 2em;
+      line-height: 2;
+    }
+    > div{
+      line-height: 2;
+    }
+    img{
+      padding-top: 20px;
+      margin-bottom: 20px;
+    }
+    .paging {
+      width: 363px;
+      float: left;
+      padding-top: 20px;
+      a {
+        @extend %in-b;
+        @extend %one;
+        color: #8a9299;
+        &:hover {
+          color: $bg-color;
+        }
+      }
+    }
+    .paging-r {
+      float: right;
+      padding-top: 20px;
+      .paging-r-logo {
+        float: left;
+        width: 174px;
+        height: 56px;
+        border: solid 1px #eeeeee;
+        background: url("../images/renmingdaxue.png") no-repeat center #ffffff;
+        margin-right: 10px;
+      }
+      .paging-r-btn {
+        float: right;
+        width: 144px;
+        height: 56px;
+        border-radius: 2px;
+        color: #ffffff;
+        font-size: 16px;
+        background: url("../images/jz-icon_1.png") no-repeat #1782e6 16%;
+        text-align: center;
+        line-height: 56px;
+        text-indent: 1em;
+      }
+    }
+  }
+}
+/* 问答终端 */
+.yxzd-l-wdzd {
+  //height: 567px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  //border: 1px solid red;
+  .title-module {
+    margin-bottom: 20px;
+    .more {
+      width: 54px;
+      height: 22px;
+      line-height: 20px;
+      text-align: center;
+      border-radius: 2px;
+      border: solid 1px #dddddd;
+    }
+  }
+  .wd-good {
+    @extend %clearfix;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+    .icon {
+      @extend %in-b;
+      width: 46px;
+      height: 36px;
+      background: url('../images/css_sprites.png') -146px -10px;
+      text-align: center;
+      color: #ffffff;
+      line-height: 36px;
+      font-size: 16px;
+      font-weight: bold;
+      float: left;
+      margin-right: 10px;
+      margin-top: -2px;
+    }
+    .icon-d {
+      @extend %in-b;
+      width: 46px;
+      height: 36px;
+      background: url('../images/css_sprites.png') -146px -66px;
+      text-align: center;
+      color: #ffffff;
+      line-height: 36px;
+      font-size: 16px;
+      font-weight: bold;
+      float: left;
+      margin-right: 10px;
+      margin-top: -2px;
+    }
+    .good-text {
+      width: 682px;
+      float: left;
+      .title-module {
+        .title-l {
+          span {
+            font-size: 16px;
+          }
+        }
+      }
+      .text {
+        padding-bottom: 20px;
+        line-height: 1.6;
+      }
+      .text-msg {
+        font-size: 14px;
+        line-height: 14px;
+        color: #8a9299;
+        i{
+          vertical-align: middle;
+        }
+        .source {
+          vertical-align: middle;
+          margin-right: 20px;
+          i {
+            @extend %in-b;
+            vertical-align: middle;
+            width: 14px;
+            height: 12px;
+            background: url("../images/icon_36.png") no-repeat;
+            background-size: 100% 100%;
+          }
+        }
+        .author {
+          vertical-align: middle;
+          margin-right: 20px;
+          i {
+            @extend %in-b;
+            vertical-align: middle;
+            width: 14px;
+            height: 16px;
+            background: url("../images/icon_22.png") no-repeat;
+            background-size: 100% 100%;
+          }
+        }
+        .time {
+          vertical-align: middle;
+          i {
+            @extend %in-b;
+            vertical-align: middle;
+            width: 14px;
+            height: 14px;
+            background: url("../images/icon_20.png") no-repeat;
+            background-size: 100% 100%;
+          }
         }
       }
     }
   }
-  /* 其他院校 */
-  .others-schools {
-    width: 780px;
-    //height: 472px;
-    background-color: #ffffff;
-    padding: 20px;
+  .paging {
     @extend %clearfix;
-    .title-module {
-      margin-bottom: 20px;
-      .title-l {
-        span {
-          font-size: 18px;
+    padding-top: 20px;
+    a {
+      @extend %in-b;
+      width: 331px;
+      @extend %one;
+    }
+    .prev {
+      float: left;
+    }
+    .next {
+      float: right;
+    }
+  }
+}
+
+/* 信息分类 */
+.msg-classify {
+  margin-bottom: 20px;
+  .msg-types {
+    padding: 0 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    @extend %clearfix;
+    .item {
+      border-bottom: 1px solid #eeeeee;
+      padding: 20px 0;
+      @extend %clearfix;
+      .types-l {
+        float: left;
+        margin-right: 20px;
+        &:after{
+          content: ':';
         }
       }
-    }
-    .others-l {
-      float: left;
-      width: 510px;
-
-      .others-l-item {
-        border-bottom: 1px solid #dddddd;
-        padding-bottom: 20px;
-        padding-top: 20px;
-        @extend %clearfix;
-        img {
-          border: 1px solid #eeeeee;
-          float: left;
+      .types-r {
+        float: left;
+        max-width: 650px;
+        a {
+          @extend %in-b;
+          height: 24px;
+          line-height: 24px;
+          text-align: center;
+          padding: 0 6px;
+          margin-right: 20px;
+          margin-bottom: 10px;
+          i {
+            @extend %in-b;
+            width: 10px;
+            height: 7px;
+            vertical-align: middle;
+            background: url("../images/yjs-icon_1.png") no-repeat;
+            margin-left: 9px;
+          }
+          &:hover {
+            color: $bg-color;
+            i {
+              transform: rotate(180deg);
+            }
+          }
+          &.active {
+            background-color: $bg-color;
+            color: #ffffff;
+          }
         }
-        ul {
-          font-size: 14px;
-          float: right;
-          margin-left: 20px;
-          li {
-            a {
-              @extend %point-a;
-              line-height: 22px;
-              span {
-                float: right;
-              }
-              &:before {
-                background-color: $bg-color;
-              }
+        .more{
+          @extend %in-b;
+          a{
+            color: #444444;
+            &.active{
+              background-color: transparent;
+              color: #444444;
+            }
+            &:hover{
+              color: $bg-color;
             }
           }
         }
-        &:last-child {
-          border-bottom: 0;
+        span {
+          @extend %in-b;
+          //width: 100px;
+          height: 34px;
+          line-height: 32px;
+          border: solid 1px #dddddd;
+          font-size: 16px;
+          color: #666666;
+          padding-left: 10px;
+          padding-right: 10px;
+          margin-right: 20px;
+          //cursor: pointer;
+          //background: url("../images/yxk-close.png") no-repeat 90%;
+          text-align: center;
         }
       }
-
+      &:last-child {
+        border-bottom: 0;
+      }
     }
-    .others-r {
-      float: right;
-      width: 210px;
-      .r-enter {
-        height: 110px;
-        background: url("../images/jz-others-schools_1.png") no-repeat center;
-        padding: 26px;
-        font-size: 26px;
-        line-height: 28px;
-        text-align: center;
-        color: #ffffff;
-        margin-bottom: 20px;
-        .enter-btn {
-          @extend %in-b;
-          //width: 104px;
-          height: 26px;
-          line-height: 26px;
-          padding: 0 18px;
-          color: #ffffff;
-          background-color: #279aff;
-          border-radius: 13px;
+  }
+}
+
+/* 信息分类 问答 */
+.msg-wd {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  .wd-item {
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    .title-module {
+      margin-bottom: 10px;
+      a{
+        font-size: 16px;
+        color: #333333;
+        &:hover{
+          color: $bg-color;
+        }
+      }
+    }
+  }
+}
+
+/* 招生简章 */
+.brochures {
+  width: 780px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  .jz-title {
+    text-align: center;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 20px;
+    p {
+      font-size: 26px;
+      line-height: 28px;
+      color: #333333;
+    }
+  }
+  .title-module {
+    margin-bottom: 20px;
+    .title-l {
+      span {
+        font-size: 18px;
+      }
+    }
+  }
+  .jz-item {
+    padding-top: 20px;
+    @extend %clearfix;
+    p {
+      text-indent: 2em;
+      line-height: 2;
+    }
+    .course {
+      border-top: 1px solid #c4d1de;
+      border-left: 1px solid #c4d1de;
+      background-color: #f3f7f8;
+      .course-row {
+        @extend %clearfix;
+        border-bottom: 1px solid #c4d1de;
+        .row-item {
+          float: left;
+          //height: 145px;
+          border-right: 1px solid #c4d1de;
+          span {
+            display: block;
+            height: 30px;
+            line-height: 30px;
+            border-bottom: 1px solid #c4d1de;
+            &:last-child {
+              border-bottom: none;
+            }
+          }
+          &:nth-of-type(2) {
+            width: 290px;
+            text-align: center;
+            background-color: #ffffff;
+          }
+          &:nth-of-type(3) {
+            width: 260px;
+            background-color: #ffffff;
+          }
+        }
+        .row-title {
+          width: 188px;
+          //line-height: 145px;
+          text-align: center;
+        }
+        &:nth-of-type(1) {
+          .row-item {
+            &:nth-of-type(1) {
+              line-height: 150px;
+            }
+            &:last-child {
+              height: 150px;
+              padding: 30px 10px;
+              line-height: 1.8;
+            }
+          }
         }
         &:nth-of-type(2) {
-          background: url("../images/jz-others-schools_2.png") no-repeat center;
-          .enter-btn {
-            background-color: #22cbb8;
+          .row-item {
+            &:nth-of-type(1) {
+              line-height: 180px;
+            }
+            &:last-child {
+              height: 180px;
+              padding: 10px 10px;
+              line-height: 1.8;
+            }
           }
         }
         &:nth-of-type(3) {
-          background: url("../images/jz-others-schools_3.png") no-repeat center;
-          .enter-btn {
-            background-color: #22cbb8;
+          .row-item {
+            &:nth-of-type(1) {
+              line-height: 60px;
+            }
+            &:last-child {
+              height: 60px;
+              padding: 0px 10px;
+              line-height: 1.4;
+            }
+          }
+        }
+        &:nth-of-type(4) {
+          .row-item {
+            &:nth-of-type(1) {
+              line-height: 90px;
+            }
+            &:last-child {
+              height: 90px;
+              padding: 20px 10px;
+              line-height: 1.8;
+            }
           }
         }
       }
     }
+
+    .paging {
+      width: 363px;
+      float: left;
+      a {
+        @extend %in-b;
+        @extend %one;
+        color: #8a9299;
+        &:hover {
+          color: $bg-color;
+        }
+      }
+    }
+    .paging-r {
+      float: right;
+      .paging-r-logo {
+        float: left;
+        width: 174px;
+        height: 56px;
+        border: solid 1px #eeeeee;
+        background: url("../images/renmingdaxue.png") no-repeat center #ffffff;
+        margin-right: 10px;
+      }
+      .paging-r-btn {
+        float: right;
+        width: 144px;
+        height: 56px;
+        border-radius: 2px;
+        color: #ffffff;
+        font-size: 16px;
+        background: url("../images/jz-icon_1.png") no-repeat #1782e6 16%;
+        text-align: center;
+        line-height: 56px;
+        text-indent: 1em;
+      }
+    }
   }
-  /* 咨询终端 */
-  .zxzd-title{
-    text-align: center;
-    font-size: 26px;
-    line-height: 28px;
-    color: #333333;
-    margin-bottom: 16px;
-  }
-  .text-msg {
-    font-size: 14px;
-    line-height: 14px;
-    color: #8a9299;
-    text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #eeeeee;
+}
+/* 其他院校 */
+.others-schools {
+  width: 780px;
+  //height: 472px;
+  background-color: #ffffff;
+  padding: 20px;
+  @extend %clearfix;
+  .title-module {
     margin-bottom: 20px;
-    .source {
-      vertical-align: middle;
-      margin-right: 20px;
-      i {
-        @extend %in-b;
-        vertical-align: middle;
-        width: 14px;
-        height: 12px;
-        background: url('../images/css_sprites.png') -364px -213px;
+    .title-l {
+      span {
+        font-size: 18px;
       }
     }
-    .author {
-      vertical-align: middle;
-      margin-right: 20px;
-      i {
-        @extend %in-b;
-        vertical-align: middle;
-        width: 14px;
-        height: 16px;
-        background: url('../images/css_sprites.png') -191px -295px;
+  }
+  .others-l {
+    float: left;
+    width: 510px;
+
+    .others-l-item {
+      border-bottom: 1px solid #dddddd;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      @extend %clearfix;
+      img {
+        border: 1px solid #eeeeee;
+        float: left;
+      }
+      ul {
+        font-size: 14px;
+        float: right;
+        margin-left: 20px;
+        li {
+          a {
+            @extend %point-a;
+            line-height: 22px;
+            span {
+              float: right;
+            }
+            &:before {
+              background-color: $bg-color;
+            }
+          }
+        }
+      }
+      &:last-child {
+        border-bottom: 0;
       }
     }
-    .time {
-      vertical-align: middle;
-      i {
+
+  }
+  .others-r {
+    float: right;
+    width: 210px;
+    .r-enter {
+      height: 110px;
+      background: url("../images/jz-others-schools_1.png") no-repeat center;
+      padding: 26px;
+      font-size: 26px;
+      line-height: 28px;
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 20px;
+      .enter-btn {
         @extend %in-b;
-        vertical-align: middle;
-        width: 14px;
-        height: 14px;
-        background: url('../images/css_sprites.png') -364px -10px;
+        //width: 104px;
+        height: 26px;
+        line-height: 26px;
+        padding: 0 18px;
+        color: #ffffff;
+        background-color: #279aff;
+        border-radius: 13px;
       }
+      &:nth-of-type(2) {
+        background: url("../images/jz-others-schools_2.png") no-repeat center;
+        .enter-btn {
+          background-color: #22cbb8;
+        }
+      }
+      &:nth-of-type(3) {
+        background: url("../images/jz-others-schools_3.png") no-repeat center;
+        .enter-btn {
+          background-color: #22cbb8;
+        }
+      }
+    }
+  }
+}
+/* 咨询终端 */
+.zxzd-title{
+  text-align: center;
+  font-size: 26px;
+  line-height: 28px;
+  color: #333333;
+  margin-bottom: 16px;
+}
+.text-msg {
+  font-size: 14px;
+  line-height: 14px;
+  color: #8a9299;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 20px;
+  .source {
+    vertical-align: middle;
+    margin-right: 20px;
+    i {
+      @extend %in-b;
+      vertical-align: middle;
+      width: 14px;
+      height: 12px;
+      background: url('../images/css_sprites.png') -364px -213px;
+    }
+  }
+  .author {
+    vertical-align: middle;
+    margin-right: 20px;
+    i {
+      @extend %in-b;
+      vertical-align: middle;
+      width: 14px;
+      height: 16px;
+      background: url('../images/css_sprites.png') -191px -295px;
+    }
+  }
+  .time {
+    vertical-align: middle;
+    i {
+      @extend %in-b;
+      vertical-align: middle;
+      width: 14px;
+      height: 14px;
+      background: url('../images/css_sprites.png') -364px -10px;
     }
   }
 }
@@ -3165,6 +3185,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     //height: 328px;
     background-color: #ffffff;
     padding: 20px 20px 10px;
+    margin-bottom: 20px;
     ul {
       margin-top: 20px;
       margin-right: -10px;
@@ -3678,6 +3699,18 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
 }
 
+.wap-show{
+  display: none;
+}
+
+#show-ele{ // pc & wap 都显示
+  display: block;
+}
+
+.wap-form-popup{
+  display: none;
+}
+
 @media screen and (max-width:750px) {
   body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
   form, input, textarea, p, th, td, a {
@@ -3721,11 +3754,12 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
 
   body {
-    width: pr(750px);
     overflow-x: hidden;
+    width: pr(750px);
     font-size: pr(26px);
     min-width: auto;
-    padding-bottom: pr(98px);
+    padding-top: pr(88px); // 头部固定
+    padding-bottom: pr(98px); // 底部固定
   }
 
   * {
@@ -3734,6 +3768,10 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
   .wrap {
     width: pr(750px);
+  }
+
+  .title-module{
+    padding-top: pr(20px);
   }
 
   /* 头部 */
@@ -3882,7 +3920,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     }
   }
   .wap-head-nav{
-    display: none;
+    //display: none;
     width: 100%;
     background-color: #ffffff;
     position: fixed;
@@ -3929,7 +3967,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 
   .wap-banner{
     display: block;
-    margin-top: pr(88px);
+    //margin-top: pr(88px);
   }
 
   .wap-nav{
@@ -4004,6 +4042,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     }
   }
 
+  /* 首页 */
   .tx-module1{
     background-color: #ffffff;
     padding: 0 $padding-size;
@@ -4047,11 +4086,11 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
             }
             /* 前6隐藏(包括6) */
             &:nth-child(-n+6){
-              display: none;
+              //display: none;
             }
             /* 大于15(包括15) */
             &:nth-child(n+15){
-              display: none;
+              //display: none;
             }
             /* 大于15(包括15) */
             &:nth-child(n+11){
@@ -4096,7 +4135,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
               li {
                 width: 100%;
                 &:nth-child(n+6){
-                  display: none;
+                  //display: none;
                 }
               }
             }
@@ -4241,7 +4280,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
             font-size: pr(30px);
           }
           &:nth-child(n+5){
-            display: none;
+            //display: none;
           }
         }
       }
@@ -4250,7 +4289,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
       }
     }
   }
-
   .q-1{
     background-color: #ffffff;
     padding: 0 $padding-size;
@@ -4280,7 +4318,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
             margin-right: pr(20px);
             margin-bottom: pr(20px);
             &:nth-child(n+7){
-              display: none;
+              //display: none;
             }
           }
           a{
@@ -4784,7 +4822,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
 
   .wap-form-popup{
-    display: none;
     width: pr(630px);
     height: pr(755px);
     position: fixed;
@@ -4852,7 +4889,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
       padding: 0 $padding-size;
       margin-bottom: 0;
       .studying-types {
-        padding: 0;
         width: 50%;
         padding: pr(24px) 0;
         float: left;
@@ -4884,17 +4920,18 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
         .types-r {
           float: none;
           width: pr(750px);
-          padding: 0 $padding-size;
+          padding: pr(20px) $padding-size;
           background-color: #ffffff;
-          //border-top: 1px solid #eeeeee;
-          padding-top: pr(20px);
           display: grid;
           grid-template-columns: repeat(3, 1fr);
           grid-column-gap: pr(20px);
           grid-row-gap: pr(20px);
           position: absolute;
           left: 0;
-          border: 1px solid red;
+          z-index: 100;
+          box-shadow: 0px 1px 0px 0px #eeeeee;
+          border-top: 1px solid #eeeeee;
+          margin-top: pr(20px);
           a {
             padding: 0;
             width: pr(216px);
@@ -4910,19 +4947,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
             }
           }
           span {
-            //@extend %in-b;
-            //width: 100px;
-            height: 34px;
-            line-height: 32px;
-            border: solid 1px #dddddd;
-            font-size: 16px;
-            color: #666666;
-            padding-left: 10px;
-            padding-right: 10px;
-            margin-right: 20px;
-            //cursor: pointer;
-            //background: url("../images/yxk-close.png") no-repeat 90%;
-            text-align: center;
           }
           .more{
             //@extend %in-b;
@@ -5004,7 +5028,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
           a {
             border: 1px solid $bg-color;
             color: $bg-color;
-            width: pr(96px);
+            width: pr(100px);
             height: pr(34px);
             line-height: pr(34px);
             border-radius: pr(4px);
@@ -5131,7 +5155,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     }
   }
   .yxzd-banner{
-    height: pr(78px);
+    height: pr(50px);
     background-color: #ffffff;
     background-image: none;
     .yxzd-logo{
@@ -5199,6 +5223,35 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
         img.mba{
           margin-bottom: $padding-size;
         }
+        .title-module{
+          h4{
+            float: none;
+            vertical-align: middle;
+            font-size: pr(30px);
+          }
+          &:before{
+            display: inline-block;
+            content: '问';
+            width: pr(42px);
+            height: pr(42px);
+            line-height: pr(42px);
+            background-image: linear-gradient(0deg,
+                #1782e6 0%,
+                #1ca7ff 100%),
+            linear-gradient(
+                    #1782e6,
+                    #1782e6);
+            background-blend-mode: normal,
+            normal;
+            box-shadow: 0px pr(3px) pr(14px) pr(2px)
+            rgba(23, 130, 230, 0.2);
+            border-radius: 50%;
+            text-align: center;
+            font-size: pr(24px);
+            color: #ffffff;
+            vertical-align: middle;
+          }
+        }
       }
       .wd-list{
         ul{
@@ -5207,6 +5260,45 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
           }
         }
       }
+      .time{
+        display: none;
+      }
+      .jz-item {
+        .paging {
+          width: 100%;
+          float: none;
+          padding-top: pr(20px);
+        }
+        .paging-r{
+          float: none;
+          padding-top: pr(20px);
+          .paging-r-logo, a{
+            float: none;
+          }
+          .paging-r-logo{
+            margin: 0 auto pr(30px);
+          }
+          a{
+            display: block;
+            width: 100%;
+            height: pr(80px);
+            line-height: pr(80px);
+            background-color: $bg-color;
+            background-image: none;
+            border-radius: pr(4px);
+            color: #ffffff;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .zxzd-title{
+      font-size: pr(36px);
+      margin-bottom: pr(20px);
+    }
+    .text-msg{
+      padding-bottom: pr(20px);
+      margin-bottom: pr(20px);
     }
   }
   .q-4{
@@ -5274,9 +5366,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .yxzd-r{
     float: none;
     width: 100%;
-    .q-5, .q-7, .q-8, .q-9{
-      display: none;
-    }
     .q-6{
       width: 100%;
       margin-top: pr(20px);
@@ -5330,5 +5419,341 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
         }
       }
     }
+  }
+
+  /* 学员问答 */
+  .yx-wd {
+    margin-bottom: pr(20px);
+    padding: $padding-size;
+    ul {
+      @extend %clearclass;
+      white-space: nowrap;
+      overflow-x: auto;
+      width: auto;
+      &:first-child {
+        display: block;
+      }
+      li {
+        display: inline-block;
+        float: none;
+        width: pr(335px);
+        padding: 0;
+        margin-right: pr(20px);
+        border: 1px solid transparent;
+        a {
+          display: block;
+          width: 100%;
+          span {
+            display: block;
+            width: 100%;
+            height: pr(220px);
+            margin-bottom: pr(20px);
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          p {
+            font-size: 14px;
+            color: #333333;
+            max-width: 196px;
+            //@extend %one;
+          }
+        }
+        &:hover {
+          border: 1px solid #eeeeee;
+          box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+          p {
+            color: #1782e6;
+          }
+        }
+      }
+    }
+  }
+  .q-7{
+    width: 100%;
+    margin-bottom: pr(20px);
+    .list {
+      li {
+        a {
+          i {
+            border-radius: 50%;
+          }
+          p{
+            width: 88%;
+            @include ells(1);
+          }
+        }
+      }
+    }
+  }
+  .q-5{
+    width: 100%;
+    background-image: none;
+    background-color: $bg-color;
+    margin-bottom: pr(20px);
+    padding: $padding-size;
+    h4{
+      color: #333333;
+      font-size: pr(40px);
+      padding-top: 0;
+      padding-bottom: pr(10px);
+    }
+    .txt{
+      color: #666666;
+      font-size: pr(24px);
+      margin-bottom: pr(35px);
+    }
+    .c{
+      background-color: #ffffff;
+      padding: $padding-size;
+      .sign-in{
+        input{
+          width: 100%;
+          height: pr(80px);
+          line-height: pr(80px);
+          background-color: #f5f6f7;
+          border-radius: pr(4px);
+          border: solid 1px #eeeeee;
+          margin-bottom: $padding-size;
+        }
+        input[type="submit"]{
+          background-color: $bg-color;
+          color: #ffffff;
+        }
+      }
+      .zx{
+        font-size: pr(22px);
+        color: $bg-color;
+        i{
+          color: #666666;
+        }
+      }
+    }
+  }
+  .q-8{
+    width: 100%;
+  }
+
+  /* 问答终端 页面 */
+  .yxzd-l-wdzd{
+    padding: pr(20px);
+    margin-bottom: pr(20px);
+    .wd-good {
+      padding-top: pr(20px);
+      .good-text{
+        width: 82%;
+        h4{
+          font-size: pr(30px);
+          @include ells(1);
+        }
+        .text, .text-msg{
+          width: pr(710px);
+          margin-left: -18%;
+        }
+        .text-msg{
+          font-size: pr(22px);
+          border: none;
+          margin-bottom: 0;
+          padding-bottom: 0;
+          .source, .author{
+            margin-right: pr(20px);
+          }
+          .source{
+            i{
+              width: pr(22px);
+              height: pr(22px);
+            }
+          }
+          .author{
+            i{
+              width: pr(20px);
+              height: pr(22px);
+            }
+          }
+          .time{
+            i{
+              width: pr(22px);
+              height: pr(22px);
+            }
+          }
+        }
+      }
+    }
+    .paging{
+      .prev, .next{
+        float: none;
+        width: 100%;
+        span{
+          color: $bg-color;
+        }
+      }
+    }
+  }
+
+  /* 信息分类 页面 */
+  .msg-classify {
+    margin-bottom: 0;
+    border-bottom: 1px solid #eeeeee;
+    .msg-types {
+      padding: 0 ;
+      margin-bottom: 0;
+      .item {
+        border-bottom: 0;
+        padding: 20px 0;
+        float: left;
+        width: 33.3333%;
+        .types-l {
+          float: none;
+          margin-right: 0;
+          text-align: center;
+          position: relative;
+          &:after{
+            content: '';
+            width: 0;
+            height: 0;
+            border-left: pr(8px) solid transparent;
+            border-right: pr(8px) solid transparent;
+            border-bottom: pr(12px) solid #cccccc;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto pr(7px);
+          }
+        }
+        .types-r {
+          display: none;
+          float: none;
+          width: pr(750px);
+          padding: pr(20px) $padding-size;
+          background-color: #ffffff;
+          //display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-column-gap: pr(20px);
+          grid-row-gap: pr(20px);
+          position: absolute;
+          left: 0;
+          z-index: 100;
+          box-shadow: 0px 1px 0px 0px #eeeeee;
+          border-top: 1px solid #eeeeee;
+          margin-top: pr(20px);
+          a {
+            height: pr(60px);
+            line-height: pr(60px);
+            padding: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+            border-radius: pr(30px);
+            font-size: pr(26px);
+            &:hover {
+              color: $bg-color;
+            }
+            &.active {
+              background-color: $bg-color;
+              color: #ffffff;
+            }
+          }
+        }
+        &:last-child {
+          display: none;
+        }
+      }
+      #type, #area{
+        //display: none;
+      }
+    }
+  }
+  .msg-wd{
+    .time{
+      display: none;
+    }
+  }
+
+  /* 招生简章 页面 */
+  .brochures{
+    width: 100%;
+    padding: $padding-size 0;
+    .jz-title{
+      padding-bottom: pr(20px);
+      border-bottom: none;
+      p{
+        font-size: pr(36px);
+        padding: 0 $padding-size;
+      }
+    }
+    .jz-item{
+      padding-top: pr(20px);
+      display: none;
+    }
+    .title-module{
+      margin-bottom: pr(20px);
+    }
+    .text-msg{
+      font-size: pr(22px);
+      border: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      .source, .author{
+        margin-right: pr(20px);
+      }
+      .source{
+        i{
+          width: pr(22px);
+          height: pr(22px);
+          background: url("../images/icon_36.png") no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+      .author{
+        i{
+          width: pr(20px);
+          height: pr(22px);
+          background: url("../images/icon_22.png") no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+      .time{
+        i{
+          width: pr(22px);
+          height: pr(22px);
+          background: url("../images/icon_20.png") no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+    }
+  }
+  .others-schools{
+    width: 100%;
+    padding: $padding-size;
+    .title-module{
+      margin-bottom: 0;
+    }
+    .others-l, .others-r{
+      float: none;
+      width: 100%;
+    }
+    .others-l{
+      img{
+        display: none;
+      }
+      .others-l-item{
+        padding: pr(20px) 0;
+        ul{
+          float: none;
+          margin-left: 0;
+        }
+      }
+
+    }
+    .others-r{
+      display: none;
+    }
+  }
+
+  .wap-show{
+    display: block;
+  }
+  .wap-hide{
+    display: none;
   }
 }

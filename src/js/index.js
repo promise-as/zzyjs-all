@@ -1,5 +1,4 @@
 $(function () {
-
   // theaMsForm($('.sign-in'));
 
   /*author:tangxue*/
@@ -28,7 +27,7 @@ $(function () {
   /* 院校终端-首页 招生简章 */
   toggleTag('.tx-module5', '.title-tag', '.txPulicList1', 'active');
   /* 首页 全国/国际 */
-  toggleTag('.yjs-types', '.type-left', '.type-detail', 'active');
+  // toggleTag('.yjs-types', '.type-left', '.type-detail', 'active');
 
   /* author: QiLiangpu */
   $(".txt h4").hover(function(){
@@ -106,6 +105,7 @@ $(function () {
 
     /* 首页 头部右上角 搜索 */
     $('.show-form').click(function () {
+
       $(this).toggleClass('show');
       $('.r-search').toggleClass('show');
       $('.mark').toggleClass('show');
@@ -117,6 +117,31 @@ $(function () {
       $(this).addClass('active').siblings().removeClass('active');
     });
 
+    /* 首页 底部 在线咨询 */
+    $('.online').click(function () {
+      $('.mark').show();
+      $('.wap-form-popup').show();
+    });
+
+    $('.wap-form-popup .close').click(function () {
+      $('.mark').hide();
+      $('.wap-form-popup').hide();
+    });
+
+    /* 院校库页面 */
+    $('.studying-types').each(function () {
+      $(this).click(function () {
+        $('.studying-types .types-r').hide();
+        $(this).find('.types-r').css('display', 'grid');
+      });
+    });
+    /* 信息分类页面 */
+    $('.msg-types .item').each(function () {
+      $(this).click(function () {
+        $('.msg-types .types-r').hide();
+        $(this).find('.types-r').css('display', 'grid');
+      });
+    });
   }
 
 });

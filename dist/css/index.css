@@ -1,5 +1,6 @@
 @charset "UTF-8";
 body {
+  overflow-x: auto;
   min-width: 1100px;
   font-size: 14px;
   background-color: #f5f7fa;
@@ -102,32 +103,32 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
           box-sizing: border-box;
 }
 
-.tx-module1 .tx-recruitBox .recruitCon ul li a p, .txPulicList1 ul li a p, .tx-module2 .injobMaster .master-right .master-top .academy-box ul li, .tx-module2 .injobMaster .master-right .questionMsg-box .questionMsg ul li a, .tx-module3 .txPulicRight .newslist ul li a, .q-1 .c .l .list li a p, .q-2 .c .l .list2 li a p, .q-2 .c .r .list li p, .q-3 .c .l .tlist li .top h4 a, .q-3 .c .l .list2 li a p, .q-3 .c .r .list2 li a p, .q-4 .c .bottom .list li a p, .q-6 .c .list li a p, .q-8 .list li, .yxzd-l .yxzd-l-wd .jz-item .paging a, .yxzd-l .yxzd-l-wdzd .paging a, .yxzd-l .brochures .jz-item .paging a, .yxzd-r .hot-search ul li a, .yx-wd ul li a p {
+.tx-module1 .tx-recruitBox .recruitCon ul li a p, .txPulicList1 ul li a p, .tx-module2 .injobMaster .master-right .master-top .academy-box ul li, .tx-module2 .injobMaster .master-right .questionMsg-box .questionMsg ul li a, .tx-module3 .txPulicRight .newslist ul li a, .q-1 .c .l .list li a p, .q-2 .c .l .list2 li a p, .q-2 .c .r .list li p, .q-3 .c .l .tlist li .top h4 a, .q-3 .c .l .list2 li a p, .q-3 .c .r .list2 li a p, .q-4 .c .bottom .list li a p, .q-6 .c .list li a p, .q-8 .list li, .yxzd-l-wd .jz-item .paging a, .yxzd-l-wdzd .paging a, .brochures .jz-item .paging a, .yxzd-r .hot-search ul li a, .yx-wd ul li a p {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
 
-.yxzd-l .yxzd-l-wd .wd-list ul li a:before, .yxzd-l .others-schools .others-l .others-l-item ul li a:before, .yjs-head .head-l .logo, .yjs-head .head-l .logo:after, .yjs-head .head-l h1, .yjs-head .head-r .r-search, .yjs-head .head-r .r-tel, .yjs-head .head-r .r-tel span, .yjs-types .type-left a, .yjs-types .type-left a:before, .yjs-types .type-detail, .yjs-types .type-detail ul .detail-title:before, .title-module .title-l span, .title-module h2, .title-module h3, .title-module h4, .title-module a, .tx-module1 .tx-recruitBox .recruitCon ul li a span, .txPulicList1 ul li a span, .tx-module2 .injobMaster .master-right .master-top .academy-box .school-speciality span, .q-4 .c .top .box .t1 h4, .q-4 .c .bottom .txt h4, .q-6 .c h3, .q-6 .c .list li a, .yjs-recommend .recommend .tab-head span, .yjs-recommend .recommend .tab-item ul li a, .yjs-recommend .recommend .tab-item ul li img, .yjs-recommend .recommend .tab-item ul li .emphasis span, .yjs-link .tab-head span, .yxzd-topbar .topbar-nav ul li a i, .yxzd-topbar .cities-nav ul li a i, .yxzd-banner .yxzd-logo, .yxzd-banner .nav-menu, .yxzd-banner .nav-menu li, .yxzd-l .yxzd-l-wd .wd-good i, .yxzd-l .yxzd-l-wd .jz-item .paging a, .yxzd-l .yxzd-l-wdzd .wd-good .icon, .yxzd-l .yxzd-l-wdzd .wd-good .icon-d, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .source i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .author i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .time i, .yxzd-l .yxzd-l-wdzd .paging a, .yxzd-l .msg-classify .msg-types .item .types-r a, .yxzd-l .msg-classify .msg-types .item .types-r a i, .yxzd-l .msg-classify .msg-types .item .types-r .more, .yxzd-l .msg-classify .msg-types .item .types-r span, .yxzd-l .brochures .jz-item .paging a, .yxzd-l .others-schools .others-r .r-enter .enter-btn, .yxzd-l .text-msg .source i, .yxzd-l .text-msg .author i, .yxzd-l .text-msg .time i, .yxzd-r .hot-search ul li a, .academy .academy-types .studying-types .types-r .more, .academy .academy-types .studying-types .types-r a, .academy .academy-types .studying-types .types-r span, .academy .academy-tab .tab-head .school-speciality span, .academy .academy-tab .tab-head .school-operation a, .academy .academy-tab .body-item .school-speciality span, .academy .academy-tab .body-item .school-operation a, .right-nav .online i, .right-nav ul li a span, .right-nav ul li a .tel, .right-nav ul li a .qq, .right-nav ul li a .server, .right-nav ul li a .to-top, .right-nav ul li .hide-content p i {
+.yxzd-l-wd .wd-list ul li a:before, .others-schools .others-l .others-l-item ul li a:before, .yjs-head .head-l .logo, .yjs-head .head-l .logo:after, .yjs-head .head-l h1, .yjs-head .head-r .r-search, .yjs-head .head-r .r-tel, .yjs-head .head-r .r-tel span, .yjs-types .type-left a, .yjs-types .type-left a:before, .yjs-types .type-detail, .yjs-types .type-detail ul .detail-title:before, .title-module .title-l span, .title-module h2, .title-module h3, .title-module h4, .title-module a, .tx-module1 .tx-recruitBox .recruitCon ul li a span, .txPulicList1 ul li a span, .tx-module2 .injobMaster .master-right .master-top .academy-box .school-speciality span, .q-4 .c .top .box .t1 h4, .q-4 .c .bottom .txt h4, .q-6 .c h3, .q-6 .c .list li a, .q-7 .list li a, .yjs-recommend .recommend .tab-head span, .yjs-recommend .recommend .tab-item ul li a, .yjs-recommend .recommend .tab-item ul li img, .yjs-recommend .recommend .tab-item ul li .emphasis span, .yjs-link .tab-head span, .yxzd-topbar .topbar-nav ul li a i, .yxzd-topbar .cities-nav ul li a i, .yxzd-banner .yxzd-logo, .yxzd-banner .nav-menu, .yxzd-banner .nav-menu li, .yxzd-l-wd .wd-good i, .yxzd-l-wd .jz-item .paging a, .yxzd-l-wdzd .wd-good .icon, .yxzd-l-wdzd .wd-good .icon-d, .yxzd-l-wdzd .wd-good .good-text .text-msg .source i, .yxzd-l-wdzd .wd-good .good-text .text-msg .author i, .yxzd-l-wdzd .wd-good .good-text .text-msg .time i, .yxzd-l-wdzd .paging a, .msg-classify .msg-types .item .types-r a, .msg-classify .msg-types .item .types-r a i, .msg-classify .msg-types .item .types-r .more, .msg-classify .msg-types .item .types-r span, .brochures .jz-item .paging a, .others-schools .others-r .r-enter .enter-btn, .text-msg .source i, .text-msg .author i, .text-msg .time i, .yxzd-r .hot-search ul li a, .academy .academy-types .studying-types .types-r .more, .academy .academy-types .studying-types .types-r a, .academy .academy-types .studying-types .types-r span, .academy .academy-tab .tab-head .school-speciality span, .academy .academy-tab .tab-head .school-operation a, .academy .academy-tab .body-item .school-speciality span, .academy .academy-tab .body-item .school-operation a, .right-nav .online i, .right-nav ul li a span, .right-nav ul li a .tel, .right-nav ul li a .qq, .right-nav ul li a .server, .right-nav ul li a .to-top, .right-nav ul li .hide-content p i {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
 
-.yjs-head .head-r, .title-module, .tx-module2 .injobMaster .master-right .master-top .academy-box ul, .tx-module3 .txPulicRight .sixPeople .people ul, .tx-module3 .txPulicRight .injobFlow .people ul, .tx-module3 .txPulicRight .sixPeople .flow, .tx-module3 .txPulicRight .injobFlow .flow, .q-4 .c .top, .yjs-recommend .recommend .tab-item ul, .yjs-link .tab-item, .yxzd-topbar .topbar-nav ul, .yxzd-topbar .cities-nav ul, .yxzd-l .yxzd-l-wd .wd-good, .yxzd-l .yxzd-l-wd .wd-list, .yxzd-l .yxzd-l-wd .jz-item, .yxzd-l .yxzd-l-wdzd .wd-good, .yxzd-l .yxzd-l-wdzd .paging, .yxzd-l .msg-classify .msg-types .item, .yxzd-l .brochures .jz-item, .yxzd-l .brochures .jz-item .course .course-row, .yxzd-l .others-schools, .yxzd-l .others-schools .others-l .others-l-item, .yxzd-r .hot-search ul, .academy .academy-types, .academy .academy-types .studying-types, .academy .academy-tab .tab-head, .academy .academy-tab .body-item {
+.yjs-head .head-r, .title-module, .tx-module2 .injobMaster .master-right .master-top .academy-box ul, .tx-module3 .txPulicRight .sixPeople .people ul, .tx-module3 .txPulicRight .injobFlow .people ul, .tx-module3 .txPulicRight .sixPeople .flow, .tx-module3 .txPulicRight .injobFlow .flow, .q-4 .c .top, .yjs-recommend .recommend .tab-item ul, .yjs-link .tab-item, .yxzd-topbar .topbar-nav ul, .yxzd-topbar .cities-nav ul, .yxzd-l-wd .wd-good, .yxzd-l-wd .wd-list, .yxzd-l-wd .jz-item, .yxzd-l-wdzd .wd-good, .yxzd-l-wdzd .paging, .msg-classify .msg-types, .msg-classify .msg-types .item, .brochures .jz-item, .brochures .jz-item .course .course-row, .others-schools, .others-schools .others-l .others-l-item, .yxzd-r .hot-search ul, .academy .academy-types, .academy .academy-types .studying-types, .academy .academy-tab .tab-head, .academy .academy-tab .body-item {
   zoom: 1;
 }
 
-.yjs-head .head-r:after, .title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .tx-module3 .txPulicRight .sixPeople .people ul:after, .tx-module3 .txPulicRight .injobFlow .people ul:after, .tx-module3 .txPulicRight .sixPeople .flow:after, .tx-module3 .txPulicRight .injobFlow .flow:after, .q-4 .c .top:after, .yjs-recommend .recommend .tab-item ul:after, .yjs-link .tab-item:after, .yxzd-topbar .topbar-nav ul:after, .yxzd-topbar .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wd .jz-item:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .body-item:after {
+.yjs-head .head-r:after, .title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .tx-module3 .txPulicRight .sixPeople .people ul:after, .tx-module3 .txPulicRight .injobFlow .people ul:after, .tx-module3 .txPulicRight .sixPeople .flow:after, .tx-module3 .txPulicRight .injobFlow .flow:after, .q-4 .c .top:after, .yjs-recommend .recommend .tab-item ul:after, .yjs-link .tab-item:after, .yxzd-topbar .topbar-nav ul:after, .yxzd-topbar .cities-nav ul:after, .yxzd-l-wd .wd-good:after, .yxzd-l-wd .wd-list:after, .yxzd-l-wd .jz-item:after, .yxzd-l-wdzd .wd-good:after, .yxzd-l-wdzd .paging:after, .msg-classify .msg-types:after, .msg-classify .msg-types .item:after, .brochures .jz-item:after, .brochures .jz-item .course .course-row:after, .others-schools:after, .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .body-item:after {
   clear: both;
 }
 
-.yjs-head .head-r:before, .title-module:before, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:before, .tx-module3 .txPulicRight .sixPeople .people ul:before, .tx-module3 .txPulicRight .injobFlow .people ul:before, .tx-module3 .txPulicRight .sixPeople .flow:before, .tx-module3 .txPulicRight .injobFlow .flow:before, .q-4 .c .top:before, .yjs-recommend .recommend .tab-item ul:before, .yjs-link .tab-item:before, .yxzd-topbar .topbar-nav ul:before, .yxzd-topbar .cities-nav ul:before, .yxzd-l .yxzd-l-wd .wd-good:before, .yxzd-l .yxzd-l-wd .wd-list:before, .yxzd-l .yxzd-l-wd .jz-item:before, .yxzd-l .yxzd-l-wdzd .wd-good:before, .yxzd-l .yxzd-l-wdzd .paging:before, .yxzd-l .msg-classify .msg-types .item:before, .yxzd-l .brochures .jz-item:before, .yxzd-l .brochures .jz-item .course .course-row:before, .yxzd-l .others-schools:before, .yxzd-l .others-schools .others-l .others-l-item:before, .yxzd-r .hot-search ul:before, .academy .academy-types:before, .academy .academy-types .studying-types:before, .academy .academy-tab .tab-head:before, .academy .academy-tab .body-item:before, .yjs-head .head-r:after, .title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .tx-module3 .txPulicRight .sixPeople .people ul:after, .tx-module3 .txPulicRight .injobFlow .people ul:after, .tx-module3 .txPulicRight .sixPeople .flow:after, .tx-module3 .txPulicRight .injobFlow .flow:after, .q-4 .c .top:after, .yjs-recommend .recommend .tab-item ul:after, .yjs-link .tab-item:after, .yxzd-topbar .topbar-nav ul:after, .yxzd-topbar .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wd .jz-item:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .body-item:after {
+.yjs-head .head-r:before, .title-module:before, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:before, .tx-module3 .txPulicRight .sixPeople .people ul:before, .tx-module3 .txPulicRight .injobFlow .people ul:before, .tx-module3 .txPulicRight .sixPeople .flow:before, .tx-module3 .txPulicRight .injobFlow .flow:before, .q-4 .c .top:before, .yjs-recommend .recommend .tab-item ul:before, .yjs-link .tab-item:before, .yxzd-topbar .topbar-nav ul:before, .yxzd-topbar .cities-nav ul:before, .yxzd-l-wd .wd-good:before, .yxzd-l-wd .wd-list:before, .yxzd-l-wd .jz-item:before, .yxzd-l-wdzd .wd-good:before, .yxzd-l-wdzd .paging:before, .msg-classify .msg-types:before, .msg-classify .msg-types .item:before, .brochures .jz-item:before, .brochures .jz-item .course .course-row:before, .others-schools:before, .others-schools .others-l .others-l-item:before, .yxzd-r .hot-search ul:before, .academy .academy-types:before, .academy .academy-types .studying-types:before, .academy .academy-tab .tab-head:before, .academy .academy-tab .body-item:before, .yjs-head .head-r:after, .title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .tx-module3 .txPulicRight .sixPeople .people ul:after, .tx-module3 .txPulicRight .injobFlow .people ul:after, .tx-module3 .txPulicRight .sixPeople .flow:after, .tx-module3 .txPulicRight .injobFlow .flow:after, .q-4 .c .top:after, .yjs-recommend .recommend .tab-item ul:after, .yjs-link .tab-item:after, .yxzd-topbar .topbar-nav ul:after, .yxzd-topbar .cities-nav ul:after, .yxzd-l-wd .wd-good:after, .yxzd-l-wd .wd-list:after, .yxzd-l-wd .jz-item:after, .yxzd-l-wdzd .wd-good:after, .yxzd-l-wdzd .paging:after, .msg-classify .msg-types:after, .msg-classify .msg-types .item:after, .brochures .jz-item:after, .brochures .jz-item .course .course-row:after, .others-schools:after, .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .body-item:after {
   content: "";
   display: table;
 }
 
-.yxzd-l .yxzd-l-wd .wd-list ul li a:before, .yxzd-l .others-schools .others-l .others-l-item ul li a:before {
+.yxzd-l-wd .wd-list ul li a:before, .others-schools .others-l .others-l-item ul li a:before {
   content: "";
   width: 5px;
   height: 5px;
@@ -1454,7 +1455,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 
 .q-2 .c {
   background: #fff;
-  padding: 20px;
+  padding: 30px 20px 10px;
 }
 
 .q-2 .c .l {
@@ -1472,7 +1473,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   width: 40px;
   height: 45px;
   line-height: 38px;
-  margin-left: 10px;
   text-align: center;
   float: left;
   background: url("../images/css_sprites.png") -10px -70px;
@@ -1636,7 +1636,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 /* 8.相关资讯（国际国内省份首页） */
 .q-3 .c {
   background: #fff;
-  padding: 20px;
+  padding: 30px 20px 10px;
 }
 
 .q-3 .c .l {
@@ -1818,6 +1818,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 
 .q-4 .c .top .box .t1 {
   margin-bottom: 24px;
+  margin-top: -4px;
 }
 
 .q-4 .c .top .box .t1 h4 {
@@ -1859,7 +1860,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 }
 
 .q-4 .c .top .box .dq {
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 
 .q-4 .c .top .box .dq span {
@@ -2158,6 +2159,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 
 .q-7 .list li a {
   line-height: 1.6;
+  width: 100%;
 }
 
 .q-7 .list li a i {
@@ -2170,6 +2172,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   background: #c8cacc;
   color: #fff;
   font-size: 14px;
+  vertical-align: middle;
 }
 
 .q-7 .list li a i.i1 {
@@ -2185,6 +2188,11 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 .q-7 .list li a i.i3 {
   background: #ffac38;
   color: #fff;
+}
+
+.q-7 .list li a p {
+  float: right;
+  width: 86%;
 }
 
 .q-7 .list li:last-child {
@@ -2238,7 +2246,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 }
 
 .yjs-recommend .title-module {
-  margin-top: 64px;
+  margin-top: 30px;
 }
 
 .yjs-recommend .recommend {
@@ -2320,6 +2328,10 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   font-size: 14px;
   line-height: 14px;
   color: #666666;
+}
+
+.yjs-recommend .recommend .tab-item ul li .text p span {
+  margin: 0 10px;
 }
 
 .yjs-recommend .recommend .tab-item ul li .emphasis {
@@ -2680,26 +2692,20 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 .yxzd-l {
   float: left;
   width: 780px;
-  /* 学员问答 */
-  /* 问答终端 */
-  /* 信息分类 */
-  /* 信息分类 问答 */
-  /* 招生简章 */
-  /* 其他院校 */
-  /* 咨询终端 */
 }
 
-.yxzd-l .pc-hide {
+.pc-hide {
   display: none;
 }
 
-.yxzd-l .yxzd-l-wd {
+/* 学员问答 */
+.yxzd-l-wd {
   background-color: #ffffff;
   padding: 20px;
   margin-bottom: 20px;
 }
 
-.yxzd-l .yxzd-l-wd .title-module .more {
+.yxzd-l-wd .title-module .more {
   width: 54px;
   height: 22px;
   line-height: 20px;
@@ -2708,35 +2714,35 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   border: solid 1px #dddddd;
 }
 
-.yxzd-l .yxzd-l-wd ul img.mba {
+.yxzd-l-wd ul img.mba {
   margin-bottom: 36px;
 }
 
-.yxzd-l .yxzd-l-wd ul li {
+.yxzd-l-wd ul li {
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 
-.yxzd-l .yxzd-l-wd ul li:first-child {
+.yxzd-l-wd ul li:first-child {
   padding-top: 0;
 }
 
-.yxzd-l .yxzd-l-wd ul li h4 a {
+.yxzd-l-wd ul li h4 a {
   color: #333333;
   font-size: 16px;
 }
 
-.yxzd-l .yxzd-l-wd ul li h4 a:hover {
+.yxzd-l-wd ul li h4 a:hover {
   color: #1782e6;
 }
 
-.yxzd-l .yxzd-l-wd .wd-good {
+.yxzd-l-wd .wd-good {
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 20px;
 }
 
-.yxzd-l .yxzd-l-wd .wd-good i {
+.yxzd-l-wd .wd-good i {
   width: 40px;
   height: 45px;
   background: url("../images/css_sprites.png") -10px -70px;
@@ -2749,83 +2755,83 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   margin-right: 20px;
 }
 
-.yxzd-l .yxzd-l-wd .wd-good .good-text {
+.yxzd-l-wd .wd-good .good-text {
   width: 677px;
   float: left;
 }
 
-.yxzd-l .yxzd-l-wd .wd-good .good-text .title-module a {
+.yxzd-l-wd .wd-good .good-text .title-module a {
   color: #333333;
   font-size: 16px;
 }
 
-.yxzd-l .yxzd-l-wd .wd-good .good-text .title-module a:hover {
+.yxzd-l-wd .wd-good .good-text .title-module a:hover {
   color: #1782e6;
 }
 
-.yxzd-l .yxzd-l-wd .wd-good.xywd {
+.yxzd-l-wd .wd-good.xywd {
   margin-bottom: 20px;
 }
 
-.yxzd-l .yxzd-l-wd .wd-good.xywd .good-text {
+.yxzd-l-wd .wd-good.xywd .good-text {
   width: 100%;
 }
 
-.yxzd-l .yxzd-l-wd .wd-list {
+.yxzd-l-wd .wd-list {
   font-size: 14px;
 }
 
-.yxzd-l .yxzd-l-wd .wd-list ul {
+.yxzd-l-wd .wd-list ul {
   width: 348px;
   float: left;
 }
 
-.yxzd-l .yxzd-l-wd .wd-list ul li {
+.yxzd-l-wd .wd-list ul li {
   padding-top: 14px;
 }
 
-.yxzd-l .yxzd-l-wd .wd-list ul li a span {
+.yxzd-l-wd .wd-list ul li a span {
   float: right;
 }
 
-.yxzd-l .yxzd-l-wd .wd-list ul:nth-of-type(odd) {
+.yxzd-l-wd .wd-list ul:nth-of-type(odd) {
   margin-right: 42px;
 }
 
-.yxzd-l .yxzd-l-wd .jz-item p {
+.yxzd-l-wd .jz-item p {
   text-indent: 2em;
   line-height: 2;
 }
 
-.yxzd-l .yxzd-l-wd .jz-item > div {
+.yxzd-l-wd .jz-item > div {
   line-height: 2;
 }
 
-.yxzd-l .yxzd-l-wd .jz-item img {
+.yxzd-l-wd .jz-item img {
   padding-top: 20px;
   margin-bottom: 20px;
 }
 
-.yxzd-l .yxzd-l-wd .jz-item .paging {
+.yxzd-l-wd .jz-item .paging {
   width: 363px;
   float: left;
   padding-top: 20px;
 }
 
-.yxzd-l .yxzd-l-wd .jz-item .paging a {
+.yxzd-l-wd .jz-item .paging a {
   color: #8a9299;
 }
 
-.yxzd-l .yxzd-l-wd .jz-item .paging a:hover {
+.yxzd-l-wd .jz-item .paging a:hover {
   color: #1782e6;
 }
 
-.yxzd-l .yxzd-l-wd .jz-item .paging-r {
+.yxzd-l-wd .jz-item .paging-r {
   float: right;
   padding-top: 20px;
 }
 
-.yxzd-l .yxzd-l-wd .jz-item .paging-r .paging-r-logo {
+.yxzd-l-wd .jz-item .paging-r .paging-r-logo {
   float: left;
   width: 174px;
   height: 56px;
@@ -2834,7 +2840,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   margin-right: 10px;
 }
 
-.yxzd-l .yxzd-l-wd .jz-item .paging-r .paging-r-btn {
+.yxzd-l-wd .jz-item .paging-r .paging-r-btn {
   float: right;
   width: 144px;
   height: 56px;
@@ -2847,17 +2853,18 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   text-indent: 1em;
 }
 
-.yxzd-l .yxzd-l-wdzd {
+/* 问答终端 */
+.yxzd-l-wdzd {
   background-color: #ffffff;
   padding: 20px;
   margin-bottom: 20px;
 }
 
-.yxzd-l .yxzd-l-wdzd .title-module {
+.yxzd-l-wdzd .title-module {
   margin-bottom: 20px;
 }
 
-.yxzd-l .yxzd-l-wdzd .title-module .more {
+.yxzd-l-wdzd .title-module .more {
   width: 54px;
   height: 22px;
   line-height: 20px;
@@ -2866,13 +2873,13 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   border: solid 1px #dddddd;
 }
 
-.yxzd-l .yxzd-l-wdzd .wd-good {
+.yxzd-l-wdzd .wd-good {
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eeeeee;
 }
 
-.yxzd-l .yxzd-l-wdzd .wd-good .icon {
+.yxzd-l-wdzd .wd-good .icon {
   width: 46px;
   height: 36px;
   background: url("../images/css_sprites.png") -146px -10px;
@@ -2886,7 +2893,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   margin-top: -2px;
 }
 
-.yxzd-l .yxzd-l-wdzd .wd-good .icon-d {
+.yxzd-l-wdzd .wd-good .icon-d {
   width: 46px;
   height: 36px;
   background: url("../images/css_sprites.png") -146px -66px;
@@ -2900,103 +2907,115 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   margin-top: -2px;
 }
 
-.yxzd-l .yxzd-l-wdzd .wd-good .good-text {
+.yxzd-l-wdzd .wd-good .good-text {
   width: 682px;
   float: left;
 }
 
-.yxzd-l .yxzd-l-wdzd .wd-good .good-text .title-module .title-l span {
+.yxzd-l-wdzd .wd-good .good-text .title-module .title-l span {
   font-size: 16px;
 }
 
-.yxzd-l .yxzd-l-wdzd .wd-good .good-text .text {
+.yxzd-l-wdzd .wd-good .good-text .text {
   padding-bottom: 20px;
   line-height: 1.6;
 }
 
-.yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg {
+.yxzd-l-wdzd .wd-good .good-text .text-msg {
   font-size: 14px;
   line-height: 14px;
   color: #8a9299;
 }
 
-.yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .source {
+.yxzd-l-wdzd .wd-good .good-text .text-msg i {
+  vertical-align: middle;
+}
+
+.yxzd-l-wdzd .wd-good .good-text .text-msg .source {
   vertical-align: middle;
   margin-right: 20px;
 }
 
-.yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .source i {
+.yxzd-l-wdzd .wd-good .good-text .text-msg .source i {
   vertical-align: middle;
   width: 14px;
   height: 12px;
-  background: url("../images/css_sprites.png") -364px -213px;
+  background: url("../images/icon_36.png") no-repeat;
+  background-size: 100% 100%;
 }
 
-.yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .author {
+.yxzd-l-wdzd .wd-good .good-text .text-msg .author {
   vertical-align: middle;
   margin-right: 20px;
 }
 
-.yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .author i {
+.yxzd-l-wdzd .wd-good .good-text .text-msg .author i {
   vertical-align: middle;
   width: 14px;
   height: 16px;
-  background: url("../images/css_sprites.png") -191px -295px;
+  background: url("../images/icon_22.png") no-repeat;
+  background-size: 100% 100%;
 }
 
-.yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .time {
+.yxzd-l-wdzd .wd-good .good-text .text-msg .time {
   vertical-align: middle;
 }
 
-.yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .time i {
+.yxzd-l-wdzd .wd-good .good-text .text-msg .time i {
   vertical-align: middle;
   width: 14px;
   height: 14px;
-  background: url("../images/css_sprites.png") -364px -10px;
+  background: url("../images/icon_20.png") no-repeat;
+  background-size: 100% 100%;
 }
 
-.yxzd-l .yxzd-l-wdzd .paging {
+.yxzd-l-wdzd .paging {
   padding-top: 20px;
 }
 
-.yxzd-l .yxzd-l-wdzd .paging a {
+.yxzd-l-wdzd .paging a {
   width: 331px;
 }
 
-.yxzd-l .yxzd-l-wdzd .paging .prev {
+.yxzd-l-wdzd .paging .prev {
   float: left;
 }
 
-.yxzd-l .yxzd-l-wdzd .paging .next {
+.yxzd-l-wdzd .paging .next {
   float: right;
 }
 
-.yxzd-l .msg-classify {
+/* 信息分类 */
+.msg-classify {
   margin-bottom: 20px;
 }
 
-.yxzd-l .msg-classify .msg-types {
+.msg-classify .msg-types {
   padding: 0 20px;
   background-color: #ffffff;
   margin-bottom: 20px;
 }
 
-.yxzd-l .msg-classify .msg-types .item {
+.msg-classify .msg-types .item {
   border-bottom: 1px solid #eeeeee;
   padding: 20px 0;
 }
 
-.yxzd-l .msg-classify .msg-types .item .types-l {
+.msg-classify .msg-types .item .types-l {
   float: left;
   margin-right: 20px;
 }
 
-.yxzd-l .msg-classify .msg-types .item .types-r {
+.msg-classify .msg-types .item .types-l:after {
+  content: ':';
+}
+
+.msg-classify .msg-types .item .types-r {
   float: left;
   max-width: 650px;
 }
 
-.yxzd-l .msg-classify .msg-types .item .types-r a {
+.msg-classify .msg-types .item .types-r a {
   height: 24px;
   line-height: 24px;
   text-align: center;
@@ -3005,7 +3024,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   margin-bottom: 10px;
 }
 
-.yxzd-l .msg-classify .msg-types .item .types-r a i {
+.msg-classify .msg-types .item .types-r a i {
   width: 10px;
   height: 7px;
   vertical-align: middle;
@@ -3013,34 +3032,34 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   margin-left: 9px;
 }
 
-.yxzd-l .msg-classify .msg-types .item .types-r a:hover {
+.msg-classify .msg-types .item .types-r a:hover {
   color: #1782e6;
 }
 
-.yxzd-l .msg-classify .msg-types .item .types-r a:hover i {
+.msg-classify .msg-types .item .types-r a:hover i {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
 
-.yxzd-l .msg-classify .msg-types .item .types-r a.active {
+.msg-classify .msg-types .item .types-r a.active {
   background-color: #1782e6;
   color: #ffffff;
 }
 
-.yxzd-l .msg-classify .msg-types .item .types-r .more a {
+.msg-classify .msg-types .item .types-r .more a {
   color: #444444;
 }
 
-.yxzd-l .msg-classify .msg-types .item .types-r .more a.active {
+.msg-classify .msg-types .item .types-r .more a.active {
   background-color: transparent;
   color: #444444;
 }
 
-.yxzd-l .msg-classify .msg-types .item .types-r .more a:hover {
+.msg-classify .msg-types .item .types-r .more a:hover {
   color: #1782e6;
 }
 
-.yxzd-l .msg-classify .msg-types .item .types-r span {
+.msg-classify .msg-types .item .types-r span {
   height: 34px;
   line-height: 32px;
   border: solid 1px #dddddd;
@@ -3052,170 +3071,172 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   text-align: center;
 }
 
-.yxzd-l .msg-classify .msg-types .item:last-child {
+.msg-classify .msg-types .item:last-child {
   border-bottom: 0;
 }
 
-.yxzd-l .msg-wd {
+/* 信息分类 问答 */
+.msg-wd {
   background-color: #ffffff;
   padding: 10px 20px;
 }
 
-.yxzd-l .msg-wd .wd-item {
+.msg-wd .wd-item {
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 
-.yxzd-l .msg-wd .wd-item .title-module {
+.msg-wd .wd-item .title-module {
   margin-bottom: 10px;
 }
 
-.yxzd-l .msg-wd .wd-item .title-module a {
+.msg-wd .wd-item .title-module a {
   font-size: 16px;
   color: #333333;
 }
 
-.yxzd-l .msg-wd .wd-item .title-module a:hover {
+.msg-wd .wd-item .title-module a:hover {
   color: #1782e6;
 }
 
-.yxzd-l .brochures {
+/* 招生简章 */
+.brochures {
   width: 780px;
   background-color: #ffffff;
   padding: 20px;
   margin-bottom: 20px;
 }
 
-.yxzd-l .brochures .jz-title {
+.brochures .jz-title {
   text-align: center;
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 20px;
 }
 
-.yxzd-l .brochures .jz-title p {
+.brochures .jz-title p {
   font-size: 26px;
   line-height: 28px;
   color: #333333;
 }
 
-.yxzd-l .brochures .title-module {
+.brochures .title-module {
   margin-bottom: 20px;
 }
 
-.yxzd-l .brochures .title-module .title-l span {
+.brochures .title-module .title-l span {
   font-size: 18px;
 }
 
-.yxzd-l .brochures .jz-item {
+.brochures .jz-item {
   padding-top: 20px;
 }
 
-.yxzd-l .brochures .jz-item p {
+.brochures .jz-item p {
   text-indent: 2em;
   line-height: 2;
 }
 
-.yxzd-l .brochures .jz-item .course {
+.brochures .jz-item .course {
   border-top: 1px solid #c4d1de;
   border-left: 1px solid #c4d1de;
   background-color: #f3f7f8;
 }
 
-.yxzd-l .brochures .jz-item .course .course-row {
+.brochures .jz-item .course .course-row {
   border-bottom: 1px solid #c4d1de;
 }
 
-.yxzd-l .brochures .jz-item .course .course-row .row-item {
+.brochures .jz-item .course .course-row .row-item {
   float: left;
   border-right: 1px solid #c4d1de;
 }
 
-.yxzd-l .brochures .jz-item .course .course-row .row-item span {
+.brochures .jz-item .course .course-row .row-item span {
   display: block;
   height: 30px;
   line-height: 30px;
   border-bottom: 1px solid #c4d1de;
 }
 
-.yxzd-l .brochures .jz-item .course .course-row .row-item span:last-child {
+.brochures .jz-item .course .course-row .row-item span:last-child {
   border-bottom: none;
 }
 
-.yxzd-l .brochures .jz-item .course .course-row .row-item:nth-of-type(2) {
+.brochures .jz-item .course .course-row .row-item:nth-of-type(2) {
   width: 290px;
   text-align: center;
   background-color: #ffffff;
 }
 
-.yxzd-l .brochures .jz-item .course .course-row .row-item:nth-of-type(3) {
+.brochures .jz-item .course .course-row .row-item:nth-of-type(3) {
   width: 260px;
   background-color: #ffffff;
 }
 
-.yxzd-l .brochures .jz-item .course .course-row .row-title {
+.brochures .jz-item .course .course-row .row-title {
   width: 188px;
   text-align: center;
 }
 
-.yxzd-l .brochures .jz-item .course .course-row:nth-of-type(1) .row-item:nth-of-type(1) {
+.brochures .jz-item .course .course-row:nth-of-type(1) .row-item:nth-of-type(1) {
   line-height: 150px;
 }
 
-.yxzd-l .brochures .jz-item .course .course-row:nth-of-type(1) .row-item:last-child {
+.brochures .jz-item .course .course-row:nth-of-type(1) .row-item:last-child {
   height: 150px;
   padding: 30px 10px;
   line-height: 1.8;
 }
 
-.yxzd-l .brochures .jz-item .course .course-row:nth-of-type(2) .row-item:nth-of-type(1) {
+.brochures .jz-item .course .course-row:nth-of-type(2) .row-item:nth-of-type(1) {
   line-height: 180px;
 }
 
-.yxzd-l .brochures .jz-item .course .course-row:nth-of-type(2) .row-item:last-child {
+.brochures .jz-item .course .course-row:nth-of-type(2) .row-item:last-child {
   height: 180px;
   padding: 10px 10px;
   line-height: 1.8;
 }
 
-.yxzd-l .brochures .jz-item .course .course-row:nth-of-type(3) .row-item:nth-of-type(1) {
+.brochures .jz-item .course .course-row:nth-of-type(3) .row-item:nth-of-type(1) {
   line-height: 60px;
 }
 
-.yxzd-l .brochures .jz-item .course .course-row:nth-of-type(3) .row-item:last-child {
+.brochures .jz-item .course .course-row:nth-of-type(3) .row-item:last-child {
   height: 60px;
   padding: 0px 10px;
   line-height: 1.4;
 }
 
-.yxzd-l .brochures .jz-item .course .course-row:nth-of-type(4) .row-item:nth-of-type(1) {
+.brochures .jz-item .course .course-row:nth-of-type(4) .row-item:nth-of-type(1) {
   line-height: 90px;
 }
 
-.yxzd-l .brochures .jz-item .course .course-row:nth-of-type(4) .row-item:last-child {
+.brochures .jz-item .course .course-row:nth-of-type(4) .row-item:last-child {
   height: 90px;
   padding: 20px 10px;
   line-height: 1.8;
 }
 
-.yxzd-l .brochures .jz-item .paging {
+.brochures .jz-item .paging {
   width: 363px;
   float: left;
 }
 
-.yxzd-l .brochures .jz-item .paging a {
+.brochures .jz-item .paging a {
   color: #8a9299;
 }
 
-.yxzd-l .brochures .jz-item .paging a:hover {
+.brochures .jz-item .paging a:hover {
   color: #1782e6;
 }
 
-.yxzd-l .brochures .jz-item .paging-r {
+.brochures .jz-item .paging-r {
   float: right;
 }
 
-.yxzd-l .brochures .jz-item .paging-r .paging-r-logo {
+.brochures .jz-item .paging-r .paging-r-logo {
   float: left;
   width: 174px;
   height: 56px;
@@ -3224,7 +3245,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   margin-right: 10px;
 }
 
-.yxzd-l .brochures .jz-item .paging-r .paging-r-btn {
+.brochures .jz-item .paging-r .paging-r-btn {
   float: right;
   width: 144px;
   height: 56px;
@@ -3237,64 +3258,65 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   text-indent: 1em;
 }
 
-.yxzd-l .others-schools {
+/* 其他院校 */
+.others-schools {
   width: 780px;
   background-color: #ffffff;
   padding: 20px;
 }
 
-.yxzd-l .others-schools .title-module {
+.others-schools .title-module {
   margin-bottom: 20px;
 }
 
-.yxzd-l .others-schools .title-module .title-l span {
+.others-schools .title-module .title-l span {
   font-size: 18px;
 }
 
-.yxzd-l .others-schools .others-l {
+.others-schools .others-l {
   float: left;
   width: 510px;
 }
 
-.yxzd-l .others-schools .others-l .others-l-item {
+.others-schools .others-l .others-l-item {
   border-bottom: 1px solid #dddddd;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 
-.yxzd-l .others-schools .others-l .others-l-item img {
+.others-schools .others-l .others-l-item img {
   border: 1px solid #eeeeee;
   float: left;
 }
 
-.yxzd-l .others-schools .others-l .others-l-item ul {
+.others-schools .others-l .others-l-item ul {
   font-size: 14px;
   float: right;
   margin-left: 20px;
 }
 
-.yxzd-l .others-schools .others-l .others-l-item ul li a {
+.others-schools .others-l .others-l-item ul li a {
   line-height: 22px;
 }
 
-.yxzd-l .others-schools .others-l .others-l-item ul li a span {
+.others-schools .others-l .others-l-item ul li a span {
   float: right;
 }
 
-.yxzd-l .others-schools .others-l .others-l-item ul li a:before {
+.others-schools .others-l .others-l-item ul li a:before {
   background-color: #1782e6;
 }
 
-.yxzd-l .others-schools .others-l .others-l-item:last-child {
+.others-schools .others-l .others-l-item:last-child {
   border-bottom: 0;
 }
 
-.yxzd-l .others-schools .others-r {
+.others-schools .others-r {
   float: right;
   width: 210px;
 }
 
-.yxzd-l .others-schools .others-r .r-enter {
+.others-schools .others-r .r-enter {
   height: 110px;
   background: url("../images/jz-others-schools_1.png") no-repeat center;
   padding: 26px;
@@ -3305,7 +3327,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   margin-bottom: 20px;
 }
 
-.yxzd-l .others-schools .others-r .r-enter .enter-btn {
+.others-schools .others-r .r-enter .enter-btn {
   height: 26px;
   line-height: 26px;
   padding: 0 18px;
@@ -3314,23 +3336,24 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   border-radius: 13px;
 }
 
-.yxzd-l .others-schools .others-r .r-enter:nth-of-type(2) {
+.others-schools .others-r .r-enter:nth-of-type(2) {
   background: url("../images/jz-others-schools_2.png") no-repeat center;
 }
 
-.yxzd-l .others-schools .others-r .r-enter:nth-of-type(2) .enter-btn {
+.others-schools .others-r .r-enter:nth-of-type(2) .enter-btn {
   background-color: #22cbb8;
 }
 
-.yxzd-l .others-schools .others-r .r-enter:nth-of-type(3) {
+.others-schools .others-r .r-enter:nth-of-type(3) {
   background: url("../images/jz-others-schools_3.png") no-repeat center;
 }
 
-.yxzd-l .others-schools .others-r .r-enter:nth-of-type(3) .enter-btn {
+.others-schools .others-r .r-enter:nth-of-type(3) .enter-btn {
   background-color: #22cbb8;
 }
 
-.yxzd-l .zxzd-title {
+/* 咨询终端 */
+.zxzd-title {
   text-align: center;
   font-size: 26px;
   line-height: 28px;
@@ -3338,7 +3361,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   margin-bottom: 16px;
 }
 
-.yxzd-l .text-msg {
+.text-msg {
   font-size: 14px;
   line-height: 14px;
   color: #8a9299;
@@ -3348,35 +3371,35 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   margin-bottom: 20px;
 }
 
-.yxzd-l .text-msg .source {
+.text-msg .source {
   vertical-align: middle;
   margin-right: 20px;
 }
 
-.yxzd-l .text-msg .source i {
+.text-msg .source i {
   vertical-align: middle;
   width: 14px;
   height: 12px;
   background: url("../images/css_sprites.png") -364px -213px;
 }
 
-.yxzd-l .text-msg .author {
+.text-msg .author {
   vertical-align: middle;
   margin-right: 20px;
 }
 
-.yxzd-l .text-msg .author i {
+.text-msg .author i {
   vertical-align: middle;
   width: 14px;
   height: 16px;
   background: url("../images/css_sprites.png") -191px -295px;
 }
 
-.yxzd-l .text-msg .time {
+.text-msg .time {
   vertical-align: middle;
 }
 
-.yxzd-l .text-msg .time i {
+.text-msg .time i {
   vertical-align: middle;
   width: 14px;
   height: 14px;
@@ -3391,6 +3414,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 .yxzd-r .hot-search {
   background-color: #ffffff;
   padding: 20px 20px 10px;
+  margin-bottom: 20px;
 }
 
 .yxzd-r .hot-search ul {
@@ -3927,6 +3951,18 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   border-left: 0;
 }
 
+.wap-show {
+  display: none;
+}
+
+#show-ele {
+  display: block;
+}
+
+.wap-form-popup {
+  display: none;
+}
+
 @media screen and (max-width: 750px) {
   body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
   form, input, textarea, p, th, td, a {
@@ -3957,7 +3993,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .tx-module4 .selectTitle h2 span:before, .academy .academy-tab .body-item:before, .tx-module5 .txPulicList1 ul:before, .tx-module4 .selectTitle h2 span:after, .academy .academy-tab .body-item:after, .tx-module5 .txPulicList1 ul:after {
+  .tx-module4 .selectTitle h2 span:before, .academy .academy-tab .body-item:before, .tx-module5 .txPulicList1 ul:before, .yx-wd ul:before, .tx-module4 .selectTitle h2 span:after, .academy .academy-tab .body-item:after, .tx-module5 .txPulicList1 ul:after, .yx-wd ul:after {
     display: none;
   }
   /* 右侧悬浮 */
@@ -3965,10 +4001,11 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     display: none;
   }
   body {
-    width: 10rem;
     overflow-x: hidden;
+    width: 10rem;
     font-size: 0.34667rem;
     min-width: auto;
+    padding-top: 1.17333rem;
     padding-bottom: 1.30667rem;
   }
   * {
@@ -3978,6 +4015,9 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
   .wrap {
     width: 10rem;
+  }
+  .title-module {
+    padding-top: 0.26667rem;
   }
   /* 头部 */
   .yjs-head {
@@ -4117,7 +4157,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     display: block;
   }
   .wap-head-nav {
-    display: none;
     width: 100%;
     background-color: #ffffff;
     position: fixed;
@@ -4162,7 +4201,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
   .wap-banner {
     display: block;
-    margin-top: 1.17333rem;
   }
   .wap-nav {
     display: block;
@@ -4235,6 +4273,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     font-size: 13px;
     line-height: 13px;
   }
+  /* 首页 */
   .tx-module1 {
     background-color: #ffffff;
     padding: 0 0.4rem;
@@ -4287,12 +4326,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .tx-module1 .tx-recruitBox .recruitCon ul li a p {
     padding-left: 0;
   }
-  .tx-module1 .tx-recruitBox .recruitCon ul li:nth-child(-n+6) {
-    display: none;
-  }
-  .tx-module1 .tx-recruitBox .recruitCon ul li:nth-child(n+15) {
-    display: none;
-  }
   .tx-module1 .tx-recruitBox .recruitCon ul li:nth-child(n+11) {
     width: 9.2rem;
   }
@@ -4333,9 +4366,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
   .tx-module2 .injobMaster .master-right .questionMsg-box .questionMsg ul li {
     width: 100%;
-  }
-  .tx-module2 .injobMaster .master-right .questionMsg-box .questionMsg ul li:nth-child(n+6) {
-    display: none;
   }
   .tx-module2 .wap-master {
     display: block;
@@ -4467,9 +4497,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .tx-module2 .bestNews ul li p {
     font-size: 0.4rem;
   }
-  .tx-module2 .bestNews ul li:nth-child(n+5) {
-    display: none;
-  }
   .tx-module2 .bestNews .tx-amore {
     display: none;
   }
@@ -4503,9 +4530,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .q-1 .wap-schools .schools-cont ul li {
     margin-right: 0.26667rem;
     margin-bottom: 0.26667rem;
-  }
-  .q-1 .wap-schools .schools-cont ul li:nth-child(n+7) {
-    display: none;
   }
   .q-1 .wap-schools .schools-cont ul a {
     display: block;
@@ -4941,7 +4965,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     background-color: #1782e6;
   }
   .wap-form-popup {
-    display: none;
     width: 8.4rem;
     height: 10.06667rem;
     position: fixed;
@@ -5009,7 +5032,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     margin-bottom: 0;
   }
   .academy .academy-types .studying-types {
-    padding: 0;
     width: 50%;
     padding: 0.32rem 0;
     float: left;
@@ -5040,16 +5062,19 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .academy .academy-types .studying-types .types-r {
     float: none;
     width: 10rem;
-    padding: 0 0.4rem;
+    padding: 0.26667rem 0.4rem;
     background-color: #ffffff;
-    padding-top: 0.26667rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 0.26667rem;
     grid-row-gap: 0.26667rem;
     position: absolute;
     left: 0;
-    border: 1px solid red;
+    z-index: 100;
+    -webkit-box-shadow: 0px 1px 0px 0px #eeeeee;
+            box-shadow: 0px 1px 0px 0px #eeeeee;
+    border-top: 1px solid #eeeeee;
+    margin-top: 0.26667rem;
   }
   .academy .academy-types .studying-types .types-r a {
     padding: 0;
@@ -5064,17 +5089,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .academy .academy-types .studying-types .types-r a.active {
     background-color: #1782e6;
     color: #ffffff;
-  }
-  .academy .academy-types .studying-types .types-r span {
-    height: 34px;
-    line-height: 32px;
-    border: solid 1px #dddddd;
-    font-size: 16px;
-    color: #666666;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 20px;
-    text-align: center;
   }
   .academy .academy-types .studying-types .types-r .more a.active {
     background-color: transparent;
@@ -5144,7 +5158,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .academy .academy-tab .body-item .school-operation a {
     border: 1px solid #1782e6;
     color: #1782e6;
-    width: 1.28rem;
+    width: 1.33333rem;
     height: 0.45333rem;
     line-height: 0.45333rem;
     border-radius: 0.05333rem;
@@ -5259,7 +5273,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     display: block;
   }
   .yxzd-banner {
-    height: 1.04rem;
+    height: 0.66667rem;
     background-color: #ffffff;
     background-image: none;
   }
@@ -5323,8 +5337,67 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .yxzd-l .yxzd-l-wd ul img.mba {
     margin-bottom: 0.4rem;
   }
+  .yxzd-l .yxzd-l-wd ul .title-module h4 {
+    float: none;
+    vertical-align: middle;
+    font-size: 0.4rem;
+  }
+  .yxzd-l .yxzd-l-wd ul .title-module:before {
+    display: inline-block;
+    content: '问';
+    width: 0.56rem;
+    height: 0.56rem;
+    line-height: 0.56rem;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1782e6), to(#1ca7ff)), -webkit-gradient(linear, left top, left bottom, from(#1782e6), to(#1782e6));
+    background-image: linear-gradient(0deg, #1782e6 0%, #1ca7ff 100%), linear-gradient(#1782e6, #1782e6);
+    background-blend-mode: normal, normal;
+    -webkit-box-shadow: 0px 0.04rem 0.18667rem 0.02667rem rgba(23, 130, 230, 0.2);
+            box-shadow: 0px 0.04rem 0.18667rem 0.02667rem rgba(23, 130, 230, 0.2);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #ffffff;
+    vertical-align: middle;
+  }
   .yxzd-l .yxzd-l-wd .wd-list ul li {
     padding: 0.4rem 0;
+  }
+  .yxzd-l .yxzd-l-wd .time {
+    display: none;
+  }
+  .yxzd-l .yxzd-l-wd .jz-item .paging {
+    width: 100%;
+    float: none;
+    padding-top: 0.26667rem;
+  }
+  .yxzd-l .yxzd-l-wd .jz-item .paging-r {
+    float: none;
+    padding-top: 0.26667rem;
+  }
+  .yxzd-l .yxzd-l-wd .jz-item .paging-r .paging-r-logo, .yxzd-l .yxzd-l-wd .jz-item .paging-r a {
+    float: none;
+  }
+  .yxzd-l .yxzd-l-wd .jz-item .paging-r .paging-r-logo {
+    margin: 0 auto 0.4rem;
+  }
+  .yxzd-l .yxzd-l-wd .jz-item .paging-r a {
+    display: block;
+    width: 100%;
+    height: 1.06667rem;
+    line-height: 1.06667rem;
+    background-color: #1782e6;
+    background-image: none;
+    border-radius: 0.05333rem;
+    color: #ffffff;
+    text-align: center;
+  }
+  .yxzd-l .zxzd-title {
+    font-size: 0.48rem;
+    margin-bottom: 0.26667rem;
+  }
+  .yxzd-l .text-msg {
+    padding-bottom: 0.26667rem;
+    margin-bottom: 0.26667rem;
   }
   .q-4 {
     width: 100%;
@@ -5388,9 +5461,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     float: none;
     width: 100%;
   }
-  .yxzd-r .q-5, .yxzd-r .q-7, .yxzd-r .q-8, .yxzd-r .q-9 {
-    display: none;
-  }
   .yxzd-r .q-6 {
     width: 100%;
     margin-top: 0.26667rem;
@@ -5430,5 +5500,313 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .tx-module5 .txPulicList1 ul li a span {
     width: 100%;
     height: 2.93333rem;
+  }
+  /* 学员问答 */
+  .yx-wd {
+    margin-bottom: 0.26667rem;
+    padding: 0.4rem;
+  }
+  .yx-wd ul {
+    white-space: nowrap;
+    overflow-x: auto;
+    width: auto;
+  }
+  .yx-wd ul:first-child {
+    display: block;
+  }
+  .yx-wd ul li {
+    display: inline-block;
+    float: none;
+    width: 4.46667rem;
+    padding: 0;
+    margin-right: 0.26667rem;
+    border: 1px solid transparent;
+  }
+  .yx-wd ul li a {
+    display: block;
+    width: 100%;
+  }
+  .yx-wd ul li a span {
+    display: block;
+    width: 100%;
+    height: 2.93333rem;
+    margin-bottom: 0.26667rem;
+  }
+  .yx-wd ul li a span img {
+    width: 100%;
+    height: 100%;
+  }
+  .yx-wd ul li a p {
+    font-size: 14px;
+    color: #333333;
+    max-width: 196px;
+  }
+  .yx-wd ul li:hover {
+    border: 1px solid #eeeeee;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+            box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+  }
+  .yx-wd ul li:hover p {
+    color: #1782e6;
+  }
+  .q-7 {
+    width: 100%;
+    margin-bottom: 0.26667rem;
+  }
+  .q-7 .list li a i {
+    border-radius: 50%;
+  }
+  .q-7 .list li a p {
+    width: 88%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .q-5 {
+    width: 100%;
+    background-image: none;
+    background-color: #1782e6;
+    margin-bottom: 0.26667rem;
+    padding: 0.4rem;
+  }
+  .q-5 h4 {
+    color: #333333;
+    font-size: 0.53333rem;
+    padding-top: 0;
+    padding-bottom: 0.13333rem;
+  }
+  .q-5 .txt {
+    color: #666666;
+    font-size: 0.32rem;
+    margin-bottom: 0.46667rem;
+  }
+  .q-5 .c {
+    background-color: #ffffff;
+    padding: 0.4rem;
+  }
+  .q-5 .c .sign-in input {
+    width: 100%;
+    height: 1.06667rem;
+    line-height: 1.06667rem;
+    background-color: #f5f6f7;
+    border-radius: 0.05333rem;
+    border: solid 1px #eeeeee;
+    margin-bottom: 0.4rem;
+  }
+  .q-5 .c .sign-in input[type="submit"] {
+    background-color: #1782e6;
+    color: #ffffff;
+  }
+  .q-5 .c .zx {
+    font-size: 0.29333rem;
+    color: #1782e6;
+  }
+  .q-5 .c .zx i {
+    color: #666666;
+  }
+  .q-8 {
+    width: 100%;
+  }
+  /* 问答终端 页面 */
+  .yxzd-l-wdzd {
+    padding: 0.26667rem;
+    margin-bottom: 0.26667rem;
+  }
+  .yxzd-l-wdzd .wd-good {
+    padding-top: 0.26667rem;
+  }
+  .yxzd-l-wdzd .wd-good .good-text {
+    width: 82%;
+  }
+  .yxzd-l-wdzd .wd-good .good-text h4 {
+    font-size: 0.4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .yxzd-l-wdzd .wd-good .good-text .text, .yxzd-l-wdzd .wd-good .good-text .text-msg {
+    width: 9.46667rem;
+    margin-left: -18%;
+  }
+  .yxzd-l-wdzd .wd-good .good-text .text-msg {
+    font-size: 0.29333rem;
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .yxzd-l-wdzd .wd-good .good-text .text-msg .source, .yxzd-l-wdzd .wd-good .good-text .text-msg .author {
+    margin-right: 0.26667rem;
+  }
+  .yxzd-l-wdzd .wd-good .good-text .text-msg .source i {
+    width: 0.29333rem;
+    height: 0.29333rem;
+  }
+  .yxzd-l-wdzd .wd-good .good-text .text-msg .author i {
+    width: 0.26667rem;
+    height: 0.29333rem;
+  }
+  .yxzd-l-wdzd .wd-good .good-text .text-msg .time i {
+    width: 0.29333rem;
+    height: 0.29333rem;
+  }
+  .yxzd-l-wdzd .paging .prev, .yxzd-l-wdzd .paging .next {
+    float: none;
+    width: 100%;
+  }
+  .yxzd-l-wdzd .paging .prev span, .yxzd-l-wdzd .paging .next span {
+    color: #1782e6;
+  }
+  /* 信息分类 页面 */
+  .msg-classify {
+    margin-bottom: 0;
+    border-bottom: 1px solid #eeeeee;
+  }
+  .msg-classify .msg-types {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .msg-classify .msg-types .item {
+    border-bottom: 0;
+    padding: 20px 0;
+    float: left;
+    width: 33.3333%;
+  }
+  .msg-classify .msg-types .item .types-l {
+    float: none;
+    margin-right: 0;
+    text-align: center;
+    position: relative;
+  }
+  .msg-classify .msg-types .item .types-l:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 0.10667rem solid transparent;
+    border-right: 0.10667rem solid transparent;
+    border-bottom: 0.16rem solid #cccccc;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0.09333rem;
+  }
+  .msg-classify .msg-types .item .types-r {
+    display: none;
+    float: none;
+    width: 10rem;
+    padding: 0.26667rem 0.4rem;
+    background-color: #ffffff;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0.26667rem;
+    grid-row-gap: 0.26667rem;
+    position: absolute;
+    left: 0;
+    z-index: 100;
+    -webkit-box-shadow: 0px 1px 0px 0px #eeeeee;
+            box-shadow: 0px 1px 0px 0px #eeeeee;
+    border-top: 1px solid #eeeeee;
+    margin-top: 0.26667rem;
+  }
+  .msg-classify .msg-types .item .types-r a {
+    height: 0.8rem;
+    line-height: 0.8rem;
+    padding: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-radius: 0.4rem;
+    font-size: 0.34667rem;
+  }
+  .msg-classify .msg-types .item .types-r a:hover {
+    color: #1782e6;
+  }
+  .msg-classify .msg-types .item .types-r a.active {
+    background-color: #1782e6;
+    color: #ffffff;
+  }
+  .msg-classify .msg-types .item:last-child {
+    display: none;
+  }
+  .msg-wd .time {
+    display: none;
+  }
+  /* 招生简章 页面 */
+  .brochures {
+    width: 100%;
+    padding: 0.4rem 0;
+  }
+  .brochures .jz-title {
+    padding-bottom: 0.26667rem;
+    border-bottom: none;
+  }
+  .brochures .jz-title p {
+    font-size: 0.48rem;
+    padding: 0 0.4rem;
+  }
+  .brochures .jz-item {
+    padding-top: 0.26667rem;
+    display: none;
+  }
+  .brochures .title-module {
+    margin-bottom: 0.26667rem;
+  }
+  .brochures .text-msg {
+    font-size: 0.29333rem;
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .brochures .text-msg .source, .brochures .text-msg .author {
+    margin-right: 0.26667rem;
+  }
+  .brochures .text-msg .source i {
+    width: 0.29333rem;
+    height: 0.29333rem;
+    background: url("../images/icon_36.png") no-repeat;
+    background-size: 100% 100%;
+  }
+  .brochures .text-msg .author i {
+    width: 0.26667rem;
+    height: 0.29333rem;
+    background: url("../images/icon_22.png") no-repeat;
+    background-size: 100% 100%;
+  }
+  .brochures .text-msg .time i {
+    width: 0.29333rem;
+    height: 0.29333rem;
+    background: url("../images/icon_20.png") no-repeat;
+    background-size: 100% 100%;
+  }
+  .others-schools {
+    width: 100%;
+    padding: 0.4rem;
+  }
+  .others-schools .title-module {
+    margin-bottom: 0;
+  }
+  .others-schools .others-l, .others-schools .others-r {
+    float: none;
+    width: 100%;
+  }
+  .others-schools .others-l img {
+    display: none;
+  }
+  .others-schools .others-l .others-l-item {
+    padding: 0.26667rem 0;
+  }
+  .others-schools .others-l .others-l-item ul {
+    float: none;
+    margin-left: 0;
+  }
+  .others-schools .others-r {
+    display: none;
+  }
+  .wap-show {
+    display: block;
+  }
+  .wap-hide {
+    display: none;
   }
 }

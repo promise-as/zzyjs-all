@@ -319,7 +319,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   width: 100%;
   height: 50px;
   background-color: #ffffff;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   padding-top: 18px;
 }
 
@@ -417,7 +417,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 
 /* 标题模板 */
 .title-module {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .title-module .title-l {
@@ -498,7 +498,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 
 /* 1.全国首页-热门招生简章 */
 .tx-module1 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .tx-module1 .tx-recruitBox {
@@ -700,7 +700,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 }
 
 .tx-module2 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .tx-module2 .injobMaster {
@@ -917,7 +917,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 .tx-module3 {
   background-color: #fff;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .tx-module3 .txPulicRight .minTag {
@@ -1153,7 +1153,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 .tx-module4 {
   padding: 20px 20px 30px;
   background-color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .tx-module4 .selectTitle {
@@ -1450,7 +1450,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 
 /* 7.学员问答（国际国内省份首页） */
 .q-2 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .q-2 .c {
@@ -1999,7 +1999,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   margin-bottom: 20px;
   background: url(../images/yz.png) no-repeat center;
   width: 300px;
-  height: 395px;
+  padding-bottom: 17px;
   text-align: center;
 }
 
@@ -2043,6 +2043,17 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 
 .q-5 .zx i {
   color: #abd1f5;
+}
+
+.ap-right {
+  position: relative;
+}
+
+.apTopDiv {
+  /* 表单悬浮占位 */
+  width: 300px;
+  height: 420px;
+  display: none;
 }
 
 /* 18.热门院校（院校终端-首页） */
@@ -2246,7 +2257,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 }
 
 .yjs-recommend .title-module {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .yjs-recommend .recommend {
@@ -2368,7 +2379,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 
 /* 友情链接 */
 .yjs-link {
-  margin-bottom: 20px;
   background-color: #ffffff;
   padding: 20px 0;
 }
@@ -2604,7 +2614,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  padding-top: 12px;
+  padding-top: 16px;
 }
 
 .page-path a {
@@ -2853,6 +2863,11 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   text-indent: 1em;
 }
 
+.yxzd-l-wd .jz-item:last-child {
+  border-top: 1px solid #eeeeee;
+  margin-top: 20px;
+}
+
 /* 问答终端 */
 .yxzd-l-wdzd {
   background-color: #ffffff;
@@ -2880,26 +2895,24 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 }
 
 .yxzd-l-wdzd .wd-good .icon {
-  width: 46px;
-  height: 36px;
-  background: url("../images/css_sprites.png") -146px -10px;
+  width: 28px;
+  height: 22px;
+  background: url("../images/icon_34.png") no-repeat;
   text-align: center;
   color: #ffffff;
-  line-height: 36px;
   font-size: 16px;
   font-weight: bold;
   float: left;
   margin-right: 10px;
-  margin-top: -2px;
+  margin-top: 6px;
 }
 
 .yxzd-l-wdzd .wd-good .icon-d {
-  width: 46px;
-  height: 36px;
-  background: url("../images/css_sprites.png") -146px -66px;
+  width: 26px;
+  height: 27px;
+  background: url("../images/icon_35.png") no-repeat;
   text-align: center;
   color: #ffffff;
-  line-height: 36px;
   font-size: 16px;
   font-weight: bold;
   float: left;
@@ -2925,6 +2938,9 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   font-size: 14px;
   line-height: 14px;
   color: #8a9299;
+  padding-bottom: 0;
+  border-bottom: 0;
+  margin-bottom: 0;
 }
 
 .yxzd-l-wdzd .wd-good .good-text .text-msg i {
@@ -3258,11 +3274,17 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   text-indent: 1em;
 }
 
+.brochures .jz-item:last-child {
+  border-top: 0;
+  margin-top: 0;
+}
+
 /* 其他院校 */
 .others-schools {
   width: 780px;
   background-color: #ffffff;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 .others-schools .title-module {
@@ -3365,7 +3387,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   font-size: 14px;
   line-height: 14px;
   color: #8a9299;
-  text-align: center;
   padding-bottom: 20px;
   border-bottom: 1px solid #eeeeee;
   margin-bottom: 20px;
@@ -4015,9 +4036,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
   .wrap {
     width: 10rem;
-  }
-  .title-module {
-    padding-top: 0.26667rem;
+    overflow-x: hidden;
   }
   /* 头部 */
   .yjs-head {
@@ -4236,7 +4255,8 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
   /* 标题模板 */
   .title-module {
-    margin-bottom: 0.13333rem;
+    padding-top: 0.4rem;
+    margin-bottom: 0.26667rem;
   }
   .title-module .title-l span {
     font-size: 24px;
@@ -4257,7 +4277,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     font-size: 0.48rem;
   }
   .title-module h3 {
-    font-size: 20px;
+    font-size: 0.48rem;
   }
   .title-module h4 {
     font-size: 18px;
@@ -4266,8 +4286,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     font-size: 0.32rem;
   }
   .title-module a.bd {
-    border-radius: 2px;
-    padding: 0 7px;
+    display: none;
   }
   .title-module .time {
     font-size: 13px;
@@ -4277,6 +4296,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .tx-module1 {
     background-color: #ffffff;
     padding: 0 0.4rem;
+    margin-bottom: 0.26667rem;
   }
   .tx-module1 .tx-recruitBox {
     padding: 0;
@@ -4385,7 +4405,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     font-size: 0.4rem;
   }
   .tx-module2 .wap-master .wap-schools .schools-head span.active {
-    border-bottom: 0.02667rem solid #1782e6;
     font-weight: bold;
     color: #1782e6;
   }
@@ -4445,7 +4464,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
   .tx-module2 .bestNews .title h2 span {
     padding-bottom: 0.24rem;
-    border-bottom: 0.02667rem solid #1782e6;
+    border-bottom: 2px solid #1782e6;
   }
   .tx-module2 .bestNews .title .title-right {
     float: none;
@@ -4500,6 +4519,10 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .tx-module2 .bestNews .tx-amore {
     display: none;
   }
+  .txTagBox span {
+    padding-left: 0.09333rem;
+    padding-right: 0.09333rem;
+  }
   .q-1 {
     background-color: #ffffff;
     padding: 0 0.4rem;
@@ -4519,7 +4542,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     padding: 0 0 0.24rem;
   }
   .q-1 .wap-schools .schools-head span.active {
-    border-bottom: 0.02667rem solid #1782e6;
     font-weight: bold;
     color: #1782e6;
   }
@@ -4599,6 +4621,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
   .tx-module3 {
     padding: 0.4rem;
+    margin-bottom: 0.26667rem;
   }
   .tx-module3 .module3-left {
     display: none;
@@ -4612,14 +4635,14 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
   .tx-module3 .txPulicRight .newslist {
     padding: 0;
-    border-top: 1px solid #eeeeee;
+    border-top: 0;
   }
   .tx-module3 .txPulicRight .newslist ul li {
     width: 100%;
     margin-right: 0;
     padding-left: 0;
     background-image: none;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 0;
   }
   .tx-module3 .txPulicRight .newslist ul li:before {
     display: inline-block;
@@ -4736,6 +4759,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .q-2 {
     background-color: #ffffff;
     padding: 0 0.4rem;
+    margin-bottom: 0.26667rem;
   }
   .q-2 .c {
     padding: 0;
@@ -4786,6 +4810,9 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     font-size: 0.4rem;
     padding-bottom: 0.25333rem;
     color: #1782e6;
+  }
+  .q-2 .c .r .title h4:after {
+    height: 2px;
   }
   .q-2 .c .r .list {
     margin-top: 0.26667rem;
@@ -4923,6 +4950,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     background-color: #ffffff;
     position: fixed;
     bottom: 0;
+    z-index: 100;
   }
   .wap-footer a {
     float: left;
@@ -4937,6 +4965,10 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
         -ms-flex-align: center;
             align-items: center;
   }
+  .wap-footer a span {
+    font-size: 0.32rem;
+    line-height: 0.32rem;
+  }
   .wap-footer .no-bg {
     width: 2rem;
     -webkit-box-orient: vertical;
@@ -4947,7 +4979,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .wap-footer .no-bg img {
     width: 0.44rem;
     height: 0.38667rem;
-    margin-bottom: 0.13333rem;
+    margin-bottom: 0.08rem;
   }
   .wap-footer .consult {
     width: 3rem;
@@ -5273,7 +5305,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     display: block;
   }
   .yxzd-banner {
-    height: 0.66667rem;
+    height: 0.8rem;
     background-color: #ffffff;
     background-image: none;
   }
@@ -5287,8 +5319,8 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     text-align: center;
   }
   .yxzd-banner .nav-menu li {
-    height: 0.66667rem;
-    line-height: 0.66667rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
   }
   .yxzd-banner .nav-menu li a {
     padding: 0 0.05333rem;
@@ -5297,7 +5329,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
   .yxzd-banner .nav-menu li.cur a {
     color: #1782e6;
-    border-bottom: 0.02667rem solid #1782e6;
+    border-bottom: 2px solid #1782e6;
     padding-bottom: 0.16rem;
   }
   .yxzd-l {
@@ -5309,14 +5341,26 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     padding: 0.4rem;
     margin-bottom: 0.26667rem;
   }
+  .yxzd-l .yxzd-l-wd .title-module {
+    padding-top: 0.12rem;
+  }
+  .yxzd-l .yxzd-l-wd .title-module .bd {
+    display: none;
+  }
+  .yxzd-l .yxzd-l-wd .title-module .time {
+    display: none;
+  }
+  .yxzd-l .yxzd-l-wd .wd-good .title-module {
+    padding-top: 0;
+  }
   .yxzd-l .yxzd-l-wd .wd-good i {
     width: 0.66667rem;
     height: 0.66667rem;
     line-height: 0.66667rem;
-    background: url("../images/wap-sf-icon_1.png") no-repeat;
-    background-size: 100% 100%;
     margin-right: 0.18667rem;
     font-size: 0.32rem;
+    background: url("../images/wap-sf-icon_1.png") no-repeat;
+    background-size: 100% 100%;
   }
   .yxzd-l .yxzd-l-wd .wd-good .good-text {
     width: 88%;
@@ -5331,8 +5375,23 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
   }
-  .yxzd-l .yxzd-l-wd .wd-good .good-text .time {
-    display: none;
+  .yxzd-l .yxzd-l-wd .wd-good .good-text p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-left: -10%;
+  }
+  .yxzd-l .yxzd-l-wd ul li .title-module {
+    padding-top: 0;
+  }
+  .yxzd-l .yxzd-l-wd ul li p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
   }
   .yxzd-l .yxzd-l-wd ul img.mba {
     margin-bottom: 0.4rem;
@@ -5359,11 +5418,11 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     color: #ffffff;
     vertical-align: middle;
   }
+  .yxzd-l .yxzd-l-wd ul .title-module .time {
+    display: none;
+  }
   .yxzd-l .yxzd-l-wd .wd-list ul li {
     padding: 0.4rem 0;
-  }
-  .yxzd-l .yxzd-l-wd .time {
-    display: none;
   }
   .yxzd-l .yxzd-l-wd .jz-item .paging {
     width: 100%;
@@ -5395,9 +5454,41 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     font-size: 0.48rem;
     margin-bottom: 0.26667rem;
   }
+  .yxzd-l .zxzd-title img {
+    border: 1px solid #dddddd;
+  }
+  .yxzd-l .zxzd-title p {
+    font-size: 0.48rem;
+  }
   .yxzd-l .text-msg {
-    padding-bottom: 0.26667rem;
-    margin-bottom: 0.26667rem;
+    width: 10rem;
+    margin-left: -0.4rem;
+    font-size: 0.29333rem;
+    border: none;
+    padding-bottom: 0;
+    text-align: center;
+    margin-bottom: 0.8rem;
+  }
+  .yxzd-l .text-msg .source, .yxzd-l .text-msg .author {
+    margin-right: 0.26667rem;
+  }
+  .yxzd-l .text-msg .source i {
+    width: 0.29333rem;
+    height: 0.29333rem;
+    background: url("../images/icon_36.png") no-repeat;
+    background-size: 100% 100%;
+  }
+  .yxzd-l .text-msg .author i {
+    width: 0.26667rem;
+    height: 0.29333rem;
+    background: url("../images/icon_22.png") no-repeat;
+    background-size: 100% 100%;
+  }
+  .yxzd-l .text-msg .time i {
+    width: 0.29333rem;
+    height: 0.29333rem;
+    background: url("../images/icon_20.png") no-repeat;
+    background-size: 100% 100%;
   }
   .q-4 {
     width: 100%;
@@ -5443,6 +5534,9 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .q-4 .c .bottom .txt h4 {
     font-size: 0.4rem;
   }
+  .q-4 .c .bottom .txt h4.active:after {
+    height: 2px;
+  }
   .q-4 .c .bottom .list {
     margin-top: 0.4rem;
   }
@@ -5453,6 +5547,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
   .q-4 .c .bottom .list li:after {
     background: #1782e6;
+    top: 26%;
   }
   .wap-hide {
     display: none;
@@ -5479,6 +5574,11 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     padding: 0 0.4rem;
     margin-bottom: 0.26667rem;
   }
+  .tx-module5 .title {
+    height: 0.48rem;
+    line-height: 0.48rem;
+    padding-top: 0.52rem;
+  }
   .tx-module5 .title h2 {
     font-size: 0.48rem;
     float: none;
@@ -5500,6 +5600,16 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .tx-module5 .txPulicList1 ul li a span {
     width: 100%;
     height: 2.93333rem;
+  }
+  .tx-module5 .txPulicList1 ul li a span img {
+    width: 100%;
+    height: 100%;
+  }
+  .q-6 {
+    margin-bottom: 0.26667rem;
+  }
+  .q-6 .c .txt h4.active:after {
+    height: 2px;
   }
   /* 学员问答 */
   .yx-wd {
@@ -5549,12 +5659,62 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .yx-wd ul li:hover p {
     color: #1782e6;
   }
+  .yx-wd .swiper-container {
+    padding-bottom: 0.26667rem;
+  }
+  .yx-wd .swiper-slide li {
+    display: inline-block;
+    float: left;
+    width: 4.46667rem;
+    padding: 0;
+    margin-right: 0.26667rem;
+    border: 1px solid transparent;
+  }
+  .yx-wd .swiper-slide li a {
+    display: block;
+    width: 100%;
+  }
+  .yx-wd .swiper-slide li a span {
+    display: block;
+    width: 100%;
+    height: 2.93333rem;
+    margin-bottom: 0.26667rem;
+  }
+  .yx-wd .swiper-slide li a span img {
+    width: 100%;
+    height: 100%;
+  }
+  .yx-wd .swiper-slide li a p {
+    font-size: 14px;
+    color: #333333;
+    max-width: 196px;
+  }
+  .yx-wd .swiper-slide li:hover {
+    border: 1px solid #eeeeee;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+            box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+  }
+  .yx-wd .swiper-slide li:hover p {
+    color: #1782e6;
+  }
+  .yx-wd .swiper-slide li:last-child {
+    margin-right: 0;
+  }
+  .yx-wd div.swiper-pagination {
+    bottom: 0;
+  }
   .q-7 {
     width: 100%;
     margin-bottom: 0.26667rem;
   }
+  .q-7 .title-module {
+    padding-top: 0.12rem;
+  }
   .q-7 .list li a i {
+    width: 0.56rem;
+    height: 0.56rem;
     border-radius: 50%;
+    font-size: 0.34667rem;
   }
   .q-7 .list li a p {
     width: 88%;
@@ -5602,12 +5762,21 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .q-5 .c .zx {
     font-size: 0.29333rem;
     color: #1782e6;
+    background-image: none;
+    padding-left: 0;
   }
   .q-5 .c .zx i {
     color: #666666;
   }
   .q-8 {
     width: 100%;
+    margin-bottom: 0.26667rem;
+  }
+  .q-8 .title-module {
+    padding-top: 0.12rem;
+  }
+  .q-8 .title-module .bd {
+    display: none;
   }
   /* 问答终端 页面 */
   .yxzd-l-wdzd {
@@ -5617,8 +5786,22 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .yxzd-l-wdzd .wd-good {
     padding-top: 0.26667rem;
   }
+  .yxzd-l-wdzd .wd-good .icon {
+    width: 0.57333rem;
+    height: 0.44rem;
+    background-size: 100% 100%;
+  }
+  .yxzd-l-wdzd .wd-good .icon-d {
+    width: 0.54667rem;
+    height: 0.58667rem;
+    background-size: 100% 100%;
+  }
   .yxzd-l-wdzd .wd-good .good-text {
     width: 82%;
+  }
+  .yxzd-l-wdzd .wd-good .good-text .title-module {
+    padding-top: 0;
+    margin-bottom: 0.26667rem;
   }
   .yxzd-l-wdzd .wd-good .good-text h4 {
     font-size: 0.4rem;
@@ -5629,8 +5812,19 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     -webkit-box-orient: vertical;
   }
   .yxzd-l-wdzd .wd-good .good-text .text, .yxzd-l-wdzd .wd-good .good-text .text-msg {
-    width: 9.46667rem;
-    margin-left: -18%;
+    width: 9.33333rem;
+    margin-left: -11%;
+  }
+  .yxzd-l-wdzd .wd-good .good-text .text {
+    padding-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .yxzd-l-wdzd .wd-good .good-text .text p {
+    display: none;
   }
   .yxzd-l-wdzd .wd-good .good-text .text-msg {
     font-size: 0.29333rem;
@@ -5729,13 +5923,28 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .msg-classify .msg-types .item:last-child {
     display: none;
   }
+  .msg-wd .wd-item {
+    padding-top: 0.53333rem;
+  }
+  .msg-wd .wd-item p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .msg-wd .title-module {
+    padding-top: 0;
+  }
   .msg-wd .time {
     display: none;
   }
   /* 招生简章 页面 */
   .brochures {
+    display: none;
     width: 100%;
     padding: 0.4rem 0;
+    margin-bottom: 0.26667rem;
   }
   .brochures .jz-title {
     padding-bottom: 0.26667rem;
@@ -5757,6 +5966,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     border: none;
     margin-bottom: 0;
     padding-bottom: 0;
+    text-align: center;
   }
   .brochures .text-msg .source, .brochures .text-msg .author {
     margin-right: 0.26667rem;
@@ -5784,6 +5994,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     padding: 0.4rem;
   }
   .others-schools .title-module {
+    padding-top: 0.12rem;
     margin-bottom: 0;
   }
   .others-schools .others-l, .others-schools .others-r {
@@ -5794,11 +6005,19 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     display: none;
   }
   .others-schools .others-l .others-l-item {
-    padding: 0.26667rem 0;
+    padding: 0;
+    border-bottom: 1px solid #eeeeee;
   }
   .others-schools .others-l .others-l-item ul {
     float: none;
     margin-left: 0;
+  }
+  .others-schools .others-l .others-l-item ul li {
+    border-bottom: 1px solid #eeeeee;
+    padding: 0.26667rem 0;
+  }
+  .others-schools .others-l .others-l-item ul li:last-child {
+    border-bottom: none;
   }
   .others-schools .others-r {
     display: none;

@@ -311,7 +311,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   width: 100%;
   height: 50px;
   background-color: #ffffff;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   padding-top: 18px;
   .type-left {
     float: left;
@@ -401,8 +401,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 
 /* 标题模板 */
 .title-module { // tx-title
-  //padding-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   @extend %clearfix;
   .title-l {
     float: left;
@@ -480,7 +479,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 
 /* 1.全国首页-热门招生简章 */
 .tx-module1 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   .tx-recruitBox {
     background-color: #fff;
     padding: 0 20px;
@@ -664,7 +663,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 }
 
 .tx-module2 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   .injobMaster {
     background-color: #fff;
     padding: 20px 20px 0;
@@ -873,7 +872,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 .tx-module3 {
   background-color: #fff;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   .txPulicRight {
     .minTag {
       font-size: 0;
@@ -1073,8 +1072,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 .tx-module4 {
   padding: 20px 20px 30px;
   background-color: #fff;
-  //margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   .selectTitle {
     text-align: center;
     margin: 20px 0 30px;
@@ -1338,7 +1336,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 }
 /* 7.学员问答（国际国内省份首页） */
 .q-2 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   .c {
     background: #fff;
     padding: 30px 20px 10px;
@@ -1843,7 +1841,8 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   margin-bottom: 20px;
   background: url(../images/yz.png) no-repeat center;
   width: 300px;
-  height: 395px;
+  //height: 395px;
+  padding-bottom: 17px;
   text-align: center;
   h4 {
     font-size: 20px;
@@ -1881,6 +1880,14 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
       color: #abd1f5;
     }
   }
+}
+.ap-right{
+  position: relative;
+}
+.apTopDiv{ /* 表单悬浮占位 */
+  width: 300px;
+  height: 420px;
+  display: none;
 }
 /* 18.热门院校（院校终端-首页） */
 .q-6 {
@@ -2067,8 +2074,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 .yjs-recommend {
   margin-bottom: 20px;
   .title-module {
-    margin-top: 30px;
-    //margin-bottom: 24px;
+    margin-top: 40px;
   }
   .recommend {
     background-color: #ffffff;
@@ -2192,7 +2198,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 
 /* 友情链接 */
 .yjs-link {
-  margin-bottom: 20px;
+  //margin-bottom: 20px;
   background-color: #ffffff;
   //border: 1px solid red;
   padding: 20px 0;
@@ -2419,7 +2425,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  padding-top: 12px;
+  padding-top: 16px;
   a {
     color: #999999;
     &:hover {
@@ -2651,6 +2657,10 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
         text-indent: 1em;
       }
     }
+    &:last-child{
+      border-top: 1px solid #eeeeee;
+      margin-top: 20px;
+    }
   }
 }
 /* 问答终端 */
@@ -2678,26 +2688,27 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     border-bottom: 1px solid #eeeeee;
     .icon {
       @extend %in-b;
-      width: 46px;
-      height: 36px;
-      background: url('../images/css_sprites.png') -146px -10px;
+      width: 28px;
+      height: 22px;
+      //background: url('../images/css_sprites.png') -146px -10px;
+      background: url('../images/icon_34.png') no-repeat;
+
       text-align: center;
       color: #ffffff;
-      line-height: 36px;
       font-size: 16px;
       font-weight: bold;
       float: left;
       margin-right: 10px;
-      margin-top: -2px;
+      margin-top: 6px;
     }
     .icon-d {
       @extend %in-b;
-      width: 46px;
-      height: 36px;
-      background: url('../images/css_sprites.png') -146px -66px;
+      width: 26px;
+      height: 27px;
+      //background: url('../images/css_sprites.png') -146px -66px;
+      background: url('../images/icon_35.png') no-repeat;
       text-align: center;
       color: #ffffff;
-      line-height: 36px;
       font-size: 16px;
       font-weight: bold;
       float: left;
@@ -2722,6 +2733,9 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
         font-size: 14px;
         line-height: 14px;
         color: #8a9299;
+        padding-bottom: 0;
+        border-bottom: 0;
+        margin-bottom: 0;
         i{
           vertical-align: middle;
         }
@@ -3038,6 +3052,10 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
         text-indent: 1em;
       }
     }
+    &:last-child{
+      border-top: 0;
+      margin-top: 0;
+    }
   }
 }
 /* 其他院校 */
@@ -3046,6 +3064,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   //height: 472px;
   background-color: #ffffff;
   padding: 20px;
+  margin-bottom: 20px;
   @extend %clearfix;
   .title-module {
     margin-bottom: 20px;
@@ -3140,7 +3159,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   font-size: 14px;
   line-height: 14px;
   color: #8a9299;
-  text-align: center;
+  //text-align: center;
   padding-bottom: 20px;
   border-bottom: 1px solid #eeeeee;
   margin-bottom: 20px;
@@ -3768,10 +3787,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
   .wrap {
     width: pr(750px);
-  }
-
-  .title-module{
-    padding-top: pr(20px);
+    overflow-x: hidden;
   }
 
   /* 头部 */
@@ -4001,7 +4017,8 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 
   /* 标题模板 */
   .title-module {
-    margin-bottom: pr(10px);
+    padding-top: pr(30px);
+    margin-bottom: pr(20px);
     .title-l {
       span {
         font-size: 24px;
@@ -4022,7 +4039,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
       font-size: pr(36px);
     }
     h3 {
-      font-size: 20px;
+      font-size: pr(36px);
     }
     h4{
       font-size: 18px;
@@ -4031,8 +4048,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
       font-size: pr(24px);
       //line-height: 26px;
       &.bd {
-        border-radius: 2px;
-        padding: 0 7px;
+        display: none;
       }
     }
 
@@ -4046,6 +4062,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .tx-module1{
     background-color: #ffffff;
     padding: 0 $padding-size;
+    margin-bottom: pr(20px);
     .tx-recruitBox{
       padding: 0;
       .recruitTag{
@@ -4152,13 +4169,11 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
         padding-top: pr(20px);
         .schools-head{
           border-bottom: 1px solid #eeeeee;
-          //padding-bottom: pr(18px);
           span{
             padding-bottom: pr(18px);
             margin-right: pr(30px);
             font-size: pr(30px);
             &.active{
-              border-bottom: pr(2px) solid $bg-color;
               font-weight: bold;
               color: $bg-color;
             }
@@ -4227,7 +4242,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
           padding-bottom: pr(19px);
           span{
             padding-bottom: pr(18px);
-            border-bottom: pr(2px) solid $bg-color;
+            border-bottom: 2px solid $bg-color;
           }
         }
         .title-right{
@@ -4289,6 +4304,13 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
       }
     }
   }
+
+  .txTagBox {
+    span{
+      padding-left: pr(7px);
+      padding-right: pr(7px);
+    }
+  }
   .q-1{
     background-color: #ffffff;
     padding: 0 $padding-size;
@@ -4304,7 +4326,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
           font-size: pr(30px);
           padding: 0 0 pr(18px);
           &.active{
-            border-bottom: pr(2px) solid $bg-color;
+            //border-bottom: pr(2px) solid $bg-color;
             font-weight: bold;
             color: $bg-color;
           }
@@ -4394,8 +4416,8 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     display: none;
   }
   .tx-module3{
-    //display: none;
     padding: $padding-size;
+    margin-bottom: pr(20px);
     .module3-left{
       display: none;
     }
@@ -4409,14 +4431,14 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     .txPulicRight {
       .newslist{
         padding: 0;
-        border-top: 1px solid #eeeeee;
+        border-top: 0;
         ul{
           li{
             width: 100%;
             margin-right: 0;
             padding-left: 0;
             background-image: none;
-            border-bottom: 1px solid #eeeeee;
+            border-bottom: 0;
             &:before{
               display: inline-block;
               content: '';
@@ -4554,6 +4576,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .q-2{
     background-color: #ffffff;
     padding: 0 $padding-size;
+    margin-bottom: pr(20px);
     .c{
       padding: 0;
       .l{
@@ -4613,6 +4636,9 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
             font-size: pr(30px);
             padding-bottom: pr(19px);
             color: $bg-color;
+            &:after{
+              height: 2px;
+            }
           }
         }
         .list{
@@ -4787,21 +4813,25 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     background-color: #ffffff;
     position: fixed;
     bottom: 0;
+    z-index: 100;
     a{
       float: left;
       height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
+      span{
+        font-size: pr(24px);
+        line-height: pr(24px);
+      }
     }
     .no-bg{
       width: pr(150px);
       flex-direction: column;
-
       img{
         width: pr(33px);
         height: pr(29px);
-        margin-bottom: pr(10px);
+        margin-bottom: pr(6px);
       }
     }
     .consult{
@@ -5155,7 +5185,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     }
   }
   .yxzd-banner{
-    height: pr(50px);
+    height: pr(60px);
     background-color: #ffffff;
     background-image: none;
     .yxzd-logo{
@@ -5167,8 +5197,8 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
       height: pr(78px);
       text-align: center;
       li{
-        height: pr(50px);
-        line-height: pr(50px);
+        height: pr(60px);
+        line-height: pr(60px);
         a{
           padding: 0 pr(4px);
           color: #333333;
@@ -5177,7 +5207,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
         &.cur{
           a{
             color: $bg-color;
-            border-bottom: pr(2px) solid $bg-color;
+            border-bottom: 2px solid $bg-color;
             padding-bottom: pr(12px);
           }
         }
@@ -5195,19 +5225,30 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     .yxzd-l-wd{
       padding: $padding-size;
       margin-bottom: pr(20px);
+      .title-module{
+        padding-top: pr(9px);
+        .bd{
+          display: none;
+        }
+        .time{
+          display: none;
+        }
+      }
       .wd-good{
+        .title-module{
+          padding-top: 0;
+        }
         i{
           width: pr(50px);
           height: pr(50px);
           line-height: pr(50px);
-          background: url("../images/wap-sf-icon_1.png") no-repeat;
-          background-size: 100% 100%;
           margin-right: pr(14px);
           font-size: pr(24px);
+          background: url("../images/wap-sf-icon_1.png") no-repeat;
+          background-size: 100% 100%;
         }
         .good-text{
           width: 88%;
-
           h4{
             font-size: pr(30px);
             a{
@@ -5215,11 +5256,25 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
             }
           }
           .time{
-            display: none;
+            //display: none;
+          }
+          p{
+            //width: pr(687px);
+            @include ells(2);
+            //border: 1px solid red;
+            margin-left: -10%;
           }
         }
       }
       ul {
+        li{
+          .title-module{
+            padding-top: 0;
+          }
+          p{
+            @include ells(2);
+          }
+        }
         img.mba{
           margin-bottom: $padding-size;
         }
@@ -5251,6 +5306,9 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
             color: #ffffff;
             vertical-align: middle;
           }
+          .time{
+            display: none;
+          }
         }
       }
       .wd-list{
@@ -5259,9 +5317,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
             padding: $padding-size 0;
           }
         }
-      }
-      .time{
-        display: none;
       }
       .jz-item {
         .paging {
@@ -5295,12 +5350,51 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     .zxzd-title{
       font-size: pr(36px);
       margin-bottom: pr(20px);
+      img{
+        border: 1px solid #dddddd;
+      }
+      p{
+        font-size: pr(36px);
+      }
     }
     .text-msg{
-      padding-bottom: pr(20px);
-      margin-bottom: pr(20px);
+      width: pr(750px);
+      margin-left: pr(-30px);
+      font-size: pr(22px);
+      border: none;
+      padding-bottom: 0;
+      text-align: center;
+      margin-bottom: pr(60px);
+      .source, .author{
+        margin-right: pr(20px);
+      }
+      .source{
+        i{
+          width: pr(22px);
+          height: pr(22px);
+          background: url("../images/icon_36.png") no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+      .author{
+        i{
+          width: pr(20px);
+          height: pr(22px);
+          background: url("../images/icon_22.png") no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+      .time{
+        i{
+          width: pr(22px);
+          height: pr(22px);
+          background: url("../images/icon_20.png") no-repeat;
+          background-size: 100% 100%;
+        }
+      }
     }
   }
+
   .q-4{
     width: 100%;
     margin-bottom: pr(20px);
@@ -5344,6 +5438,11 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
         .txt{
           h4{
             font-size: pr(30px);
+            &.active{
+              &:after{
+                height: 2px;
+              }
+            }
           }
         }
         .list{
@@ -5354,6 +5453,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
             margin-bottom: pr(20px);
             &:after{
               background: $bg-color;
+              top: 26%;
             }
           }
         }
@@ -5387,6 +5487,9 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     padding: 0 $padding-size;
     margin-bottom: pr(20px);
     .title{
+      height: pr(36px);
+      line-height: pr(36px);
+      padding-top: pr(39px);
       h2{
         font-size: pr(36px);
         float: none;
@@ -5414,6 +5517,24 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
             span{
               width: 100%;
               height: pr(220px);
+              img{
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .q-6{
+    margin-bottom: pr(20px);
+    .c {
+      .txt {
+        h4{
+          &.active{
+            &:after{
+              height: 2px;
             }
           }
         }
@@ -5469,15 +5590,67 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
         }
       }
     }
+    .swiper-container{
+      padding-bottom: pr(20px);
+    }
+    .swiper-slide{
+      li {
+        display: inline-block;
+        float: left;
+        width: pr(335px);
+        padding: 0;
+        margin-right: pr(20px);
+        border: 1px solid transparent;
+        a {
+          display: block;
+          width: 100%;
+          span {
+            display: block;
+            width: 100%;
+            height: pr(220px);
+            margin-bottom: pr(20px);
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          p {
+            font-size: 14px;
+            color: #333333;
+            max-width: 196px;
+            //@extend %one;
+          }
+        }
+        &:hover {
+          border: 1px solid #eeeeee;
+          box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+          p {
+            color: #1782e6;
+          }
+        }
+        &:last-child{
+          margin-right: 0;
+        }
+      }
+    }
+    div.swiper-pagination{
+      bottom: 0;
+    }
   }
   .q-7{
     width: 100%;
     margin-bottom: pr(20px);
+    .title-module{
+      padding-top: pr(9px);
+    }
     .list {
       li {
         a {
           i {
+            width: pr(42px);
+            height: pr(42px);
             border-radius: 50%;
+            font-size: pr(26px);
           }
           p{
             width: 88%;
@@ -5525,6 +5698,8 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
       .zx{
         font-size: pr(22px);
         color: $bg-color;
+        background-image: none;
+        padding-left: 0;
         i{
           color: #666666;
         }
@@ -5533,6 +5708,13 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
   .q-8{
     width: 100%;
+    margin-bottom: pr(20px);
+    .title-module{
+      padding-top: pr(9px);
+      .bd{
+        display: none;
+      }
+    }
   }
 
   /* 问答终端 页面 */
@@ -5541,15 +5723,36 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     margin-bottom: pr(20px);
     .wd-good {
       padding-top: pr(20px);
+      .icon{
+        width: pr(43px);
+        height: pr(33px);
+        background-size: 100% 100%;
+      }
+      .icon-d{
+        width: pr(41px);
+        height: pr(44px);
+        background-size: 100% 100%;
+      }
       .good-text{
         width: 82%;
+        .title-module{
+          padding-top: 0;
+          margin-bottom: pr(20px);
+        }
         h4{
           font-size: pr(30px);
           @include ells(1);
         }
         .text, .text-msg{
-          width: pr(710px);
-          margin-left: -18%;
+          width: pr(700px);
+          margin-left: -11%;
+        }
+        .text{
+          padding-bottom: 0;
+          @include ells(2);
+          p{
+            display: none;
+          }
         }
         .text-msg{
           font-size: pr(22px);
@@ -5664,6 +5867,15 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
     }
   }
   .msg-wd{
+    .wd-item{
+      padding-top: pr(40px);
+      p{
+        @include ells(2);
+      }
+    }
+    .title-module{
+      padding-top: 0;
+    }
     .time{
       display: none;
     }
@@ -5671,8 +5883,10 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 
   /* 招生简章 页面 */
   .brochures{
+    display: none;
     width: 100%;
     padding: $padding-size 0;
+    margin-bottom: pr(20px);
     .jz-title{
       padding-bottom: pr(20px);
       border-bottom: none;
@@ -5693,6 +5907,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
       border: none;
       margin-bottom: 0;
       padding-bottom: 0;
+      text-align: center;
       .source, .author{
         margin-right: pr(20px);
       }
@@ -5722,10 +5937,12 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
       }
     }
   }
+
   .others-schools{
     width: 100%;
     padding: $padding-size;
     .title-module{
+      padding-top: pr(9px);
       margin-bottom: 0;
     }
     .others-l, .others-r{
@@ -5737,10 +5954,18 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
         display: none;
       }
       .others-l-item{
-        padding: pr(20px) 0;
+        padding: 0;
+        border-bottom: 1px solid #eeeeee;
         ul{
           float: none;
           margin-left: 0;
+          li{
+            border-bottom: 1px solid #eeeeee;
+            padding: pr(20px) 0;
+            &:last-child{
+              border-bottom: none;
+            }
+          }
         }
       }
 

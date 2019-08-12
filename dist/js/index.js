@@ -144,6 +144,34 @@ $(function () {
       });
     });
   }
+
+  // 在手机端表单不固定
+  if ($(document).width() > 750) {
+    //悬浮置顶
+    var apRight = $('.ap-right');
+
+    if (apRight.offset()) {
+      // 在没有固定表单的页面就不会报 top is undefined
+      var apTop = apRight.offset().top;
+    }
+
+    var apTopDiv = '<div class="apTopDiv"></div>';
+    apRight.parent().prepend(apTopDiv); // 在其前面插入
+
+    $(document).scroll(function () {
+      if ($(this).scrollTop() > apTop) {
+        apRight.css({
+          'position': 'fixed',
+          'top': '0',
+          'z-index': '233'
+        });
+        $('.apTopDiv').show();
+      } else {
+        apRight.css('position', 'relative');
+        $('.apTopDiv').hide();
+      }
+    });
+  }
 });
 
 var mySwiper = new Swiper('.swiper-container', {
@@ -168,3 +196,5 @@ function CheckForm() {
   }
   return false;
 }
+
+// console.log($(document).width());

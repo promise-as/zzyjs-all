@@ -345,9 +345,9 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   .type-detail {
     @extend %in-b;
     ul {
-      display: none;
+      //display: none;
       &.active{
-        display: inline-block;
+        //display: inline-block;
       }
       .detail-title {
         float: left;
@@ -3719,6 +3719,9 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 }
 
 .wap-show{
+  display: none;
+}
+a.wap-show{
   display: none;
 }
 

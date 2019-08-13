@@ -353,14 +353,6 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   background: url("../images/css_sprites.png") -83px -295px;
 }
 
-.yjs-types .type-detail ul {
-  display: none;
-}
-
-.yjs-types .type-detail ul.active {
-  display: inline-block;
-}
-
 .yjs-types .type-detail ul .detail-title {
   float: left;
 }
@@ -3973,6 +3965,10 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 }
 
 .wap-show {
+  display: none;
+}
+
+a.wap-show {
   display: none;
 }
 

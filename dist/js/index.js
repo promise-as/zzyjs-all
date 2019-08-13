@@ -1,7 +1,7 @@
 'use strict';
 
 $(function () {
-  // theaMsForm($('.sign-in'));
+  theaMsForm($('.sign-in'));
 
   /*author:tangxue*/
   /* 滑动切换
@@ -87,16 +87,38 @@ $(function () {
     });
   });
 
-  /* 首页 全国/国际 更多> */
-  $('#moreTypes1').click(function () {
-    $(this).find('.provinces').css('display', 'block');
-  });
-  $('#moreTypes2').click(function () {
-    $(this).find('.provinces').css('display', 'block');
+  /* 全国/国际 更多> */
+  $('#moreTypes').click(function () {
+    //点击a标签
+    if ($('.provinces').is(':hidden')) {
+      //如果当前隐藏
+      $('.provinces').show(); //那么就显示div
+    } else {
+      //否则
+      $('.provinces').hide(); //就隐藏div
+    }
   });
 
   // wap
   if ($(document).width() <= 750) {
+
+    /* tabBox: 要切换的盒子，clickBtn: 切换按钮的盒子 */
+    var clickTab = function clickTab(tabBox, clickBtn) {
+      $(tabBox).each(function () {
+        $(this).click(function () {
+          if ($(this).find(clickBtn).is(':hidden')) {
+            //如果当前隐藏
+            $(this).find(clickBtn).css('display', 'grid'); //那么就显示div
+          } else {
+            //否则
+            $(this).find(clickBtn).css('display', 'none'); //就隐藏div
+          }
+        });
+      });
+    };
+    /* 院校库页面 */
+
+
     /* 首页 头部右上角 */
     $('.show-nav').click(function () {
       $(this).toggleClass('show');
@@ -127,37 +149,21 @@ $(function () {
     $('.wap-form-popup .close').click(function () {
       $('.mark').hide();
       $('.wap-form-popup').hide();
-    });
-
-    /* 院校库页面 */
-    $('.studying-types').each(function () {
-      $(this).click(function () {
-        $('.studying-types .types-r').hide();
-        $(this).find('.types-r').css('display', 'grid');
-      });
-    });
+    });clickTab('.studying-types', '.types-r');
     /* 信息分类页面 */
-    $('.msg-types .item').each(function () {
-      $(this).click(function () {
-        $('.msg-types .types-r').hide();
-        $(this).find('.types-r').css('display', 'grid');
-      });
-    });
+    clickTab('.msg-types .item', '.types-r');
   }
 
   // 在手机端表单不固定
   if ($(document).width() > 750) {
     //悬浮置顶
     var apRight = $('.ap-right');
-
     if (apRight.offset()) {
       // 在没有固定表单的页面就不会报 top is undefined
       var apTop = apRight.offset().top;
     }
-
     var apTopDiv = '<div class="apTopDiv"></div>';
     apRight.parent().prepend(apTopDiv); // 在其前面插入
-
     $(document).scroll(function () {
       if ($(this).scrollTop() > apTop) {
         apRight.css({
@@ -196,5 +202,3 @@ function CheckForm() {
   }
   return false;
 }
-
-// console.log($(document).width());

@@ -3200,34 +3200,38 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 .yxzd-r {
   float: right;
   width: 300px;
-  .hot-search {
-    //height: 328px;
-    background-color: #ffffff;
-    padding: 20px 20px 10px;
-    margin-bottom: 20px;
-    ul {
-      margin-top: 20px;
-      margin-right: -10px;
-      @extend %clearfix;
-      li {
-        float: left;
-        margin-right: 10px;
-        margin-bottom: 10px;
-        a {
-          @extend %in-b;
-          @extend %one;
-          width: 125px;
-          height: 40px;
-          line-height: 40px;
-          border: solid 1px #cccccc;
-          font-size: 14px;
-          color: #8a9299;
-          text-align: center;
-          &:hover {
-            background-color: $bg-color;
-            border: solid 1px $bg-color;
-            color: #ffffff;
-          }
+
+}
+
+/* 热门搜索 */
+.hot-search {
+  //height: 328px;
+  background-color: #ffffff;
+  padding: 20px 20px 10px;
+  margin-bottom: 20px;
+  ul {
+    margin-top: 20px;
+    //margin-right: -10px;
+    @extend %clearfix;
+    li {
+      //float: left;
+      //margin-right: 10px;
+      margin-bottom: 10px;
+      a {
+        @extend %in-b;
+        @extend %one;
+        //width: 125px;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        border: solid 1px #cccccc;
+        font-size: 14px;
+        color: #8a9299;
+        text-align: center;
+        &:hover {
+          background-color: $bg-color;
+          border: solid 1px $bg-color;
+          color: #ffffff;
         }
       }
     }

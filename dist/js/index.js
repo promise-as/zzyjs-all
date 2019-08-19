@@ -160,16 +160,17 @@ $(function () {
     var apRight = $('.ap-right');
     if (apRight.offset()) {
       // 在没有固定表单的页面就不会报 top is undefined
-      var apTop = apRight.offset().top;
+      var apTop = $('.yxzd-r').height();
     }
     var apTopDiv = '<div class="apTopDiv"></div>';
     apRight.parent().prepend(apTopDiv); // 在其前面插入
     $(document).scroll(function () {
       if ($(this).scrollTop() > apTop) {
+
         apRight.css({
           'position': 'fixed',
           'top': '0',
-          'z-index': '233'
+          'z-index': '50'
         });
         $('.apTopDiv').show();
       } else {

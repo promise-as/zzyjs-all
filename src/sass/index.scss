@@ -107,6 +107,15 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   overflow: hidden;
 }
 
+// 文本显示多少行就省略
+@mixin ells($row) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $row;
+  -webkit-box-orient: vertical;
+}
+
 %in-b {
   display: inline-block;
   *zoom: 1;
@@ -180,7 +189,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   }
   .head-r {
     float: right;
-    padding-top: 25px;
+    padding-top: 15px;
     @extend %clearfix;
     .r-search {
       width: 380px;
@@ -1886,7 +1895,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
 }
 .apTopDiv{ /* 表单悬浮占位 */
   width: 300px;
-  height: 420px;
+  height: 430px;
   display: none;
 }
 /* 18.热门院校（院校终端-首页） */
@@ -2121,7 +2130,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
           a{
             @extend %in-b;
             width: 196px;
-            height: 120px;
+            // height: 120px;
             padding: 17px 16px 14px;
             border: solid 1px #eeeeee;
             &:hover{
@@ -2548,6 +2557,9 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
           }
         }
       }
+      p{
+        @include ells(2);
+      }
     }
   }
   .wd-good {
@@ -2809,6 +2821,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
       .types-l {
         float: left;
         margin-right: 20px;
+        line-height: 24px;
         &:after{
           content: ':';
         }
@@ -2865,15 +2878,18 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
           font-size: 16px;
           color: #666666;
           padding-left: 10px;
-          padding-right: 10px;
+          padding-right: 26px;
           margin-right: 20px;
-          //cursor: pointer;
-          //background: url("../images/yxk-close.png") no-repeat 90%;
+          cursor: pointer;
+          background: url("../images/yxk-close.png") no-repeat 88%;
           text-align: center;
         }
       }
       &:last-child {
         border-bottom: 0;
+        .types-l{
+          line-height: 34px;
+        }
       }
     }
   }
@@ -2896,6 +2912,9 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
           color: $bg-color;
         }
       }
+    }
+    p{
+      @include ells(2);
     }
   }
 }
@@ -3253,6 +3272,7 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
       .types-l {
         float: left;
         margin-right: 20px;
+        line-height: 24px;
         &:after{
           content: ':';
           color: #333333;
@@ -3297,15 +3317,18 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
           font-size: 16px;
           color: #666666;
           padding-left: 10px;
-          padding-right: 10px;
+          padding-right: 26px;
           margin-right: 20px;
-          //cursor: pointer;
-          //background: url("../images/yxk-close.png") no-repeat 90%;
+          cursor: pointer;
+          background: url("../images/yxk-close.png") no-repeat 88%;
           text-align: center;
         }
       }
       &:last-child {
         border-bottom: 0;
+        .types-l{
+          line-height: 34px;
+        }
       }
     }
   }
